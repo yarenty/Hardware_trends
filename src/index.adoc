@@ -75,6 +75,7 @@ include::gpu/manticore.adoc[]
 === Cerberas
 include::gpu/cerberas.adoc[]
 
+=== Others
 
 AI reasoning
 Baidu: Kunlun considers multiple loads + multiple scenarios (from DC to Edge), and the design is more flexible and programmable
@@ -91,13 +92,17 @@ include::npu/google.adoc[]
 include::npu/fungible.adoc[]
 
 == FPGA
-
 Reconfigurable architecture and FPGA
-Intel: Agilex FPGA high-performance/low-power micro-architecture, HBM, support scalar/vector/matrix/spatial multiplexing software, disaggregation
-Xilinx: Versal FPGA, adaptive computing acceleration, programmable NoC
-Tenstorrent: full-stack software + general architecture, software includes compiler and runtime dynamic optimization
+
+=== Xilinx
+include::fpga/xilinx.adoc[]
+
+=== Intel
+include::fpga/intel.adoc[]
 
 
+=== Tenstorrent
+include::fpga/tenstorrent.adoc[]
 
 == SoC
 
