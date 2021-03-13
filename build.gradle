@@ -1,20 +1,92 @@
 plugins {
-    id 'org.asciidoctor.jvm.convert' version '3.1.0'
+    id 'org.asciidoctor.jvm.base' version '3.3.2'
+    id 'org.asciidoctor.jvm.pdf' version '3.3.2'
+    id 'org.asciidoctor.jvm.gems' version '3.3.2'
+//    id 'org.asciidoctor.jvm.base' version '3.3.2'
 }
+
+apply plugin: 'java'
 
 group 'com.yarenty.tig100.trends'
 version '2021.03'
 
-asciidoctor {
-   sourceDir = file('src')
-//    sources {
-//        include 'toplevel.adoc', 'another.adoc', 'third.adoc'
-//    }
-    outputDir = file('html')
-}
-
 
 repositories {
     mavenCentral()
+    ruby.gems()
+}
+
+dependencies {
+    asciidoctorGems 'rubygems:rouge:3.15.0'
+}
+
+
+
+//dependencies {
+//    compile 'org.asciidoctor:asciidoctorj:2.4.3'
+//}
+
+//asciidoctor {
+//   sourceDir = file('src')
+////    sources {
+////        include 'toplevel.adoc', 'another.adoc', 'third.adoc'
+////    }
+////    asciidoctorj {
+////        setOptions = [ doctype: 'book' ]
+////
+////        attributes toc : left
+////    }
+//
+//    asciidoctorj {
+//        version = '2.4.3'
+////        groovyDslVersion = '1.0.0.Alpha2'
+//
+//        options doctype: 'book', ruby: 'erubis'
+//
+//        attributes toclevel : 2
+//    }
+//
+//    outputDir = file('html')
+//}
+
+
+asciidoctorPdf {
+    dependsOn asciidoctorGemsPrepare
+
+    baseDirFollowsSourceFile()
+
+    sourceDir = file('src')
+//    sources {
+//        include 'toplevel.adoc', 'another.adoc', 'third.adoc'
+//    }
+//    resources {
+//        from(sourceDir) {
+//            include 'src/img/**'
+//        }
+//    }
+    asciidoctorj {
+//        version = '1.5.6'
+//        groovyDslVersion = '1.0.0.Alpha2'
+
+        requires 'rouge'
+        attributes 'build-gradle': file('build.gradle'),
+                'sourcedir': project.sourceSets.main.java.srcDirs[0],
+                'endpoint-url': 'http://example.org',
+                'source-highlighter': 'rouge',
+                'imagesdir': './img',
+                'toc': 'left',
+                'icons': 'font',
+                'idprefix': '',
+                'idseparator': '-'
+
+        options doctype: 'book', ruby: 'erubis'
+
+        attributes toclevel : 4
+    }
+
+
+//    setOptions = [ doctype: 'book']
+
+    outputDir = file('pdf')
 }
 

@@ -1,0 +1,32 @@
+:toc2:
+:toc-title: Table of contents
+
+=== CPU
+
+include::intel.adoc[]
+
+==== IBM
+==== AMD
+==== Other X86 based
+===== Hygon
+===== Zhaoxin
+===== Via
+==== ARM based
+===== Fujitsu
+===== Nvidia - bought ARM company,
+===== Samsung
+===== Texas Instruments,
+===== Broadsom- RaspberryPi
+===== Hitachi
+===== Marvell
+===== MediaTek
+===== Qualcomm
+===== Rockchip
+==== RISC-V (SiFive , HiFiveUnleashed,
+==== SPARC (MCST, Fujitsu
+==== MIPS - Wave computing, Ingenic Semiconductor
+
+
+
+:tip-caption: Note
+tip: Apple new M1 is below SoC section

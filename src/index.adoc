@@ -1,0 +1,22 @@
+:toc2:
+:toc-title: Table of contents
+
+= TIG100 - Technology trends
+
+include::{docdir}/intro.adoc[]
+
+
+image:{docdir}/img/cerebras_cs1.png[CS-1,100,100]
+
+== Technology
+
+include::{docdir}/cpu/index.adoc[]
+
+=== GPU
+=== FPGA
+=== SoC
+=== Quantum
+
+include::{docdir}/summary.adoc[]
+
+include::{docdir}/changelog.adoc[]

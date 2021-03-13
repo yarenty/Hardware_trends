@@ -1,0 +1,23 @@
+:toc2:
+:toc-title: Table of contents
+
+== Intro
+
+MIT study about Deep Learning approaching computation limits.
+
+link:https://arxiv.org/pdf/2007.05558.pdf[]
+
+Deep learning’s recent history has been one of achievement: from triumphing
+over humans in the game of Go to world-leading performance in image recognition, voice recognition, translation, and other tasks. But this progress has
+come with a voracious appetite for computing power. This article reports on
+the computational demands of Deep Learning applications in five prominent
+application areas and shows that progress in all five is strongly reliant on increases in computing power. Extrapolating forward this reliance reveals that
+progress along current lines is rapidly becoming economically, technically, and
+environmentally unsustainable. Thus, continued progress in these applications
+will require dramatically more computationally-efficient methods, which will
+either have to come from changes to deep learning or from moving to other
+machine learning methods.
+
+
+
+*#Solution:# Domain Specific Accelerators that can also reduce energy consumption. That’s the reason we see more and more specialized architecture for deep learning models.*
