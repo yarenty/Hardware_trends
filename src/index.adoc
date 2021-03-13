@@ -1,22 +1,120 @@
 :toc2:
+:toclevels: 4
 :toc-title: Table of contents
 
 = TIG100 - Technology trends
+by Jaroslaw Nowosad (2021)
+
+== Intro
 
 include::{docdir}/intro.adoc[]
 
 
 image:{docdir}/img/cerebras_cs1.png[CS-1,100,100]
 
-== Technology
 
-include::{docdir}/cpu/index.adoc[]
 
-=== GPU
-=== FPGA
-=== SoC
-=== Quantum
+== CPU
 
+:tip-caption: Note
+ Apple new M1 is below SoC section
+
+
+=== Intel
+include::cpu/intel.adoc[]
+
+=== IBM
+include::cpu/ibm.adoc[]
+
+=== AMD
+include::cpu/amd.adoc
+
+=== Other X86 based
+==== Hygon
+==== Zhaoxin
+==== Via
+
+=== ARM based
+include::cpu/arm.adoc[]
+
+==== Fujitsu
+==== Nvidia - bought ARM company,
+==== Samsung
+==== Texas Instruments,
+==== Broadsom- RaspberryPi
+==== Hitachi
+==== Marvell
+include::cpu/marvell.adoc[]
+
+==== MediaTek
+==== Qualcomm
+==== Rockchip
+
+=== RISC-V (SiFive , HiFiveUnleashed,
+include::cpu/alibaba.adoc[]
+
+=== SPARC (MCST, Fujitsu
+
+=== MIPS - Wave computing, Ingenic Semiconductor
+
+
+
+
+
+== GPU
+
+=== nVidia
+include::gpu/nvidia.adoc[]
+
+=== Intel
+include::gpu/intel.adoc[]
+
+=== Manticore
+include::gpu/manticore.adoc[]
+
+=== Cerberas
+include::gpu/cerberas.adoc[]
+
+
+AI reasoning
+Baidu: Kunlun considers multiple loads + multiple scenarios (from DC to Edge), and the design is more flexible and programmable
+Alibaba: Hanguang mainly considers CNN calculations in DC scenarios, and can extend workload mapping
+Lightmatter: Mars Photonics Compute Core + Electronic I/O, Buffer, solve dark silicon, general AI
+
+
+== NPU / DPU
+
+=== Google
+include::npu/google.adoc[]
+
+=== Fungible
+include::npu/fungible.adoc[]
+
+== FPGA
+
+Reconfigurable architecture and FPGA
+Intel: Agilex FPGA high-performance/low-power micro-architecture, HBM, support scalar/vector/matrix/spatial multiplexing software, disaggregation
+Xilinx: Versal FPGA, adaptive computing acceleration, programmable NoC
+Tenstorrent: full-stack software + general architecture, software includes compiler and runtime dynamic optimization
+
+
+
+== SoC
+
+
+
+=== Apple
+
+=== Intel
+include::soc/intel.adoc[]
+
+=== Microsoft
+include::soc/microsoft.adoc[]
+
+== Quantum
+
+== Summary
 include::{docdir}/summary.adoc[]
 
+== Changelog
 include::{docdir}/changelog.adoc[]

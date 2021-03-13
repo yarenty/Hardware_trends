@@ -1,4 +1,1 @@
-:toc2:
-:toc-title: Table of contents
-
-== Summary
+TBD

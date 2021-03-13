@@ -1,11 +1,17 @@
-:toc2:
-:toc-title: Table of contents
 
-== Intro
+*History*
 
-MIT study about Deep Learning approaching computation limits.
+Twenty years ago, Nvidia was squarely focused on one thing: 3D graphics.
 
-link:https://arxiv.org/pdf/2007.05558.pdf[]
+Not long from now, its founder and CEO Jen-Hsun Huang expects to preside over a company that reaches into every corner of the computing world thanks to a financial war chest the company built up from a strategy that saw its graphics processing units (GPUs) become the work horses of artificial intelligence (AI) in data centres.
+
+Alongside the ability to handle many floating-point operations in parallel – an attribute needed for training deep neural networks – the main reason Nvidia's GPUs became more commonly used in data centres than competitors such as AMD lay in its CUDA environment. This is a strategy Nvidia aims to repeat following its acquisition of networking specialist Mellanox, coupled with some rebranding before it rounds out the portfolio with the addition of Arm and its general-purpose processor architectures.
+
+
+
+
+*MIT study about Deep Learning approaching computation limits.*
+
 
 Deep learning’s recent history has been one of achievement: from triumphing
 over humans in the game of Go to world-leading performance in image recognition, voice recognition, translation, and other tasks. But this progress has
@@ -21,3 +27,17 @@ machine learning methods.
 
 
 *#Solution:# Domain Specific Accelerators that can also reduce energy consumption. That’s the reason we see more and more specialized architecture for deep learning models.*
+
+Full article:
+link:https://arxiv.org/pdf/2007.05558.pdf[]
+
+
+
+*MLPerf*
+
+MLPerf, an organization that’s developing standards for hardware performance in machine learning tasks, released results from its third benchmark competition. Nvidia’s latest products led the pack, but Google’s forthcoming hardware surpassed Nvidia’s scores. MLPerf measures how long it takes various hardware configurations to train particular machine learning models. Tasks include object detection, image classification, language translation, recommendation, and reinforcement learning goals.
+
+* Systems from nine organizations trained models 2.7 times faster, on average, than they did in tests conducted last November, demonstrating the rapid evolution of AI hardware (and enabling software such as compilers).
+* Nvidia submitted 40 different configurations. Those based on its A100 graphics processing unit (GPU) scored highest among commercially available systems.
+* Showing off capabilities that aren’t yet on the market, Google dominated six of the eight tasks with its fourth-generation tensor processing unit (TPU). Earlier versions are available via the Google Cloud platform.
+* Alibaba, Fujitsu, Intel, Inspur, Shenzhen Institute, and Tencent also joined the competition. Conspicuously absent: AI hardware upstarts Cerebras and Graphcore (see “New Horsepower for Neural Nets” below).

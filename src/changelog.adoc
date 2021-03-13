@@ -1,24 +1,22 @@
-== Changelog
 
-=== v.2021/03
 
-Content:
+* v.2021/03
 
- - CPU - ARM - lots of different versions
- - GPUs - C
+** Content:
+- CPU - ARM - lots of different versions 
+- GPUs - C
 
-=== v.2021/02
 
-Content:  
+* v.2021/02
 
+** Content:
 - CPUs - Intel, AMD, IBM, ARM (generally) 
 - GPUs - nVidia
 - FPGAs - Xilinx, Lattice
 - SoCs - Apple M1
 - Quantum - very early  
 
-Moved to asciidoc/markup project, reasons:
-
+** Moved to asciidoc/markup project, reasons:
  - update changes on market "on-the-fly"
  - generate latest trends while checking what happened
 
