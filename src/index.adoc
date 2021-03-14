@@ -5,12 +5,11 @@
 = TIG100 - Technology trends
 by Jaroslaw Nowosad (2021)
 
+
+
 == Intro
 
 include::{docdir}/intro.adoc[]
-
-
-image:{docdir}/img/cerebras_cs1.png[CS-1,100,100]
 
 
 

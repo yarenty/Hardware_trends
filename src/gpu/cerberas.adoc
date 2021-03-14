@@ -1,5 +1,18 @@
 
-CS-1 is powered by the Cerebras Wafer Scale Engine - the largest chip ever built
+[NOTE]
+====
+Cerebras Systems is a team of pioneering computer architects, computer scientists, and deep learning researchers. We have come together to build a new class of computer system that accelerates artificial intelligence by orders of magnitude beyond the current state of the art.
+
+* 200 person team
+* Cerebras CS-1 - server build on top of own GPU waver
+* Cerebras Wafer Scale Engine - 56x larger than the largest GPU - chip size of A4
+* C++ interface to create own kernels
+
+Website: link:https://cerebras.net/[]
+====
+
+
+*CS-1 is powered by the Cerebras Wafer Scale Engine - the largest chip ever built*
 
 * 56x the size of the largest Graphics Processing Unit
 * The Cerebras Wafer Scale Engine is 46,225 mm2 with 1.2 Trillion transistors and 400,000 AI-optimized cores.
@@ -29,18 +42,27 @@ The Cerebras software platform integrates with popular machine learning framewor
 
 
 
+
+*CS-1*
+
 image:../img/cerebras_cs1.png[]
 
-1. Input/Output
+1. 
+Input/Output
+
 The CS-1 requires high bandwidth communication with surrounding infrastructure to feed the 400,000 cores on the Wafer-Scale Engine. Our I/O system handles this task and delivers 1.2 Terabits per second bandwidth to the system edge through 12x standard 100 Gigabit Ethernet links to the datacenter. The I/O system also includes several optimized FPGAs to convert standard TCP-IP traffic into WSE protocol. This allows the CS-1 to be easily connected to a standard switch and receive input data for training or inference from many standard CPU servers in parallel. Simply plug in the CS-1 to power and a 100 Gigabit Ethernet switch, and you are ready to start training models at wafer-scale speed.
 
-2. Engine Block
+2. 
+Engine Block
+
 Powering, cooling, and packaging a wafer-scale processor is no easy task! The magic occurs in the back of the system, in the engine block – an innovation in packaging that solves the challenges of power delivery, cooling, and electrical connectivity to the Wafer Scale Engine.
 The front contains power pins, behind which are power step-down modules and the main motherboard. A brass manifold contains dry quick connectors for the water pumps and directs water across the back of a cold plate that is tightly coupled to the wafer, cooling its 1.2 trillion transistors.
 A key innovation brings power to the wafer through the main board rather than at the edges of the wafer. However, the silicon wafer has a different coefficient of thermal expansion (CTE) than the main board. This means that during heating and cooling the main board and the wafer expand and shrink by different amounts. We developed a custom connector to maintain electrical connectivity in the face of these stresses.
 Overcoming the technical hurdles of power delivery, cooling, packaging and CTE mismatch with innovative solutions allowed Cerebras to solve the 70-year-old problem of wafer scale compute.
 
-3. Cooling System  
+3. 
+Cooling System  
+
 The CS-1 is an internally water-cooled system. Like a giant gaming PC on steroids, the CS-1 uses water to cool the WSE, and then uses air to cool the water. Water circulates through a closed loop internal to the system.
 Two hot-swappable pumps on the top right move water through a manifold across the back of the WSE, cooling the wafer and warming the water. Warm water is then pumped into a heat exchanger. This heat exchanger presents a large surface area for the cold air blown in by the four hot-swappable fans at the bottom of the CS-1. The fans move air from the cold aisle, cool the warm water via the heat exchanger, and exhaust the warm air into the warm aisle.
 

@@ -1,5 +1,14 @@
 
-Tenstorrent: full-stack software + general architecture, software includes compiler and runtime dynamic optimization
+[NOTE]
+====
+Tenstorrent is a next-generation computing company that is bringing to market the first dynamic artificial intelligence architecture facilitating scalable deep learning.
+
+* full-stack software + general architecture hardware
+* software includes compiler and runtime dynamic optimization
+* Grayskull - AI processor
+
+Website: link:https://www.tenstorrent.com/[]
+====
 
 Tenstorrent has anticipated this growth and has designed an architecture inherently built to handle these massive workloads effectively and efficiently.
 
@@ -75,4 +84,6 @@ TORONTO – January 6, 2021 - Jim Keller joins Tenstorrent as President and CTO.
 
 Tenstorrent, a hardware start-up developing next generation computers, announces the addition of industry veteran Jim Keller as President, CTO, and board member.
 During his long and impactful career he has helped create some of today’s most iconic technology including the AMD Zen, K7 (Athlon) and K8 micro-architectures, Apple A4-A7 processors, the x86-64 instruction set and HyperTransport interconnect.
+
+SPECIAL NOTE: If not mention this - last info was from April 2020. 
 ====

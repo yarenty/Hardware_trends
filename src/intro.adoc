@@ -1,4 +1,60 @@
 
+---
+
+*Technical note*
+
+Currently there are 6 main areas:
+
+1. *CPU* - advances in CPUs (including server, mobile, and edge).
+2. *GPU* - standard GPUs and specialized one - like cerberas wafer.
+3. *NPU / TPU / DPU / IPU / xPU* - all ASIC type solutions - specialized hardware.
+4. *FPGA* - re-programmable hardware.
+5. *SoC* - advanced CPUs, that contains not only GPUs, but also parts of FPGAs/xPUs - ie: Apple M1 chip.
+6. *Quantum* - this is quite futuristic fas today - but it grows quite quickly - so worth to have some insight.
+
+There are companies that has products in more than one area (IBM,Intel,AMD ..) or there are products that could be categorized in more than one area since there is thin line between ie: CPU or SoC - so there could be some confusions - I tried to put them into the category where I feel it belongs (at least at current stage). 
+
+
+---
+
+*Structure*
+
+Each chapter contains 3 sections:
+
+1.
+Introduction to company/products in form on NOTE. 
+
+Example:
+[NOTE]
+====
+Short summary about company and latest product/development - few bullet points.
+
+Website to follow up, ie: link:http://yarenty.com[]
+====
+
+2. 
+Extract from website(or internet news) - latest product details, ie: 
+
+- hardware description, 
+- software capabilities, 
+- benchmarking - MLPerf output.
+
+Mostly about latest development - latest chip, or latest version of software - at the end this is all about technology trends not full history of each company.
+
+
+3.
+Third seciton is ... note from me ;-) - short investigation about what was going on lately in the company, ie: last year activity /development / are they growing or stagnating. 
+
+Example:
+[IMPORTANT]
+.Note from Jaro
+====
+Hardware Acceleration is Booming ;-)
+====
+
+
+---
+
 *History*
 
 Twenty years ago, Nvidia was squarely focused on one thing: 3D graphics.
