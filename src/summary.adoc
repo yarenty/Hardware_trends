@@ -1,1 +1,8 @@
-TBD
+TBD:
+
+* Executive summary - but longer
+* Plans (stuff to watch):
+
+** Fungible - Mar 30 - product lunch
+** Google - TPU v4 - waiting for more info
+** tenstorrent - what will be next moves of new CTO?

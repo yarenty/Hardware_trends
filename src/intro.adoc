@@ -10,9 +10,11 @@ Currently there are 6 main areas:
 3. *NPU / TPU / DPU / IPU / xPU* - all ASIC type solutions - specialized hardware.
 4. *FPGA* - re-programmable hardware.
 5. *SoC* - advanced CPUs, that contains not only GPUs, but also parts of FPGAs/xPUs - ie: Apple M1 chip.
-6. *Quantum* - this is quite futuristic fas today - but it grows quite quickly - so worth to have some insight.
+6. *Quantum* - this is quite futuristic as of today - but it grows quite quickly - so worth to have some insight.
 
-There are companies that has products in more than one area (IBM,Intel,AMD ..) or there are products that could be categorized in more than one area since there is thin line between ie: CPU or SoC - so there could be some confusions - I tried to put them into the category where I feel it belongs (at least at current stage). 
+There are companies that has products in more than one area (IBM,Intel,AMD ..) so you could see it's name/products distributed among them.
+
+There are products that could be categorized in more than one area since there is thin line between ie: CPU or SoC - so there could be some confusions - I tried to put them into the category where I feel it belongs (at least at current stage). 
 
 
 ---
