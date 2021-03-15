@@ -14,9 +14,7 @@ Website: link:https://newsroom.intel.com/news-releases/ces-2021-intel-announces-
 
 
 
-image:../img/Intel-Core-H-35-Mobile-2x.jpg[]]
-
-
+image:../img/Intel-Core-H-35-Mobile-2x.jpg[]
 
 
 In a world where computing is pervasive and intelligence is distributed across every surface – from the cloud to the network to the intelligent edge – Intel today at CES 2021 highlighted how it is driving technology leadership to define the future of computing for people, business and society.
@@ -66,6 +64,8 @@ Additionally, Intel demonstrated “Alder Lake,” the next-generation processor
 Intel - doesn't look really progressive in CPU space, it is leader but question is: for how long?. Last year Apple resigned from using Intel CPUs, complaining about innovation - and Apple created it's own processor based on ARM architecture - M1 (see in SoC chapter). IBM on top of moving to 7nm added AI on-chip. Looks like Intel is missing signals from the rivals.
 
 Intel was once one of most innovative companies from business perspective - they have innovative approach where every employee was equal - and every idea was worth testing, looks like that innovative spirit disappeared.
+
+Do not forget about Intel's TPUs (Habana), FPGAs, GPU on Xe architecture, or oneAPI programming model.
 ====
 
 
