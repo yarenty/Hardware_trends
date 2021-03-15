@@ -1,29 +1,74 @@
 
 
-
-
-
-
 * Summary 
+
+
+
 ** CPU
-*** Intel - doesn't look really progressive in CPU space, it is leader but question is for how long. CES 2021 (Jan. 11, 2021): Intel Announces Four New Processor Families: 11th Gen Intel® Core™ vPro® platform and Intel® Evo™ vPro® platform,  new N-series 10-nanometer Intel® Pentium® Silver and Intel® Celeron® processors,  11th Gen Intel® Core™ H-series mobile processors for gaming platforms, 11th Gen Intel® Core™ S-series desktop processors (code-named “Rocket Lake-S”) and its next-generation processors (code-named “Alder Lake”).
-Intel - doesn't look really progressive in CPU space, it is leader but question is for how long. Last year Apple resigned from using Intel CPUs, complaining about innovation - and Apple created it's own processor based on ARM architecture with GPU and NPU on-board. IBM below - in new CPUs added on-chip AI part.
-Intel was once one of most innovative companies from business perspective - they have innovative approach where every employee was equal - and every idea was worth testing, looks like that innovative spirit disappeared.
+
+*** Intel - it is considered as CPU leader but question is for how long. CES 2021 (Jan. 11, 2021): Intel Announces Four New Processor Families: 11th Gen Intel® Core™ vPro® platform and Intel® Evo™ vPro® platform, new N-series 10-nanometer Intel® Pentium® Silver and Intel® Celeron® processors, 11th Gen Intel® Core™ H-series mobile processors for gaming platforms, 11th Gen Intel® Core™ S-series desktop processors (code-named “Rocket Lake-S”) and its next-generation processors (code-named “Alder Lake”).
+Last year Apple resigned from using Intel CPUs, complaining about innovation - and Apple created it's own processor based on ARM architecture with GPU and NPU on-board. IBM below - in new CPUs added on-chip AI part.
+However do not forget about Intel's TPUs (Habana), biggest family of FPGAs, GPU - Xe architecture, or oneAPI programming model.
 
 *** IBM CPU - POWER 10 - not only smaller (7nm) but also with AI part - embedded matrix math accelerator (FP32, BFloat16, INT8).And go not forget technology that came with previous version - POWER 9: on-chip GZIP, CPU-GPU ultra-high bandwidth, OpenCAPI - bandwidth for communication with NICs, storage and FPGA accelerators.
 
 
 
+
+
+
+** GPU
+
+*** Intel introduces a general-purpose GPU optimized for HPC/AI acceleration based on the Xe architecture, code-named “Ponte Vecchio.”  Intel unveils additional architectural details of the Aurora Supercomputer, delivering convergence at exascale at Argonne National Laboratory. This initiative is something to check - it is nothing to do with GPGPU but cerberas wafer also ;-)
+
+
+
+
+
+** NPU
+
+*** Habana is Intel answer for AI world - dedicated TPU processors group into servers as: Gaudi - training, Goya - inference. On December 1, AWS announced Gaudi-based EC2 Instances with customer availability targeted to first half of 2021.
+
+
+
+
+
+
+
+
+
 ** FPGA
+
+*** Intel® FPGAs offer a wide variety of configurable embedded SRAM, high-speed transceivers, high-speed I/Os, logic blocks, and routing. Built-in intellectual property (IP) combined with outstanding software tools lower FPGA development time, power, and cost: Agilex, Stratix, Arria, Cyclone or full family of eASICs with ready IP cores from Intel and third-party alliance partners.
+Intel FPGAs are impressive - that's why if you look for volume FPGA world is divided by Intel ans Xilinx - they both get 90% FPGA solutions, and they both are most advanced.
+
+
 *** ColognaGate - proud of "made in Germany", quite good FPGA chip - GateMate - with interesting trend asked by customers -OTP - one time programmable - many customers only want to program the chip once.
+
+
+
 
 
 ** Quantum
 *** IBM Quantum computing roadmap look amazing: 2021 - 127-qubit Eagle processor, 2022 - 433-qubit Osprey, 2023 - 1121-qubit Condor
 
-* Plans (stuff to watch sclosely):
 
-** Fungible - Mar 30 - product lunch
-** Google - TPU v4 - waiting for more info
-** tenstorrent - what will be next moves of new CTO?
+
+
+** Software
+*** oneAPI focuses currently on GPUs, compatibility tool which automatically migrates CUDA to DPC (data parallel C++). Feb9, 2021 - oneAPI Data Parallel C++ (DPC++) features are included in the SYCL 2020 final specification, released today by The Khronos Group, an open consortium of industry-leading companies creating advanced interoperability standards. link:https://newsroom.intel.com/articles/oneapi-dpc-features-2020-final-spec/[]
+
+
+
+
+
+---
+
+Plans (stuff to watch closely):
+
+* Fungible - Mar 30 - product lunch
+* Google - TPU v4 - waiting for more info
+* tenstorrent - what will be next moves of new CTO?
+* Intel On December 1, AWS announced Gaudi-based EC2 Instances with customer availability targeted to first half of 2021
+* Intel oneAPI - worth watching news page - link:https://techdecoded.intel.io/resources/intel-oneapi-news-and-updates/[]
 

@@ -92,6 +92,9 @@ include::npu/google.adoc[]
 === Fungible
 include::npu/fungible.adoc[]
 
+=== Intel
+include::npu/intel.adoc[]
+
 
 === Graphcore.ai
 include::npu/graphcore.adoc[]
@@ -232,6 +235,15 @@ include::soc/microsoft.adoc[]
 == Quantum
 
 include::quantum/ibm.adoc[]
+
+
+
+== Software
+
+=== Intel - oneAPI
+include::software/intel.adoc[]
+
+
 
 == Summary
 include::{docdir}/summary.adoc[]
