@@ -13,6 +13,9 @@ Do not forget technology that came with previous version - POWER 9: on-chip GZIP
 *** ColognaGate - proud of "made in Germany", quite good FPGA chip - GateMate - with interesting trend asked by customers -OTP - one time programmable - many customers only want to program the chip once.
 
 
+** Quantum
+*** IBM Quantum computing roadmap look amazing: 2021 - 127-qubit Eagle processor, 2022 - 433-qubit Osprey, 2023 - 1121-qubit Condor
+
 * Plans (stuff to watch sclosely):
 
 ** Fungible - Mar 30 - product lunch
