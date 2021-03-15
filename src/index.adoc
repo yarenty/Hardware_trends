@@ -16,16 +16,9 @@ TBD:
 
 
 == Intro
-
 include::{docdir}/intro.adoc[]
 
-
-
 == CPU
-
-:tip-caption: Note
- Apple new M1 is below SoC section
-
 
 === Intel
 include::cpu/intel.adoc[]
@@ -237,6 +230,8 @@ include::soc/intel.adoc[]
 include::soc/microsoft.adoc[]
 
 == Quantum
+
+include::quantum/ibm.adoc[]
 
 == Summary
 include::{docdir}/summary.adoc[]

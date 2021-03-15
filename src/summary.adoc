@@ -6,8 +6,13 @@
 
 * Summary 
 ** CPU
-*** IBM CPU - POWER 10 - not only smaller but also with AI part - embedded matrix math accelerator (FP32, BFloat16, INT8).
-Do not forget technology that came with previous version - POWER 9: on-chip GZIP, CPU-GPUultra-high bandwidth, OpenCAPI - bandwidth for communication with NICs, storage and FPGA accelerators.
+*** Intel - doesn't look really progressive in CPU space, it is leader but question is for how long. CES 2021 (Jan. 11, 2021): Intel Announces Four New Processor Families: 11th Gen Intel® Core™ vPro® platform and Intel® Evo™ vPro® platform,  new N-series 10-nanometer Intel® Pentium® Silver and Intel® Celeron® processors,  11th Gen Intel® Core™ H-series mobile processors for gaming platforms, 11th Gen Intel® Core™ S-series desktop processors (code-named “Rocket Lake-S”) and its next-generation processors (code-named “Alder Lake”).
+Intel - doesn't look really progressive in CPU space, it is leader but question is for how long. Last year Apple resigned from using Intel CPUs, complaining about innovation - and Apple created it's own processor based on ARM architecture with GPU and NPU on-board. IBM below - in new CPUs added on-chip AI part.
+Intel was once one of most innovative companies from business perspective - they have innovative approach where every employee was equal - and every idea was worth testing, looks like that innovative spirit disappeared.
+
+*** IBM CPU - POWER 10 - not only smaller (7nm) but also with AI part - embedded matrix math accelerator (FP32, BFloat16, INT8).And go not forget technology that came with previous version - POWER 9: on-chip GZIP, CPU-GPU ultra-high bandwidth, OpenCAPI - bandwidth for communication with NICs, storage and FPGA accelerators.
+
+
 
 ** FPGA
 *** ColognaGate - proud of "made in Germany", quite good FPGA chip - GateMate - with interesting trend asked by customers -OTP - one time programmable - many customers only want to program the chip once.
