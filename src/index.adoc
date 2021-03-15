@@ -82,6 +82,7 @@ include::gpu/manticore.adoc[]
 === Cerberas
 include::gpu/cerberas.adoc[]
 
+
 === Others
 
 AI reasoning
@@ -217,6 +218,11 @@ include::fpga/intel.adoc[]
 
 === Tenstorrent
 include::fpga/tenstorrent.adoc[]
+
+
+=== CologneChip
+include::fpga/colognechip.adoc[]
+
 
 == SoC
 
