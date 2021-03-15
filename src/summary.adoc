@@ -4,12 +4,18 @@
 
 
 
-* Executive summary - but longer
-* Plans (stuff to watch):
+* Summary 
+** CPU
+*** IBM CPU - POWER 10 - not only smaller but also with AI part - embedded matrix math accelerator (FP32, BFloat16, INT8).
+Do not forget technology that came with previous version - POWER 9: on-chip GZIP, CPU-GPUultra-high bandwidth, OpenCAPI - bandwidth for communication with NICs, storage and FPGA accelerators.
+
+** FPGA
+*** ColognaGate - proud of "made in Germany", quite good FPGA chip - GateMate - with interesting trend asked by customers -OTP - one time programmable - many customers only want to program the chip once.
+
+
+* Plans (stuff to watch sclosely):
 
 ** Fungible - Mar 30 - product lunch
 ** Google - TPU v4 - waiting for more info
 ** tenstorrent - what will be next moves of new CTO?
-
-** ColognaGate - proud of "made in Germany", quite good FPGA chip - GateMate - with interesting trend asked by customers -OTP - one time programmable - many customers only want to program the chip once. 
 
