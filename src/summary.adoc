@@ -30,7 +30,9 @@ However do not forget about Intel's TPUs (Habana), biggest family of FPGAs, GPU 
 *** Habana is Intel answer for AI world - dedicated TPU processors group into servers as: Gaudi - training, Goya - inference. On December 1, AWS announced Gaudi-based EC2 Instances with customer availability targeted to first half of 2021.
 
 
-
+*** Marvell is rapidly expanding, and from the list of processors, applications they highly focused on telco/RAN/5G, optimizing OPEX and CAPAEX.
+The Marvell O-RAN platform solution consists of silicon, software and hardware reference designs spanning the radio unit (RU), distributed unit (DU) and centralized unit (CU) with Ethernet connectivity between these network elements.
+This is company that need to be closely look for.
 
 
 

@@ -100,6 +100,10 @@ include::npu/intel.adoc[]
 include::npu/graphcore.adoc[]
 
 
+=== Marvell
+include::npu/marvell.adoc[]
+
+
 === Others
 
 2CRSi
@@ -242,6 +246,9 @@ include::quantum/ibm.adoc[]
 
 === Intel - oneAPI
 include::software/intel.adoc[]
+
+=== Marvell - OCTEON SDK
+include::software/marvell.adoc[]
 
 
 
