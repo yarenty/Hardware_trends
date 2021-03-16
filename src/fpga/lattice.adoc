@@ -1,0 +1,3 @@
+The full-featured Lattice sensAI stack includes everything you need to evaluate, develop and deploy FPGA-based Machine Learning / Artificial Intelligence solutions - modular hardware platforms, example demonstrations, reference designs, neural network IP cores, software tools for development, and custom design services.
+The Lattice’s FPGA-based machine learning solutions are highly flexible, easy to implement, low power (from under 1 mW-1 W), small (package sizes starting at 5.5 mm2) and priced for high volume production.
+Lattice can help you accelerate deployment of always-on, on-device AI into a wide range of Edge applications including mobile, smart home, smart city, smart factory, and smart car products.

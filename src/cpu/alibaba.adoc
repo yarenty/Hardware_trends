@@ -1,0 +1,2 @@
+Edge processor
+Alibaba: XuanTie IoT processor RISC-V + SuperScalar OOO pipeline + AI Vector acceleration

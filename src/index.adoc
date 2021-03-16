@@ -14,7 +14,6 @@ TBD:
 * need to have closer look
 
 
-
 == Intro
 include::{docdir}/intro.adoc[]
 
@@ -29,34 +28,12 @@ include::cpu/ibm.adoc[]
 === AMD
 include::cpu/amd.adoc
 
-=== Other X86 based
-==== Hygon
-==== Zhaoxin
-==== Via
-
-=== ARM based
+=== ARM based (NVIDIA)
 include::cpu/arm.adoc[]
 
-==== Fujitsu
-==== Nvidia - bought ARM company,
-==== Samsung
-==== Texas Instruments,
-==== Broadsom- RaspberryPi
-==== Hitachi
-==== Marvell
-include::cpu/marvell.adoc[]
 
-==== MediaTek
-==== Qualcomm
-==== Rockchip
-
-=== RISC-V (SiFive , HiFiveUnleashed,
-include::cpu/alibaba.adoc[]
-
-=== SPARC (MCST, Fujitsu
-
-=== MIPS - Wave computing, Ingenic Semiconductor
-
+=== Others
+include::cpu/others.adoc[]
 
 
 
@@ -84,7 +61,9 @@ Alibaba: Hanguang mainly considers CNN calculations in DC scenarios, and can ext
 Lightmatter: Mars Photonics Compute Core + Electronic I/O, Buffer, solve dark silicon, general AI
 
 
-== NPU / DPU
+
+
+== NPU / DPU / IPU / xPU
 
 === Google
 include::npu/google.adoc[]
@@ -95,112 +74,15 @@ include::npu/fungible.adoc[]
 === Intel
 include::npu/intel.adoc[]
 
-
 === Graphcore.ai
 include::npu/graphcore.adoc[]
-
 
 === Marvell
 include::npu/marvell.adoc[]
 
 
 === Others
-
-2CRSi
-
-“2CRSi is always eager to integrate new innovative technology and provide state of the art solutions. We are excited to combine 2CRSi hardware expertise and Graphcore’s cutting edge technology to propose best-in class products for AI computing. We are therefore thrilled to join Graphcore’s Elite Partner Program and to be able to deliver Graphcore’s IPU-M2000 product to customers across Europe and the Middle East”.
-
-Alain Wilmouth, Founder and CEO, 2CRSi
-
-
-
-Atos
-
-“Graphcore technology is a promising technology proven across many of the sectors that Atos serves, from medical research to financial services, academia to automotive.
-
-With demand for AI compute growing, we are delighted to be making Graphcore systems available throughout our ecosystem.”
-
-Agnès Boudot, Senior Vice President, Head of HPC & Quantum at Atos
-
-
-
-Boston Limited
-
-“Boston is at the forefront in the transition to AI compute solutions, being ideally placed to recognise that corporations, research institutions and public bodies are looking to harness a smarter way of processing their data. The reduction in time and cost, along with green credentials afforded by using Graphcore’s systems, have created incredible excitement with both commercial and technical specialists. We are delighted to be making the IPU-M2000 available to our customers”.
-
-Dev Tyagi, CSMO, Boston Limited
-
-
-
-BSI
-
-“BSI’s clients are leaders in their industries, continually seeking a competitive advantage that will benefit themselves and their customers. Graphcore’s built-for-AI compute solution offers precisely that, and has already proven its worth in financial services, computer vision, natural language and numerous other applications. We expect Graphcore technology to become a must-have tool for anyone seeking to get the most out of their AI investment.”
-
-Daniel Goodman, Managing Director, Business Systems International Ltd., (BSI)
-
-
-
-Dell Technologies
-
-“The transformational impact of AI and machine learning spans applications in our daily lives to the ability to effect human progress. As Machine Learning models increasingly become more sophisticated, new processing technologies are needed to meet the resource demands required to drive business outcomes. Seeing this opportunity, Dell Technologies Capital was an early investor in Graphcore. Working with Dell Technologies OEM Solutions, Graphcore now can offer a turnkey system, engineered with Dell EMC PowerEdge R6525 servers, designed to accelerate machine intelligence, helping customers reduce their time to value in training AI models and achieving business insights.”
-
-Ron Pugh, Vice President and General Manager, Dell Technologies OEM Solutions
-
-
-
-Lambda
-
-“Lambda provides AI compute infrastructure to the world’s leading machine learning research teams. We’re looking forward to a successful partnership with Graphcore to provide their IPU to our customers. The advances in AI we’ve seen over the past decade have been primarily driven by advances in computation. Researchers have been eager to try out Graphcore’s new IPU-M2000 and we’re excited to give them a glimpse of the future.”
-
-Stephen Balaban, Co-founder & CEO, Lambda
-
-
-
-Meadowgate Technologies
-
- “Meadowgate is the technological enabler for our US Federal Customers that demand the best performing, most reliable and trustworthy systems. As our customers navigate the vast opportunity that artificial intelligence offers, we are delighted to be working with Graphcore - a company that has already built a reputation for relentless innovation and a deep commitment to its users’ needs.”  
-
-Hunter Lochte, VP Operations, Meadowgate Technologies
-
-
-
-Megazone
-
-“Megazone joins the Graphcore Elite Partner Program, having already worked extensively with Graphcore to deliver powerful AI solutions to our customers.  Having seen, first-hand, the performance advantage that can be gained using IPU technology, we are delighted to formally become a Graphcore Elite Partner, and extend that same competitive advantage to many more customers across Korea.”
-
-Eric Han, Managing Director / Hybrid Cloud & AI Platform Service, Megazone
-
-
-
-OCF
-
-“OCF is delivering solutions and services across the most consequential technologies of our time – HPC, Cloud, Storage and Artificial Intelligence. We are delighted to be adding Graphcore’s IPU-M2000 system to our customer offering. Graphcore has already distinguished itself as building standout technology that raises the performance bar on today’s AI applications, as well as enabling the next generation of models and techniques”
-
-Russell Slack, Managing Director, OCF Limited
-
-
-
-Tech Data Europe 
-
-“We are delighted that Tech Data is part of the Graphcore Elite Partner program. Given the great potential of IPUs in supporting artificial intelligence solutions, we believe this is a perfect complement to our portfolio. As one of the world’s largest wholesale distributors of technology products, services and solutions, we are looking forward to accelerating the adoption of Graphcore’s innovative solutions among our extensive partner community across the European region.
-
-Hugo Graca, Vice President, Global Computing Components, Europe
-
-
-
-Tech Data USA
-
-“Many businesses around the world are familiar with Graphcore and understand the capabilities of its IPU technology. As an Elite Partner, serving more than 100 countries, Tech Data will bring this technology to market to our customers around the world, satisfying the global demand from innovators in private industry to public institutions.”
-
-Maghen Hannigan, Director, Converged and Integrated Solutions, Tech Data USA
-
-
-
-Wildflower International
-
-“Wildflower International supports mission-critical applications across the public and Federal Government sectors. Our customers understand the need for systems and technologies that offer leading-edge capabilities, a robust and trustworthy support system, and compelling economics. Graphcore meets all of those criteria and, moreover, we expect the IPU-M2000 to become an essential tool for our clients as they build their AI capabilities”
-
-Andrew Balzarini, Director, Marketing & Alliances, Wildflower International
+include::npu/others.adoc[]
 
 
 
@@ -215,18 +97,17 @@ include::fpga/xilinx.adoc[]
 === Intel
 include::fpga/intel.adoc[]
 
-
 === Tenstorrent
 include::fpga/tenstorrent.adoc[]
-
 
 === CologneChip
 include::fpga/colognechip.adoc[]
 
 
+
+
+
 == SoC
-
-
 
 === Apple
 
@@ -235,6 +116,10 @@ include::soc/intel.adoc[]
 
 === Microsoft
 include::soc/microsoft.adoc[]
+
+=== Others
+
+
 
 == Quantum
 
@@ -257,3 +142,5 @@ include::{docdir}/summary.adoc[]
 
 == Changelog
 include::{docdir}/changelog.adoc[]
+
+

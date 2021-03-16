@@ -14,8 +14,9 @@ Currently there are 6 main areas:
 
 There are companies that has products in more than one area (IBM,Intel,AMD ..) so you could see it's name/products distributed among them.
 
-There are products that could be categorized in more than one area since there is thin line between ie: CPU or SoC - so there could be some confusions - I tried to put them into the category where I feel it belongs (at least at current stage). 
+There are products that could be categorized in more than one area since there is thin line between ie: CPU or SoC - so there could be some confusions - I tried to put them into the category where I feel it belongs (at least at current stage).
 
+NOTE: CPUs - too have general view - they are not accelerators and trend is .. x0 years old.
 
 ---
 

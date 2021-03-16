@@ -1,0 +1,11 @@
+GPU and games
+Nvidia: A100 strong scalability, scale-out and scale-up design considerations, performance breaks
+
+A100 design:
+Support HPC
+Consider strong scalability
+Consider scale-up and scale-out
+
+Breaking performance records, the fastest AI chip
+
+

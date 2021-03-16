@@ -1,0 +1,15 @@
+
+Design requirements:
+New IoT devices (such as smart speakers) require signal processing and AI calculations
+
+ARM solution:
+Regardless of multi-core (complex software, high power consumption), increase the computing power on the basis of the existing NPU, while satisfying DSP and AI, and try to localize the calculations
+Improve Cortex-M performance without too much power consumption
+
+
+
+
+
+Edge:
+ARM: Cortex M55 + Ethos-U55 (CNN, RNN acceleration) signal processing/AI calculation acceleration
+Harvard: PGMA probability calculation acceleration (Bayesian/MRF/HMM) + algorithm/architecture joint design
