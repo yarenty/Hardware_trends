@@ -1,0 +1,4 @@
+Open Source RISC-V Software
+RISC-V needs a complete software ecosystem surrounding it in order to thrive. The components of the ecosystem are very diverse, spreading across all layers from low level firmware and boot loaders up to a fully functional operating system kernel and applications. Each of these components is important to ensure the success of RISC-V and the power of open source contributions accelerates the build out.
+
+image:../img/software-ecosystem-riscv-western-digital.png.wdthumb.1280.1280.png[]
