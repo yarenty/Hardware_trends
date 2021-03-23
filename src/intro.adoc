@@ -100,3 +100,8 @@ MLPerf, an organization that’s developing standards for hardware performance i
 * Nvidia submitted 40 different configurations. Those based on its A100 graphics processing unit (GPU) scored highest among commercially available systems.
 * Showing off capabilities that aren’t yet on the market, Google dominated six of the eight tasks with its fourth-generation tensor processing unit (TPU). Earlier versions are available via the Google Cloud platform.
 * Alibaba, Fujitsu, Intel, Inspur, Shenzhen Institute, and Tencent also joined the competition. Conspicuously absent: AI hardware upstarts Cerebras and Graphcore (see “New Horsepower for Neural Nets” below).
+
+
+
+
+ 
