@@ -1,117 +1,38 @@
-TBD:
-
-* summary of current trends
-* companies in covid time
-* need to have closer look
-
-Amazon, Google, Apple and Microsoft Are Designing Their Own Chips
-All the biggest tech companies are prioritizing custom designs, which adds to the growing problems facing the incumbents.
-
-
-In the process of transforming itself from an online bookstore into a cloud computing giant, Amazon.com Inc.became one of the world’s largest purchasers of the computer chips that power data centers. As its cloud business has expanded, the company has become increasingly fixated on designing its own chips instead of buying them. The shift could have potentially drastic implications for a critical aspect of the technology industry—and could prove threatening for traditional chipmakers such as Intel Corp. and Advanced Micro Devices Inc.
-
-Amazon began signaling its intentions in 2015 when it acquired Annapurna Labs, a small Israeli chip designer. It’s since become aggressive about developing chips specifically designed for Amazon Web Services’ own data centers. “This work is foundational—when we improve the hardware, everything that runs on it improves,” says Nafea Bshara, an Annapurna co-founder who’s now an AWS vice president. Annapurna’s staff has grown tenfold since the acquisition.
-
-Smugmug Inc., an online photo service that uses AWS to show billions of photos to its users daily, says it’s reduced its AWS costs by as much as 40% just by shifting to an AWS service that runs on Amazon’s in-house chip, branded Graviton. AWS mostly still relies on Intel chips, but Amazon charges Smugmug 20% less for services utilizing its own hardware, and Smugmug can buy less computing power because Amazon’s chips take 20% less time to run its tasks. “It results in a much lower bill for us without really having to do anything,” says Smugmug Chief Executive Officer Don MacAskill.
-
-Microsoft Corp. and Alphabet Inc.’s Google are also working on specialized chips. In part, the trend reflects how different the current crop of tech giants are from the data center operators of the past, which didn’t have the resources to pour hundreds of millions of dollars into designing their own chips.
-
-“It’s a renaissance in semiconductors”
-
-There’s also a technical shift under way, ushered in by the rise of smartphones. While Intel and AMD were making chips for data centers that prioritized speed, mobile devices required processors that used as little power as possible, so the things wouldn’t die before the end of the day. As the demand for these devices skyrocketed, there was immense incentive to improve the low-power chips, which began closing the gap in performance with the muscle-car models for data center business.
-
-Energy efficiency has become increasingly important. By 2025 data centers are expected to consume 15% of the world’s electricity, up from about 2% last year, according to Applied Materials, the biggest maker of chip manufacturing equipment. Keeping power consumption down is becoming more important than the cost of the chips themselves for the data center owners.
-
-The technology underlying low-power smartphone chips is made by Arm Ltd., a British semiconductor company that licenses it but doesn’t make chips itself. Amazon and Microsoft use Arm as the basis for their internal chip designs. The Graviton chips were initially used only in specialized cases but have developed into arguably the first Arm-based chips to be a credible competitor to Intel’s general-use data center offerings. “It’s a renaissance in semiconductors,” says Jon Bathgate, an investor at Colorado-based investment firm NZS Capital.
-
-As Amazon, Google, and Microsoft compete for cloud computing customers, the specific virtues of their chips may become a selling point, says Smugmug’s MacAskill. “It’s going to get pretty interesting when these cloud providers begin to differentiate themselves even further.”
-
-None of these companies manufacture the new chips they design; they rely on the same international supply chain that’s been showing strainduring the coronavirus pandemic. If such a crunch continues, it will slow their progress and eat into profits.
-
-Then there’s the pending acquisition of Arm by Nvidia Corp., itself a designer of chips used in some data centers. Nvidia has promised to maintain open access to Arm’s technology and says it has no incentive to do otherwise. Some of Arm’s customers have already expressed concerns to regulators considering whether to approve the deal. These complaints are private, but Bloomberg News has reported that Google, Microsoft, and Qualcomm are among the companies that have made them.
-
-The surge in custom-made chips could further reduce the cost of advanced computing products and spark innovations, which would be good for everyone. Or almost everyone. To stay ahead of the newcomers, Intel has been buying startups that make AI-specific chips while it dedicates massive resources to improving the efficiency of its cloud computing products and offers to design custom builds for its biggest customers. But NZS’s Bathgate thinks it will struggle to stay ahead. “This is an existential problem for Intel,” he says.
 
 
 
+#“It’s a renaissance in semiconductors”#
 
----
+Presented report shows 2021 trends in area of: 
+
+- *CPU* - including server, mobile, and edge, where currently one can see big change starting from moving from Intel processors /  architectures to "self-made" ARMs and RISC-V. Starting with: Apple and its new M1 chip - specialized SoC with CPU, GPU and NPU on-board; nVidia acquiring ARM; Amazon, Microsoft, Google - designing their own chip. Not to mention existing chips producers or academic initiatives like part of H2020 - Manticore, a general-purpose, ultra-efficient, RISC-V, chiplet-based architecture for data-parallel floating-point workloads. Intel new line of CPUs could be "politically corectly" called "not impressive".
+
+- *GPU* - GPUs arena is dominated by nVidia, however there are quite few interesting solutions especially in GPUs designed specially for ML purposes - like Intel "Ponte Vecchio" high-performance, highly flexible discrete general-purpose GPU architected for HPC modeling and simulation workloads and AI training; or extreme one - like cerberas wafer =  -56x the size of the largest GPU. The Cerebras Wafer Scale Engine is 46,225 mm2 with 1.2 Trillion transistors and 400,000 AI-optimized cores.
+
+- *NPU / TPU / DPU / IPU / xPU* - all ASIC specialized hardware, starting with: Google TPU (benchmarks for currently unknown TPU .v4 was just released); Intels Gaudi - training, Goya - inference processors; through very specialized Marvell, Fungible DPU solutions. Competition here is hard, and quite selective - at the end those are still ASICs - you cannot use them for other tasks than their definition.
+
+- *FPGA* - re-programmable hardware. This space generally is occupied by Xilinx and Intel (80%) with Lattice on third place. However this area (together with SoC - which sometimes is hard to distinguish) is definitely booming, and this is not only looking for technical trends and advantages that FPGA is giving but also growing development software, interfaces with high-level languages, or looking at the big business movements like acquisition of Xilinx by AMD.   
+
+- *SoC* - CPUs, that contains not only GPUs, but also parts of FPGAs/xPUs - not focusing again on Apple M1 chips, or big ARM ecosystem, there is expotentialy growing of specialized RISC-V solution: Celerity, Manticore, SiFive, including so specialized solutions like Seagate or Wester Digital (storage solution providers)  used for real time processing.
+
+- *Quantum* - this is quite futuristic as of today - but it grows, and have some hype, so worth to have some initial insight, and could be something to follow up.
+
+On top of that there is software part - just keep in mind that FPGAs or advanced SoCs - are "double-deal" - they could not exists without specialized software allowing developers to properly utilize all of the possibilities that hardware has to offer. And while there are still lots of solutions tailored to fit particular chips, but real trend is about open IDEs with support of high level languages that could be used on multivendor chipsets. Personnaly I'm in big favour of that trend as example of Xilinx Vitis shows how unified programming model for accelerating Edge, Cloud, and Hybrid computing applications, accelerates not only solutions but also extremely squeezes development time.
 
 
 
-Market trends and product strategies around the IoT continue to change. Technology and service providers can leverage the growth in IoT devices and capitalize on RISC-V momentum to innovate as the semiconductor manufacturing market adopts agile strategies that make custom ICs more practical.
-Overview
-Key Findings
 Building custom chips is becoming practical due to the evolution of the electronic design tools and the semiconductor manufacturing industry, which has lowered market entry.
-RISC-V is a sustainable choice for building custom chips, thanks to adoption and promotion from major technology companies, industrial organizations and governments.
-IoT products can adopt custom chips that complement existing designs or processors while adding product differentiation.
-Recommendations
-Technology and service providers focusing on the IoT hardware product business should:
-Assess the priority of adopting custom ICs by conducting a cost analysis on your current product vis-à-vis future products and the impacts of technology migration.
-Develop a flexible strategy about sourcing RISC-V custom ICs by carefully navigating through the semiconductor design and manufacturing market, your in-house skills and R&D expertise.
-Develop product strategies to be competitive by identifying specific technical requirements that can be addressed with custom ICs not covered by existing suppliers.
-Strategic Planning Assumption
-By 2025, 40% of application-specific integrated circuits (ASICs) will be designed by OEMs, up from around 30% today.
-Introduction
-Today’s chip design process can be more flexible, thanks to the evolution of electronic design automation (EDA) tools and the leverage of cloud computing technologies that have simplified the licensing process and lowered the investment in on-premises computing power. Alongside the strong semiconductor investment from the Chinese government and vibrant activity around RISC-V (pronounced “risk five”) among the open software community and top vendors, the semiconductor manufacturing industry has formed a healthy ecosystem for market development for RISC-V-based custom ICs.
-It is important to know that essentially RISC-V is an instruction set that defines processor core architecture. It can’t be implemented without support of industrial players, including EDA tool companies, chip design and manufacturing companies, and electronics OEMs. However, because RISC-V is recognized as a novel instruction set architecture (ISA), it has created strong market attractions and pulled advocates from many technology heavyweights.
-Based on early industry activity, Gartner views RISC-V as an opportunity for the custom chips (see Figure 1). Essentially, this trend will not impact the current mass market practices, like application processors in the smartphone market, because this market has been well-served by a group of experiences with rich skill sets, deepened value chains and cross-proven technologies. In contrast, RISC will emerge by complementing the limitations of current play. It provides an alternative opportunity for IoT products looking for innovations or customization that can’t be (or is too expensive to be) achieved by current suppliers.
-Table 1: Custom ICs Based on RISC-V Will Enable Cost-Effective IoT Product Differentiation
-Continued Activities Led by Top Vendors and Leading Industrial Bodies Around RISC-V Will Reinforce Its Market Adoption
-inline image
-The Semiconductor Manufacturing Industry Is Shaping an Environment That Lowers Entry Barriers for Custom ICs
-IoT Products Can Create Differentiation by Adopting Custom ICs
-Gartner (June 2020)
-In this report, we identify two major trends forming business environments that benefit RISC-V adoption, and one opportunity in which IoT products can benefit from RISC-V adoption.
-Market Trend
-The Semiconductor Manufacturing Industry Is Shaping an Environment That Lowers Entry Barriers for Custom ICs
-Over the last few years, several system/OEM companies have successfully developed internal chip design capability. Examples include Facebook, Google, Apple, Amazon, Cisco, Huawei, Baidu, Alibaba and Microsoft. These firms bypassed the traditional model of working with chip design firms and engaged directly with foundries. This has increased openness and changed the culture of the semiconductor industry, and has provided foundries the preliminary experience in working directly with OEM customers.
-This trend continues as China’s semiconductor industry is forming an ecosystem where chip design companies can leverage and streamline their chip development and accelerate time from lab to fab. China now has more than 20 chip incubation parks that provide the resources needed by chip designers, including silicon intellectual property (IP), EDA tools, multiproject wafer (MPW) services, test and validation, and training. These incubation parks help almost 2,000 chip design companies (according to  CSIA) realize their designs through to production.
-China has strong semiconductor manufacturing capacity backup for both local and global chip design companies. Gartner estimates that China’s chip foundry businesses accounted for 15.6% market share in 2019. Its growth rate will be tripled to global average to reach 20.6% in 2024.1
-Additional accelerators for the custom IC market include chips that can be designed over the cloud, further reducing the barriers to entry and reducing the reliance on on-premises servers. While there have been limitations on EDA tools and concerns of confidentiality, these are vanishing as cloud operations become the norm and more vendors provide cloud-first tools.
-Cloud products introduced by EDA vendors like Synopsys and Cadence offer products more like “private cloud” tools. Alternatively, SiFive and VeriSilicon Microelectronics are building a “web-based,” “more open cloud” portal service.
-Cadence and Synopsys have expanded their cloud portfolio by providing secure access to TSMC’s Open Innovation Platform Virtual Design Environment (OIP VDE) for faster system-on-chip (SoC) designs. Using Cadence tools, hosted on Microsoft Azure, and with SiFive’s web-based design integration and aggregation, a 64-bit RISC-V processor core, FU540, was taped out at 28 nm to prove the methodology in 2018.
-Leading Vendors and RISC-V Industrial Bodies Highlight and Reinforce Market Adoption
-Alongside the change in technology needs driven by the IoT and other uses, and the shifting competitive landscape, a related subtrend is the move to promote RISC-V and growth in proven efforts demonstrating real-world success. Examples include the following:
-Building custom ICs by adopting commercial ISAs like Cortex from ARM, Tensilica from Cadence or ARC from Synopsys is a proven technique. These companies offer mature toolsets and have rich experience with validating design and functionalities, manufacturing with chip foundries and packing companies. However, to avoid lock-in with a microarchitecture-constrained design, and gain from the flexibility and growth potential of a custom chip, an open ISA can be a good choice. But concerns remain about whether the ecosystem can provide needed viable design support in the long term.
-RISC-V reflects modern architecture practices, providing an open, free ISA for embedded chip designs, which may be manufactured openly without patent or licensing fees. The foundation recently announced it would move to Switzerland, over concerns about U.S. trade regulations, to ensure open practices.
-The RISC-V project started in 2010 in Berkeley and rolled out to market in 2014. It is recognized as a modern architecture meeting the needs of an ISA and has attracted numerous vendors to join. More important is its relatively complete ecosystem of IP, toolchains and software. The RISC-V foundation worked with industrial players to define specifications to foster RISC-V evolution while ensuring compliance across various implementations.
-The RISC-V foundation now has 450 members, covering major players from the hardware, software, semiconductor and IT industries, like Alibaba, Google, Huawei, Qualcomm, NVIDIA, STMicroelectronics, Micron, Western Digital and Microchip. Several technology heavyweights, organizations and governments have announced their plan of adopting RISC-V. These initiatives are important driving forces (see Note 1).
-Designing RISC-V chips can be more agile. Traditionally, chip designers used Verilog,2 a hardware description language, to translate the abstract digital logic circuit functions into low-level language for silicon manufacturing. The RISC-V Foundation and CHIPS Alliance (see Note 2) are promoting a hardware design language (HDL) called Chisel (which stands for “constructing hardware in a Scala embedded language). Chisel provides designers with a modern programming language to write complex, parameterizable circuit generators that still can produce synthesizable Verilog to support current chip manufacturing processes.
-Designing RISC-V chips can be more efficient. The RISC-V IP core and chip design company, SiFive, enables customers to configure their cores through a web-based tool. It is now extending the approach to custom ICs by building a “silicon as a service” platform. Users can start a design from a predefined template and then create variations by uploading their own IP or accessing third-party IP from an online library. Users can validate application software by running code on a virtualized chip and then move to sample chips for physical validation, outsourcing to fabs for production. All steps and processes are performed and licensed within the cloud without having a complex licensing process.
-For those operating in the IoT device market, both SiFive and Andes Technology have introduced Arduino-compatible or Amazon Web Services (AWS)-certified FreeRTOS-compliant development boards to accelerate the design cycle.
-Much silicon IP is processor-agnostic already; it can be integrated with RISC-V cores. CEVA has introduced some RISC-V IP proposing cost-effective and short-time-to-market alternative solutions beyond their traditional offerings.
-NXP introduced a test water product, a homogeneous RV32M1 processor comprising two ARM and two RISC-V cores. This chip is only available for the VEGA development board shipped through Open ISA organization.3 Microchip introduced a field-programmable gate array (FPGA) line that enabled users to load its soft RISC-V cores for SoC design. Its development boards ranged from $99 to $1,499, alongside the design toolchains and soft IP blocks from its Mi-V RISC-V ecosystem to meet different levels of design requirements.
-With these varying options in mind, it is important to develop requirements and strategies aligned to end-product roadmaps and in-house capabilities.
-IoT Products Can Create Differentiation by Adopting Custom ICs
-There are many routes to market for semiconductor-based products and the underlying capacity to design and build them. For example, Apple used its own substantial buying power to design and build its own chips at great cost to reduce reliance on third parties. It gained a performance advantage, plus control of confidential information and roadmap security. For more information, see “Best Practices for ASIC Chip Design by System/OEM Companies.” However, designing and building chips is very expensive, and few companies have the resources and leverage of an Apple or other industry giant.
-Specialized standard and general-purpose processors offer market-validated features and broad reference designs combined with partner solutions to accelerate product adoption. Many of these chips are built by licensing IP cores from ARM, which has strong ecosystem support based on billions of chip shipments. Conformity of these processor cores and instruction sets is an asset for maintaining compatibility across generations of hardware and software products. However, they are not well-suited to your product requirement. Some might be overloaded because vendors integrate unwanted features, while the others are too general for specific tasks, such as handling machine learning algorithms.
-Many IoT products adopted custom ICs upon existing designs; they try to minimize the cost impact by repeating designs while adding new values.
-Microsoft introduced custom IC MT3620, optimized for Azure Sphere OS, by partnering with MediaTek. Equipment manufacturer Yiding integrated the module into its existing designs and introduced an Azure Sphere precertified solid-state drive (SSD).
-Google introduced Edge TPU, which enhanced the general-purpose embedded processor’s ability for AI inferencing locally. Google introduced a series of Coral development boards that integrantes the TPU with ARM based MCUs/MPUs to help developers to accelerate their IoT projects.
-Huawei adopted a custom IC (Kirin A1) for its Lite OS-based sports watch, focused especially on enhancing Bluetooth performance to complement a general-purpose MCU from ST. The same chip was scaled out to be used by its latest True Wireless Sound (TWS) headset product.
-Huami adopted a custom IC (Huanshan No. 1) for its sports watch and wristband, complementing ST’s MCU by focusing on biometric signal processing, which helped formulate healthcare for its future sensor fusion platform.
-OPPO adopted a custom IC (Apollo), aimed at optimal power and performance, by collaborating with a main processor from Qualcomm. This resulted in 40 hours of battery life in smart mode and up to 21 days in long battery life mode.
-Planning IoT products with a balanced focus on custom and commercialized components, as well as open and closed ISAs for their processors, will achieve viable differentiations more cost-effectively.
 
+Custom chips can complement existing designs or processors while adding product differentiation. Extract from Gartner recommendations:
 
-Evidence
-1 “Forecast: Semiconductor Foundry Revenue, Supply and Demand, Worldwide, 1Q20 Update”
-2  IEEE Standard Verilog Hardware Description Language
-3  VEGA
+• Assess the priority of adopting custom ICs by conducting a cost analysis on your current product vis-à-vis future products and the impacts of technology migration.
+• Develop a flexible strategy about sourcing custom ICs by carefully navigating through the semiconductor design and manufacturing market, your in-house skills and R&D expertise.
+• Develop product strategies to be competitive by identifying specific technical requirements that can be addressed with custom ICs not covered by existing suppliers.
+
+Recent success of Apple M1 just proved that investing in own designs/solutions you can get best possible performance, power, cost ... Generally - this is *rennesaince of semiconductors*, and everyone currently is trying to get some piece of that cake. 
 
 
 
-Note 1: RISC-V Initiatives
-Google’s OpenTitan, announced in 2019, seeks to provide an open-source silicon root of trust (RoT) project. It aims to deliver a RISC-V-based RoT design with integration guidelines for use in data center servers, storage devices and peripherals. Google states that “open-sourcing the silicon design makes it more transparent, trustworthy, and ultimately, secure.” as the first open-source silicon RoT project.
-Samsung  has disclosed the use of SiFive’s RISC-V core for upcoming chips used in a variety of applications, starting from mmWave radio frequency (RF) processing in mobile devices.
-Western Digital led initiatives in the RISC-V Foundation and will transition its own consumption of IP cores, over 1 billion cores per year, to RISC-V.
-The Chinese government plans building homegrown semiconductors, and the semiconductor industry considers RISC-V as a game-changing technology. The Chinese government formed the  RISC-V Alliance, comprising experts from academia and IT companies including Baidu, Huawei and Tencent, to contribute to the RISC-V community. China’s semiconductor industry formed the China RISC-V Industrial Consortium, comprising more than 60 semiconductor companies focusing on materializing RISC-V implementations.
-The Indian Electronics and Semiconductor Association (IESA) launched industry-relevant courses in colleges and enabled many fabless startups around RISC-V in India. IESA has also started a first-of-its-kind initiative called  Semiconductor Fabless Accelerator Lab (SFAL) with initial funding from the government of Karnataka to support fabless companies and startups to make Indian chips, SoCs and IP.7
-
-
-Note 2: CHIPS Alliance
-Linux, supported by more than 1,000 members, leads the collaboration of open-source software and open standards to foster development of open hardware. The Linux Foundation has formed  CHIPS (Common Hardware for Interfaces, Processors and Systems) Alliance, which will foster collaboration and contributions from the open community to make open-source CPU chip and system-on-a-chip (SoC) design more accessible.
 
 
 

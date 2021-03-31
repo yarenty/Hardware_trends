@@ -1,21 +1,22 @@
-:toc2:
-:toclevels: 4
-:toc-title: Table of contents
 
 = TIG100 - Technology trends
 by Jaroslaw Nowosad (2021)
 
+:toc2:
+:toclevels: 4
+:toc-title: Table of contents
 
 == Executive summary
-TBD: 
-
-* summary of current trends
-* companies in covid time
-* need to have closer look
-
+include::executive.adoc[]
 
 == Intro
 include::{docdir}/intro.adoc[]
+
+== Gartner trends
+include::{docdir}/gartner.adoc[]
+
+
+
 
 == CPU
 
@@ -26,10 +27,18 @@ include::cpu/intel.adoc[]
 include::cpu/ibm.adoc[]
 
 === AMD
-include::cpu/amd.adoc
+include::cpu/amd.adoc[]
 
 === ARM based (NVIDIA)
 include::cpu/arm.adoc[]
+
+
+=== STMicroelectronics
+include::cpu/stmicroelectronic.adoc[]
+
+
+=== Alibaba
+include::cpu/alibaba.adoc[]
 
 
 === Others
@@ -46,8 +55,6 @@ include::gpu/nvidia.adoc[]
 === Intel
 include::gpu/intel.adoc[]
 
-=== Manticore
-include::gpu/manticore.adoc[]
 
 === Cerberas
 include::gpu/cerberas.adoc[]
@@ -80,11 +87,8 @@ include::npu/graphcore.adoc[]
 === Marvell
 include::npu/marvell.adoc[]
 
-
 === Others
 include::npu/others.adoc[]
-
-
 
 
 
@@ -97,25 +101,52 @@ include::fpga/xilinx.adoc[]
 === Intel
 include::fpga/intel.adoc[]
 
+=== Lattice
+include::fpga/lattice.adoc[]
+
+=== Achronix
+include::fpga/achronix.adoc[]
+
+=== Microchip
+include::fpga/microchip.adoc[]
+
 === Tenstorrent
 include::fpga/tenstorrent.adoc[]
 
 === CologneChip
 include::fpga/colognechip.adoc[]
 
-
-
+=== others
+include::fpga/others.adoc[]
 
 
 == SoC
 
 === Apple
-
-=== Intel
-include::soc/intel.adoc[]
+include::soc/apple.adoc[]
 
 === Microsoft
 include::soc/microsoft.adoc[]
+
+=== SiFive
+include::soc/sifive.adoc[]
+
+=== Manticore
+include::soc/manticore.adoc[]
+
+=== OpenCelerity
+include::soc/opencelerity.adoc[]
+
+=== Western Digital
+include::soc/westerndigital.adoc[]
+
+=== Seagate
+include::soc/seagate.adoc[]
+
+
+=== Siemens
+include::soc/siemens.adoc[]
+
 
 === Others
 
@@ -127,13 +158,52 @@ include::quantum/ibm.adoc[]
 
 
 
+
+
 == Software
+
+
+=== Xilinx - Vivado & Vitis
+
+include::software/xilinx.adoc[]
 
 === Intel - oneAPI
 include::software/intel.adoc[]
 
+=== AMD
+include::software/amd.adoc[]
+
+=== Lattice
+include::software/lattice.adoc[]
+
+=== Achronix
+include::software/archonix.adoc[]
+
+=== Synopsys
+include::software/synopsys.adoc[]
+
+=== Siemens - ModelSim
+include::software/siemens.adoc[]
+
+=== Microchip - Libero SoC
+include::software/microchip.adoc[]
+
 === Marvell - OCTEON SDK
 include::software/marvell.adoc[]
+
+=== SiFive Freedom Studio
+include::software/sifive.adoc[]
+
+=== Andes - AndeSight
+include::software/andes.adoc[]
+
+=== Yosys
+include::software/yosys.adoc[]
+
+=== RISC
+include::software/risc.adoc[]
+
+
 
 
 

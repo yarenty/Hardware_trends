@@ -4,7 +4,12 @@
 
 ** Content:
 - CPU - ARM - lots of different versions 
-- GPUs - C
+- GPUs - Cerberas, intel, amd
+- FPGAs - achronix, colognechip, microchip, tenstorrent
+- xPUs - fungible, graphcore, marvell,
+- SoC - manticore, opencelerity, seagate, siemens, sifive
+- new chapter about software!
+- gartner recommendations
 
 
 * v.2021/02

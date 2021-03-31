@@ -40,7 +40,7 @@ It is important to know that essentially RISC-V is an instruction set that defin
 Based on early industry activity, Gartner views RISC-V as an opportunity for the custom chips. Essentially, this trend will not impact the current mass market practices, like application processors in the smartphone market, because this market has been well-served by a group of experiences with rich skill sets, deepened value chains and cross-proven technologies. In contrast, RISC will emerge by complementing the limitations of current play. It provides an alternative opportunity for IoT products looking for innovations or customization that can’t be (or is too expensive to be) achieved by current suppliers.
 
 
-image:img/gartner_1.png[]
+image:{docdir}/img/gartner_1.png[]
 Table 1: Custom ICs Based on RISC-V Will Enable Cost-Effective IoT Product Differentiation
 Continued Activities Led by Top Vendors and Leading Industrial Bodies Around RISC-V Will Reinforce Its Market Adoption
 
