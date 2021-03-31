@@ -1,6 +1,7 @@
+TBD in next release:
+
 * ARM based
 ** Fujitsu
-** Nvidia - bought ARM company,
 ** Samsung
 ** Texas Instruments,
 ** Broadsom- RaspberryPi
@@ -9,21 +10,18 @@
 ** Qualcomm
 ** Rockchip
 
-
-
 * Other X86 based
 ** Hygon
 ** Zhaoxin
 ** Via
 
-* SPARC (MCST, Fujitsu
+* SPARC 
+** MCST
+** Fujitsu
 
-* RISC-V (SiFive , HiFiveUnleashed,
+* MIPS 
+** Wave computing
+** Ingenic Semiconductor
 
-Edge processor
-Alibaba: XuanTie IoT processor RISC-V + SuperScalar OOO pipeline + AI Vector acceleration
-
-
-* MIPS - Wave computing, Ingenic Semiconductor
-
+* NXP - ARM and power
 

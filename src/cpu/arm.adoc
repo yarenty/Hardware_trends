@@ -1,15 +1,51 @@
-
-Design requirements:
-New IoT devices (such as smart speakers) require signal processing and AI calculations
-
-ARM solution:
-Regardless of multi-core (complex software, high power consumption), increase the computing power on the basis of the existing NPU, while satisfying DSP and AI, and try to localize the calculations
-Improve Cortex-M performance without too much power consumption
+[NOTE]
+====
+GTC 21: Top 5 Arm Computing and Ecosystem Sessions
+March 23, 2021
 
 
+NVIDIA and Arm are working together to open new opportunities for partners, users, and developers, driving a new wave of computing around the world.
+
+From powering the world’s largest supercomputers and cloud data centers, to edge devices on factory floors and city streets, the NVIDIA accelerated computing platform is used to help solve the world’s most challenging computational problems.
+
+
+Website: link:http://yarenty.com[]
+====
+
+
+ARM???
 
 
 
-Edge:
-ARM: Cortex M55 + Ethos-U55 (CNN, RNN acceleration) signal processing/AI calculation acceleration
-Harvard: PGMA probability calculation acceleration (Bayesian/MRF/HMM) + algorithm/architecture joint design
+
+---
+
+*GTC 21: March 23, 2021*
+
+* A Vision for the Next Decade of Computing
+
+AI, 5G, and the internet of things are sparking the world’s potential. And for many hardware engineers and software developers, these technologies will also become the challenge of their careers. The question is how to invisibly integrate the new intelligence everywhere by creating more responsive infrastructure that links people, processes, devices, and data seamlessly. Getting there will require architectural leaps, new partnerships, and plenty of creativity. Arm President Rene Haas will discuss the forces pushing these advances and how Arm’s global developer ecosystem will react to drive the next wave of compute.
+
+* Introducing Developer Tools for Arm and NVIDIA Systems
+
+NVIDIA GPUs on Arm servers are here. In migrating to, or developing on, Arm servers with NVIDIA GPUs, developers using native code, CUDA, and OpenACC continue to need tools and toolchains to succeed and to get the most out of applications. We’ll explore the role of key tools and toolchains on Arm servers, from Arm, NVIDIA and elsewhere — and show how each tool fits in the end-to-end journey to production science and simulation.
+
+* The Arm HPC User Group: An Open Community for Arm-Based Research and Engagement
+
+We’ll introduce the newly created Arm HPC User Group, which provides a forum for application developers, system integrators, tool vendors, and implementers to share their experiences. Learn about the history of Arm for HPC and see what plans the Arm HPC User Group has to engage with users and researchers over the coming year. You don’t need an in-depth technical knowledge of either Arm systems or HPC to attend or appreciate this talk.
+
+
+* HPC Applications on Arm and NVIDIA A100
+
+By design, HPC applications have radically different performance characteristics across domains of expertise. Achieving a balanced computing platform that addresses a breadth of HPC applications is a fundamental advance in the HPC state of the art. We demonstrate that Arm-based CPUs (such as the Ampere Altra), paired with NVIDIA GPUs (such as the NVIDIA A100), comprise a balanced, performant, and scalable supercomputing platform for any HPC application, whether CPU-bound, GPU-accelerated, or GPU-bound. We present the runtime performance profiles of representative applications from genomics.
+
+
+* Scalable, Efficient, Software-Defined 5G-Enabled Edge Based on NVIDIA GPUs and Arm Servers
+
+We’ll demonstrate a scalable, performance-optimized 5G-enabled edge cloud that’s based on Arm servers with NVIDIA GPUs. We’ll focus on fully software-defined 5G Distributed Unit (DU) with an NVIDIA GPU/Aerial-based PHY layer with the upper layers based on Ampere Altra server based on Arm Neoverse N1 CPU. We’ll cover the performance, scale, and power benefits of this architecture for a centralized radio access network architecture.
+
+[IMPORTANT]
+.Note from Jaro
+====
+
+====

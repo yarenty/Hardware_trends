@@ -59,7 +59,7 @@ Additionally, Intel demonstrated “Alder Lake,” the next-generation processor
 ====
 Intel - it is considered as CPU leader but question is: for how long?. Last year Apple resigned from using Intel CPUs, complaining about innovation - and Apple created it's own processor based on ARM architecture - M1 (see in SoC chapter). IBM on top of moving to 7nm added AI on-chip. Looks like Intel is missing signals from the rivals.
     
-_11-nm or 10-nm compared to 4-nm by Apple? See: link:https://www.macrumors.com/2021/03/30/4nm-chips-for-apple-silicon-macs/[macrumours]_
+_11-nm or 10-nm compared to 7-nm by IMB or 4-nm by Apple? See: link:https://www.macrumors.com/2021/03/30/4nm-chips-for-apple-silicon-macs/[macrumours]_
 
 However do not forget about Intel's TPUs (Habana), FPGAs, GPU - Xe architecture, or oneAPI programming model.
 ====
