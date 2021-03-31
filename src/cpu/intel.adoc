@@ -4,23 +4,20 @@
 CES 2021 (Jan. 11, 2021): Intel Announces Four New Processor Families.
 
 * 11th Gen Intel® Core™ vPro® platform and Intel® Evo™ vPro® platform.
-* ew N-series 10-nanometer Intel® Pentium® Silver and Intel® Celeron® processors.
+* N-series 10-nanometer Intel® Pentium® Silver and Intel® Celeron® processors.
 * 11th Gen Intel® Core™ H-series mobile processors for gaming platforms .
 * 11th Gen Intel® Core™ S-series desktop processors (code-named “Rocket Lake-S”) and its next-generation processors (code-named “Alder Lake”).
-
 
 Website: link:https://newsroom.intel.com/news-releases/ces-2021-intel-announces-four-new-processor-families/[]
 ====
 
 
-
-image:../img/Intel-Core-H-35-Mobile-2x.jpg[]
-
+[.text-center]
+image:../img/Intel-Core-H-35-Mobile-2x.jpg[pdfwidth=50%,width=50%,align="center"]
 
 In a world where computing is pervasive and intelligence is distributed across every surface – from the cloud to the network to the intelligent edge – Intel today at CES 2021 highlighted how it is driving technology leadership to define the future of computing for people, business and society.
 
 To help people navigate through this extraordinary time, Intel introduced new processors for business, education, mobile and gaming computing platforms – all designed to offer the premium PC experiences people deserve, with the most choices and no limits.
-
 
 * Intel launched the 11th Gen Intel® Core™ vPro® platform and Intel® Evo™ vPro® platform, delivering the highest performance and most comprehensive hardware-based security1.
 * Intel introduced the new N-series 10-nanometer Intel® Pentium® Silver and Intel® Celeron® processors that offer an unmatched balance of performance, media and collaboration for education systems.
@@ -32,11 +29,11 @@ To help people navigate through this extraordinary time, Intel introduced new pr
 
 For business, Intel introduced the 11th Gen Intel vPro platform, an unrivaled business platform delivering the industry’s highest performance and world’s most comprehensive hardware-based security2. The new 11th Gen Intel Core vPro processors unveiled today are based on the world’s best business processor for thin-and-light laptops2 and, when combined with the new Intel Core vPro platform, offer:
 
-Intel® Hardware Shield, providing the world’s most comprehensive security deep in hardware for business3 and the industry’s first silicon-enabled artificial intelligence (AI) threat detection to help stop ransomware and crypto-mining attacks. It is also equipped with Intel® Control Flow Enforcement Technology, ground-breaking technology to help shut down an entire class of attacks that long evaded software-only solutions4.
-Intel 10-nanometer (nm) SuperFin technology, delivering industry-leading performance, Intel® Iris® Xe graphics and the world’s biggest Wi-Fi improvement in 20 years – with integrated Intel® Wi-Fi 6/6E (Gig+) that enables up to six times faster uploads and downloads in the office and nearly three times faster speeds at home versus standard Wi-Fi 55.
-Eight times6 better AI performance, enabling businesses new compute power to keep pace with the fast-changing software ecosystem, and up to 2.3 times faster7 creation and video editing compared to the previous generation.
-Up to 23% faster productivity8 than the competition when using apps like Office 365 and the best business collaboration experience, enabling more than 50% faster9 office productivity compared to the competition while on a video conference call.
-Intel also launched the Intel® Evo™ vPro® platform, the best laptop experience for business users10. Laptop designs verified on the Intel Evo vPro platform are stylish, thin and light and provide an amazing immersive visual experience. They also offer remarkable responsiveness, instant wake and real-world battery life. More than 60 new laptops from top manufacturers will be available this year, combining the security and manageability of vPro and the amazing on-the-go experiences of Intel Evo. Additionally, Intel announced Intel Evo Chromebooks, enabling a new class of premium Chromebooks.
+- Intel® Hardware Shield, providing the world’s most comprehensive security deep in hardware for business3 and the industry’s first silicon-enabled artificial intelligence (AI) threat detection to help stop ransomware and crypto-mining attacks. It is also equipped with Intel® Control Flow Enforcement Technology, ground-breaking technology to help shut down an entire class of attacks that long evaded software-only solutions4.
+- Intel 10-nanometer (nm) SuperFin technology, delivering industry-leading performance, Intel® Iris® Xe graphics and the world’s biggest Wi-Fi improvement in 20 years – with integrated Intel® Wi-Fi 6/6E (Gig+) that enables up to six times faster uploads and downloads in the office and nearly three times faster speeds at home versus standard Wi-Fi 55.
+- Eight times better AI performance, enabling businesses new compute power to keep pace with the fast-changing software ecosystem, and up to 2.3 times faster7 creation and video editing compared to the previous generation.
+- Up to 23% faster productivity8 than the competition when using apps like Office 365 and the best business collaboration experience, enabling more than 50% faster9 office productivity compared to the competition while on a video conference call.
+- Intel also launched the Intel® Evo™ vPro® platform, the best laptop experience for business users10. Laptop designs verified on the Intel Evo vPro platform are stylish, thin and light and provide an amazing immersive visual experience. They also offer remarkable responsiveness, instant wake and real-world battery life. More than 60 new laptops from top manufacturers will be available this year, combining the security and manageability of vPro and the amazing on-the-go experiences of Intel Evo. Additionally, Intel announced Intel Evo Chromebooks, enabling a new class of premium Chromebooks.
 
 *New Processors and Partnerships for Best Education Platform*
 
@@ -57,11 +54,12 @@ Intel also demonstrated next-generation desktop technology for gamers and enthus
 Additionally, Intel demonstrated “Alder Lake,” the next-generation processor that represents a significant breakthrough in x86 architecture and Intel’s most power-scalable system-on-chip. Due in second half of 2021, Alder Lake will combine high-performance cores and high-efficiency cores into a single product. Alder Lake will also be Intel’s first processor built on a new, enhanced version of 10nm SuperFin and will serve as the foundation for leadership desktop and mobile processors that deliver smarter, faster and more efficient real-world computing.
 
 
-
 [IMPORTANT]
 .Note from Jaro
 ====
 Intel - it is considered as CPU leader but question is: for how long?. Last year Apple resigned from using Intel CPUs, complaining about innovation - and Apple created it's own processor based on ARM architecture - M1 (see in SoC chapter). IBM on top of moving to 7nm added AI on-chip. Looks like Intel is missing signals from the rivals.
+    
+_11-nm or 10-nm compared to 4-nm by Apple? See: link:https://www.macrumors.com/2021/03/30/4nm-chips-for-apple-silicon-macs/[macrumours]_
 
 However do not forget about Intel's TPUs (Habana), FPGAs, GPU - Xe architecture, or oneAPI programming model.
 ====
