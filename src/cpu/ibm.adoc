@@ -22,7 +22,8 @@ Designed over five years with hundreds of new and pending patents, the IBM POWER
 
 Samsung will manufacture the IBM POWER10 processor, combining Samsung’s industry-leading semiconductor manufacturing with IBM’s CPU designs.
 
-image:../img/IBM_systems_power_p9_chip_1320x520.webp[]
+[.text-center]
+image:../img/IBM_systems_power_p9_chip_1320x520.png[pdfwidth=50%,width=50%,align="center"]
 
 Need to mention technology that came with POWER 9:
 
@@ -35,7 +36,6 @@ Need to mention technology that came with POWER 9:
 [IMPORTANT]
 .Note from Jaro
 ====
-IBM drives in miniaturization. They cooperate with Samsung.
 Trend is ... obvious - not only smaller but also with AI part - embedded matrix math accelerator (FP32, BFloat16, INT8).
 Do not forget technology that came with previous version - POWER 9: on-chip GZIP, CPU-GPU ultra-high bandwidth, OpenCAPI - bandwidth for communication with NICs, storage and FPGA accelerators.
 ====
