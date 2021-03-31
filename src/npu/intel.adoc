@@ -1,5 +1,4 @@
 
-
 [NOTE]
 ====
 
@@ -42,7 +41,10 @@ Compared with competing architectures, customers do not need to add an array of 
 
 Ethernet switches, unlike proprietary connectivity switches, are available from many vendors with greater options in port- count to choose from (from small switches to 25.6Tbps with 128 ports of 100GbE in a single chip or bigger).
 
-image:../img/GAUDI_arch.png[]A high-level scheme of the Gaudi architecture.
+[.text-center]
+image:../img/GAUDI_arch.png[pdfwidth=60%,width=60%,align="center"]
+
+A high-level scheme of the Gaudi architecture.
 
 
 ---
@@ -72,14 +74,15 @@ support different workloads and applications, under quantization controls that t
 ---
 
 *SYNAPSE AI* SOFTWARE SUITE FOR TRAINING
-
-image:../img/synapseai-1.png[]
+[.text-center]
+image:../img/synapseai-1.png[pdfwidth=30%,width=30%,align="center"]
 
 Habana’s SynapseAI software suite is designed to facilitate high-performance DL training on Gaudi accelerators. The software suite includes Habana’s graph compiler and runtime, communication libraries, TPC kernel library, firmware and drivers. 
 
 SynapseAI is integrated with TensorFlow and PyTorch frameworks, and performance-optimized for Gaudi
 
-image:../img/Intel_goya_software.png[]
+[.text-center]
+image:../img/Intel_goya_software.png[pdfwidth=80%,width=80%,align="center"]
 
 
 [IMPORTANT]

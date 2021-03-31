@@ -41,8 +41,8 @@ Marvell’s OCTEON™ Arm 64-bit DPUs combine up to 36 cores with configurable a
 A 4 core Arm Cortex-A72 DPUs with up to 2.2 GHz frequency. It supports up to 18 lanes high-speed SerDes interfaces, PCIe 3.0 with up to 14 lanes and acceleration engines for networking, public key, security and time stamping.
 
 
-
-image:../img/marvell_OCTEON_TX2_CN9130.png[]
+[.text-center]
+image:../img/marvell_OCTEON_TX2_CN9130.png[pdfwidth=80%,width=80%,align="center"]
 
 
 
@@ -50,7 +50,8 @@ image:../img/marvell_OCTEON_TX2_CN9130.png[]
 
 DPUs with 12-36 64-bit Arm v8 cores at 2.4 GHz per core. The family incorporates NITROX® V security accelerator, DPI engine, compression, QoS and PCIe 4.0. It also supports hardware virtualization, and up to 56 lanes of SerDes.
 
-image:../img/marvell_OCTEON_TX2_CN92XX.png[]
+[.text-center]
+image:../img/marvell_OCTEON_TX2_CN92XX.png[pdfwidth=60%,width=60%,align="center"]
 
 
 
@@ -59,7 +60,8 @@ image:../img/marvell_OCTEON_TX2_CN92XX.png[]
 
 DPUs with 8-24 64-bit Armv8 cores at 1.8 GHz per core. The family incorporates security engine, DPI, compression, QoS, SATA 3.0, USB 3.0, PCIe 3.0. and up to 22 lanes of SerDes
 
-image:../img/marvell_OCTEON_TX_CN82XX_CN83XX.png[]
+[.text-center]
+image:../img/marvell_OCTEON_TX_CN82XX_CN83XX.png[pdfwidth=60%,width=60%,align="center"]
 
 
 
@@ -78,7 +80,8 @@ The Marvell OCTEON family of MIPS64 data processing units, is the only DPU famil
 
 CN7XXX scales up to 48 64-bit cnMIPS64 III cores at 1.8 GHz. The family supports standard SerDes I/O with multiple ports of PCIe 3.0, SATA 6G and hardware acceleration engines for 100 Gbps data processing.
 
-image:../img/marvell_OCTEON_III_CN7XXX.png[]
+[.text-center]
+image:../img/marvell_OCTEON_III_CN7XXX.png[pdfwidth=80%,width=80%,align="center"]
 
 
 * *OCTEON TX2 LiquidIO III SmartNIC*
@@ -112,12 +115,14 @@ The Prestera 7K switch family connects and aggregates large pipelines and assure
 - Delivers best in class scalability, performance, power and cost
 - Provides a highly programmable solution
 - Supports massive MIMO RU deployments
- 
 
 
 
 
-image:../img/marvell_deployment.png[]
+[.text-center]
+image:../img/marvell_deployment.png[pdfwidth=60%,width=60%,align="center"]
+
+
 
 ** OCTEON Fusion-O RU
 
@@ -132,7 +137,8 @@ image:../img/marvell_deployment.png[]
 
 Family of switches optimized for Carrier Ethernet Access and Edge. Incorporates Class C PTP/SyncE, advanced security, and enhanced network telemetry and intelligence for actionable analytics. Supports flexible I/O speeds from 1G to 400G.
 
-image:../img/marvell_deploymend_dci_edge.png[]
+[.text-center]
+image:../img/marvell_deploymend_dci_edge.png[pdfwidth=60%,width=60%,align="center"]
 
 
 
@@ -154,8 +160,8 @@ Marvell ARMADA data processing units are custom designed to deliver optimal perf
 
 ARMADA 7040 includes quad-core ARM Cortex-A72 64-bit processor with up to 1.4 GHz CPU clock speed. The processor supports up to 6 SerDes lanes, PCIe 3.0 and acceleration engines for storage, networking and security.
 
-
-image:../img/marvell_ARMADA_7040.png[]
+[.text-center]
+image:../img/marvell_ARMADA_7040.png[pdfwidth=80%,width=80%,align="center"]
 
 
 

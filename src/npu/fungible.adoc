@@ -1,6 +1,7 @@
 Fungible DPU: Hyper-disaggregation data exchange and data management
 
-image:../img/dpu-isolated-debossed.png[DPU,200,200,float="right",align="center"]
+[.text-center]
+image:../img/dpu-isolated-debossed.png[pdfwidth=20%,width=20%,float="right",align="center"]
 
 
 
@@ -23,21 +24,25 @@ optimized for data-centric computing. Data-centric computing combines executing 
 computations within server nodes andefficiently moving data among nodes. Data-centric computations
 are characterized by stateful processing of data streams at high rates. They are typified by networking,
 security and storage stacks, and today represent 30% of the modern server workloads.
+
 The S1 DPU is the industry’s mostflexible 200Gbps DPU, capable of executing data-centric
 computations more efficiently than general-purposeCPUs. The S1 DPU fully offloads the entire
 storage, networking, security and virtualization stack from x86 cores in host servers,freeing up
 more than 50% ofthe x86CPUs’ cycles to run application workloads.
+
 The S1 DPU also facilitates highly efficient data interchange among server nodes through its
 TrueFabricTM technology.TrueFabric is a large-scale IP-over-Ethernetfabric protocolthatprovides
 full network cross-sectional bandwidth with low average and tail latency, end-to-endQoS,
 congestion-free connectivity and security among server nodes. The TrueFabric™ protocol is fully
 standards-compliant and interoperable with TCP/IP over Ethernet, ensuring thatthe data center
+
 Spine-Leaf network can be built with standard off-the-shelf Ethernet switches.
 By combining these key capabilities into a single solution, the Fungible DPU family of processors
 enables hyperdisaggregation and pooling of compute and storage resources - delivering a highperformance, massively scalable composable infrastructure for next generation data centers!
 
 
-image:../img/fungible1.png[]]
+[.text-center]
+image:../img/fungible1.png[pdfwidth=100%,width=100%,align="center"]
 
 
 *S1 DPU ARCHITECTURE*
@@ -45,11 +50,13 @@ image:../img/fungible1.png[]]
 The Fungible DPU family of processors leverage the same hardware and software co-design and
 share the exact same programming model. However, while the F1 DPU is designed for highperformance standalone appliances such as storage, security, AI and analytics servers, the S1 DPU
 maximizes performance within the footprint and power envelope of a standard PCIe adapter.
+
 The S1’s advanced SoC architecture integrates clusters of multi-core processors that runs a
 cleanly separated control plane and data plane. These clusters are interconnected through a fast
 network-on-chip (NoC) to a carefully selected collection of hardware accelerator blocks. The SoC
 interacts with external components through standard Ethernet network ports and PCIe Gen 3/
 Gen 4 controllers supporting Endpoint (EP) SR-IOV and Root Complex (RC) functionality.
+
 The novel architecture of the Fungible DPU enables a unique combination of performance and
 flexibility - delivering a solution where the datapath is fully programmable, yet is fundamentally
 more efficient; achieving higher throughput, maintaining lower latency and consuming less power
@@ -60,7 +67,7 @@ than existing solutions.
 [IMPORTANT]
 .Note from Jaro
 ====
-They are currently booming - got couple of awards between October and December 2020 (Layer123, FLash Memory Summit 2020, CRN, SDC Awards 2020), 
+They are currently booming - got a couple of awards between October and December 2020 (Layer123, FLash Memory Summit 2020, CRN, SDC Awards 2020), 
 
 March 30, 2021 - there will be Fungible Product Launch: Fungible Data Centers, Hyperscale Infrastructure for All
 ====
