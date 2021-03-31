@@ -1,0 +1,60 @@
+[NOTE]
+====
+*AMD Instinct™ Accelerators*
+
+The AMD Instinct™ MI100 accelerators designed with the AMD CDNA™ Architecture encompass AMD Infinity Architecture, offering an advanced platform for tightly connected GPU systems so workloads can share data fast and efficiently.
+
+- Advanced platform connectivity and scalability
+- 2x greater P2P bandwidth then PCIe® Gen4
+- Up to 552 GB/s P2P bandwidth in quad GPU Hives4
+
+Website: link:https://www.amd.com/en/products/server-accelerators/instinct-mi100[]
+====
+
+
+
+The 7nm AMD Instinct MI100 accelerator is the first implementation of the AMD CDNA architecture and brings the open ROCm ecosystem  to life, offering the next level of performance, productivity, and portability for the industry. The MI100 is the first x86 server GPU to break  the 10TFLOP/s (FP64) barrier for HPC and delivers up to a nearly 7X boost in computational (FP16) throughput for machine learning over the  prior generation. Moreover, it brings improved connectivity and scaling with AMD’s 2nd Gen Infinity architecture providing the building blocks for designing systems with dual, fully-connected, quad GPU hives, each with up to 552 GB/s of peak peer-to-peer I/O bandwidth in a computing node. 
+
+The robust ROCm ecosystem builds on this foundation and enables a comprehensive set of high-productivity tools that  empower customers to easily migrate, develop, and deploy applications at any scale. The open nature of the ROCm ecosystem guarantees portability, improves customer and developer productivity, and helps assure security as well. Most importantly, some the world’s largest
+
+Exascale supercomputers are already deploying ROCm and the MI100 and demonstrating the benefits for leading scientific computing and  machine learning applications.
+
+[IMPORTANT]
+.Note from Jaro
+====
+
+
+====
+
+
+
+Mobile
+AMD: Energy efficiency improvement dominates micro-architecture + processor architecture innovation to promote the overall performance of Renior
+
+
+2014: Increase the energy efficiency of mobile processors by 25 in 2020
+2020: "Renior" completes 31x energy efficiency improvement, the processor is mainly used for ultra-thin notebooks; 5x performance improvement, 84% lower energy consumption
+
+
+Zen2 CPU micro-architecture optimization
+15% IPC improvement compared to Zen; hierarchical cache optimization for Renior; each Renior Die has two Zen2 cores
+VEGA GPU maximizes the efficiency of each processing unit
+25% increase in peak graphics clock + 77% increase in peak memory bandwidth; 2x data interface
+Two memory controllers
+Infinity fabric
+75% better energy efficiency; 77% higher memory bandwidth
+
+
+
+Intelligent low-power state selection
+Increase in power consumption status exposed to ACPI: 1 -> 3
+Optimize the duration and depth of each state
+
+Optimize battery life
+SoC power consumption reduced by 20%
+Low power state management and efficiency improvement
+
+Closed loop "thermal" management system
+Hot spot temperature sensing
+The temperature information is transmitted to the infinity fabric through the embedded controller
+The system dynamically adjusts the power consumption limit according to the external temperature information of the machine
