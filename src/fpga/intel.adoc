@@ -3,8 +3,6 @@
 
 [NOTE]
 ====
-
-
 Intel® FPGAs offer a wide variety of configurable embedded SRAM, high-speed transceivers, high-speed I/Os, logic blocks, and routing. Built-in intellectual property (IP) combined with outstanding software tools lower FPGA development time, power, and cost:
 
 * *Intel® Agilex™ FPGAs*
@@ -31,7 +29,7 @@ Website: link:https://www.intel.com/content/www/us/en/products/programmable.html
 
 Intel® Agilex™ SoC FPGAs provide the agility and flexibility to address a broad range of markets with tailored solutions.
 
-
+[.text-center]
 image:../img/Intel_badge-agilex-16x9.png.rendition.intel.web.320.180.png[]
 
 To meet the needs of high-end applications with the most demanding performance requirements, Intel offers the Intel® Stratix® series. The Intel® Arria® series balances cost and power with performance for midrange applications. The Intel® Cyclone® series provides low system cost and power coupled with performance levels that make the device family ideal for differentiating high-volume applications.
@@ -88,82 +86,92 @@ A Secure Device Manager will serve as the central command center for the entire 
 
 
 
-Intel® Stratix® 10 SoC FPGAs
+*Intel® Stratix® 10 SoC FPGAs*
+
+
 Intel® Stratix® 10 SoC FPGAs offer breakthrough advantages in bandwidth and system integration, including a next-generation hard processor system (HPS). Intel® Stratix® 10 SoC FPGAs feature the revolutionary Intel® Hyperflex™ FPGA Architecture and are manufactured on the Intel 14 nm Tri-Gate process, delivering breakthrough levels of performance and power efficiencies that were previously unimaginable. When coupled with 64 bit quad-core ARM* Cortex*-A53 processor and advanced heterogeneous development and debug tools such as the Intel® SDK for OpenCL™ 2 and SoC Embedded Design Suite (EDS), Intel® Stratix® 10 SoC FPGAs offer the industry’s most versatile heterogeneous computing platform.
 
 
-Achieve High Levels of System Integration
+- Achieve High Levels of System Integration
+
 Intel® Stratix® 10 SoCs empowers the USR in the ARM* ecosystem. ARM's next-generation 64-bit architecture (ARMv8) enabling enable hardware virtualization, system management and monitoring capabilities, and acceleration pre-processing. The ARM* Cortex-A53* processor supports 32-bit execution mode and board support packages for popular operating system including Linux*, Wind River’s VxWorks*, Micrium’s uC/OS-II* and uC/OS-III*, and more.
 
-Achieve High Designer Productivity with Optimized FPGA and SoC Design Software
+- Achieve High Designer Productivity with Optimized FPGA and SoC Design Software
+
 New engine optimized for multi-million logic elements (LE) FPGA designs providing significant reduction in design iterations, Intel® Stratix® 10 SoC Virtual Platform to enable early software development and verification, and C-based design entry using the Intel® FPGA SDK for OpenCL™, offering a design environment that is easy to implement on SoC FPGAs. Heterogeneous debug, profiling, and whole chip visualization with Intel® FPGA SoC FPGA Embedded Development Suite (EDS) featuring the ARM* Development Studio 5* (DS-5*) Intel® SoC FPGA Edition Toolkit.
 
-
-image:../img/Intel_stratix-10-soc-diagram-rev-16x9.jpg.rendition.intel.web.864.486.jpg[]
-
----
-
-Intel® Arria® 10 SoC FPGAs
-The 20 nm ARM-based Intel® Arria® 10 SoC FPGAs deliver optimal performance, power efficiency, small form factor, and low cost for midrange applications. The Intel® Arria® 10 SoC FPGAs, based on TSMC’s 20 nm process technology, combine a dual-core ARM* Cortex*-A9 MPCore* HPS with industry-leading programmable logic technology that includes hardened floating-point digital signal processing (DSP) blocks. By utilizing the same dual-core ARM* Cortex*-A9 processor as the Arria® V SoC FPGA, the Intel® Arria® 10 SoC FPGA offers an easy performance upgrade and software migration path for Arria® V SoC FPGA designs.
-
-
-The 20 nm ARM*-based Intel® Arria® 10 SoC delivers optimal performance, power efficiency, small form factor, and low cost for midrange applications. The Intel Arria 10 SoC, based on TSMC’s 20 nm process technology, combines a dual-core ARM Cortex*-A9 MPCore* Hard Processor System (HPS) with industry-leading programmable logic technology that includes hardened floating-point digital signal processing (DSP) blocks. The Intel Arria 10 SoC offers a processor with a rich feature set of embedded peripherals, hardened floating-point variable-precision DSP blocks, embedded high-speed transceivers, hard memory controllers, and protocol intellectual property (IP) controllers - all in a single highly integrated package.
-
+[.text-center]
+image:../img/Intel_stratix-10-soc-diagram-rev-16x9.jpg.rendition.intel.web.864.486.jpg[pdfwidth=90%,width=90%,align="center"]
 
 ---
 
+*Intel® Arria® 10 SoC FPGAs*
 
-Arria® V SoC FPGAs
+The 20 nm ARM-based Intel® Arria® 10 SoC FPGAs deliver optimal performance, power efficiency, small form factor, and low cost for midrange applications. The Intel® Arria® 10 SoC FPGAs, based on TSMC’s 20 nm process technology, combine a dual-core ARM* Cortex*-A9 MPCore* HPS with industry-leading programmable logic technology that includes hardened floating-point digital signal processing (DSP) blocks. By utilizing the same dual-core ARM* Cortex*-A9 processor as the Arria® V SoC FPGA, the Intel® Arria® 10 SoC FPGA offers an easy performance upgrade and software migration path for Arria® V SoC FPGA designs. The Intel Arria 10 SoC offers a processor with a rich feature set of embedded peripherals, hardened floating-point variable-precision DSP blocks, embedded high-speed transceivers, hard memory controllers, and protocol intellectual property (IP) controllers - all in a single highly integrated package.
+
+
+---
+
+
+*Arria® V SoC FPGAs*
+
 Arria® V SoC FPGAs provide the highest bandwidth with the lowest total power for midrange applications such as remote radio units, 10G/40G line cards, medical imaging, and broadcast studio equipment. The combination of a HPS consisting of a dual-core ARM* Cortex*-A9 processor, peripherals, and memory interfaces with our flexible 28 nm FPGA fabric lets you reduce system power, cost, and board space.
 
 SoC FPGAs are more than the sum or their parts. It is critically important to understand how the processor and FPGA systems work together to accomplish each task. When you choose an SoC FPGA for your next design, architecture matters. Intel® SoC FPGAs are designed to:
 
-Preserve the flexibility of processor boot / FPGA configuration sequence, system response to processor reset, and independent memory interfaces of a two-chip solution
-Maintain data integrity and reliability with integrated ECC
-Protect DRAM memory shared by the processor and FPGA with an integrated memory protection unit
-Enable system-level debug with Intel's FPGA-adaptive debugging for unmatched visibility and control of the whole device
+- Preserve the flexibility of processor boot / FPGA configuration sequence, system response to processor reset, and independent memory interfaces of a two-chip solution
+- Maintain data integrity and reliability with integrated ECC
+- Protect DRAM memory shared by the processor and FPGA with an integrated memory protection unit
+- Enable system-level debug with Intel's FPGA-adaptive debugging for unmatched visibility and control of the whole device
 
-
-image:../img/Intel_arria-v-soc-floorplan-16x9.jpg.rendition.intel.web.480.270.jpg[]
+[.text-center]
+image:../img/Intel_arria-v-soc-floorplan-16x9.jpg.rendition.intel.web.480.270.jpg[pdfwidth=90%,width=90%,align="center"]
 
 ---
 
 
-Cyclone® V SoC FPGAs
+*Cyclone® V SoC FPGAs*
+
 Cyclone® V SoC FPGAs provide the industry's lowest system cost and power. The SoC FPGA high performance levels are ideal for differentiating high-volume applications such as industrial motor control drives, protocol bridging, video converter and capture cards, and handheld devices. SoC FPGAs come in a wide range of programmable logic densities with many system-level functions hardened in silicon-a dual-core ARM* Cortex*-A9 HPS, embedded peripherals, multiport memory controllers, serial transceivers, and PCI Express* (PCIe*) ports.
 
 
 
-ARM*-Based HPS
+*ARM -Based HPS*
+
 The Cyclone® V SoC FPGA HPS consists of a dual-core ARM* Cortex*-A9 MPCore* processor, a rich set of peripherals, and a multiport memory controller shared with logic in the FPGA, giving you the flexibility of programmable logic and the cost savings of hard intellectual property (IP) due to:
-Single- or dual-core processor with up to 925 MHz maximum frequency.
-Hardened embedded peripherals eliminate the need to implement these functions in programmable logic, leaving more FPGA resources for application-specific custom logic and reducing power consumption.
-Hardened multiport memory controller, shared by the processor and FPGA logic, supports DDR2, DDR3, and LPDDR2 devices with integrated error correction code (ECC) support for high-reliability and safety-critical applications.
-High-Bandwidth Interconnect
+
+- Single- or dual-core processor with up to 925 MHz maximum frequency.
+- Hardened embedded peripherals eliminate the need to implement these functions in programmable logic, leaving more FPGA resources for application-specific custom logic and reducing power consumption.
+- Hardened multiport memory controller, shared by the processor and FPGA logic, supports DDR2, DDR3, and LPDDR2 devices with integrated error correction code (ECC) support for high-reliability and safety-critical applications.
+- High-Bandwidth Interconnect
+
+
 High-throughput datapaths between the HPS and FPGA fabric provide interconnect performance not possible in two-chip solutions. This tight integration provides:
 
-Over 100 Gbps peak bandwidth.
-Integrated data coherency.
-Significant system power savings by eliminating the external I/O paths between the processor and the FPGA.
+- Over 100 Gbps peak bandwidth.
+- Integrated data coherency.
+- Significant system power savings by eliminating the external I/O paths between the processor and the FPGA.
+
 Flexible FPGA Fabric
+
 The FPGA logic fabric lets you differentiate your system by implementing custom IP or off-the-shelf preconfigured IP from Intel or its partners into your designs. This allows you to:
 
-Adapt quickly to varying or changing interface and protocol standards.
-Add custom hardware in the FPGA to accelerate time-critical algorithms and create a compelling competitive edge.
-Quickly deploy a custom ARM* processor without the extensive design, verification, and non-recurring engineering (NRE) costs required in ASICs.
+- Adapt quickly to varying or changing interface and protocol standards.
+- Add custom hardware in the FPGA to accelerate time-critical algorithms and create a compelling competitive edge.
+- Quickly deploy a custom ARM* processor without the extensive design, verification, and non-recurring engineering (NRE) costs required in ASICs.
+
 Architecture Matters
+
 Because Cyclone® V SoC FPGAs integrate many hard IP blocks, you can lower your overall system cost, power, and design time. SoC FPGAs are more than the sum or their parts. How the processor and FPGA systems work together matters greatly to your system’s performance, reliability, and flexibility. Intel® SoC FPGAs are designed to:
 
-Preserve the flexibility of processor boot or FPGA configuration sequence, system response to processor reset, and independent memory interfaces of a two-chip solution.
-Maintain data integrity and reliability with integrated ECC.
-Protect DRAM memory shared by the processor and FPGA with an integrated memory protection unit.
-Enable system-level debug with Intel’s FPGA-adaptive debugging for unmatched visibility and control of the whole device.
-Not All SoC FPGAs Are Created Equal. Architecture Matters.
-Learn how to choose the right SoC FPGA for your application from our extensive set of resources, including a short series of videos from processor expert Jim Turley.
+- Preserve the flexibility of processor boot or FPGA configuration sequence, system response to processor reset, and independent memory interfaces of a two-chip solution.
+- Maintain data integrity and reliability with integrated ECC.
+- Protect DRAM memory shared by the processor and FPGA with an integrated memory protection unit.
+- Enable system-level debug with Intel’s FPGA-adaptive debugging for unmatched visibility and control of the whole device.
 
 
-
-image:../img/Intel_cyclone-v-soc-architectural-16x9.jpg.rendition.intel.web.480.270.jpg[]
+[.text-center]
+image:../img/Intel_cyclone-v-soc-architectural-16x9.jpg.rendition.intel.web.480.270.jpg[pdfwidth=90%,width=90%,align="center"]
 
 ---
 
@@ -206,7 +214,7 @@ Intel® FPGAs offer a wide variety of configurable embedded SRAM, high-speed tra
 - Arria 
 - Cyclone
 
-Intel FPGAs are impressive - that's why if you look for volume FPGA world is divided by Intel ans Xilinx - they both get 90% FPGA solutions, and they both are most advanced.
+Intel FPGAs are impressive - if you look for FPGA world is divided by Intel and Xilinx - they both contribute to something between 80% and 90% FPGA solutions, and they both are most advanced.
 
-There is separate eASC family of devices with ready IP cores from Intel and third-party alliance partners.
+There is separate eASIC family of devices with ready IP cores from Intel and third-party alliance partners, which could be interesting alternative for companies that do not have access to developers who can code FPGAs.
 ====
