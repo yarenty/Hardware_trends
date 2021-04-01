@@ -2,6 +2,7 @@
 [NOTE]
 ====
 Cologne Chip - The smart semiconductor company
+
 Specialized in Telecoms -  ISDN Transceiver ICs, ASSIC IP Cores in the fiels of telecommunication interfaces - C^3IP - fullyu digital implementation instead of analog functional blocks (they claim it works).
 
 The programmable silicon of GateMateTM FGPA can be used in low-power and speed applications and thus in a wide range of areas: Industry, automation, communication, AI, automotive, IoT and much more.
@@ -19,7 +20,8 @@ The GateMateTM FPGA family of Cologne Chip AG addresses all application requirem
 
 All this is based on a novel FPGA architecture combining a special Central Programmable Element (CPE) with a smart routing engine. Furthermore, arbitrary size Multipliers are usable. Memory aware applications can use block RAMs with bit widths of 1 to 80 bits. Even bit-wise enable is possible.
 
-image:../img/GateMate_CCGM1A1_front-back-300x147.png[]]
+[.text-center]
+image:../img/GateMate_CCGM1A1_front-back-300x147.png[pdfwidth=40%,width=40%,align="center"]
 
 General Purpose IOs (GPIOs) can use different voltage levels from 1.2 to 2.5 Volt. GPIOs can be configured as single-ended or LVDS differential type. Furthermore a high speed SerDes interface is available.
 
@@ -29,8 +31,8 @@ A Static Timing Analysis (STA) is also performed and gives evidence about critic
 
 The devices are manufactured using GlobalfoundriesTM 28 nm SLP (Super Low Power) process. Due to manufacturing in Europe, there is no danger of trade restrictions or high taxation.
 
-
-image:../img/GateMate1.png[]
+[.text-center]
+image:../img/GateMate1.png[pdfwidth=90%,width=90%,align="center"]
 
 *GateMateTM FPGA Features*
 
@@ -46,7 +48,7 @@ Low Power Consumption
 * GlobalfoundriesTM 28 nm SLP (Super Low Power) process
 * 3 operation modes: low power, economy, speed
 * No excessive start-up currents
-*Only two supply voltages needed, can be applied in any order
+* Only two supply voltages needed, can be applied in any order
 
 Features
 
@@ -69,14 +71,14 @@ Package
 [IMPORTANT]
 .Note from Jaro
 ====
-They are proud of "Made in Germany", and looks like stable German company.
+Colognechip company are proud of title: "Made in Germany", and looks like stable German company.
 
 GateMate - is quite innovative and on the level with Xilinx.
 Currently, they work on evaluation board and  software part - creating primitive libraries.
 
-They have delay in delivery of chips due to Corona.
+Recently they have delay in delivery of chips due to Corona.
 
-Teir start thinking about OTP version of the chip (one time programmable) as many customers only want to program the chip once.
+They start thinking about OTP version of the chip (one time programmable) as many customers only want to program the chip once.
 
 In long run they could be interesting player on the market.
 ====
