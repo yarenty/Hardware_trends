@@ -14,10 +14,12 @@ The RISC-V-enabled cores will have huge implications for numerous and varied wor
 Website: link:https://www.seagate.com/gb/en/innovation/risc-v/[]
 ====
 
-image:../img/seagate_RISC-V_Landing-Page_R1_row3_640X664.png[]
+[.text-center]
+image:../img/seagate_RISC-V_Landing-Page_R1_row3_640X664.png[pdfwidth=30%,width=30%,align="center"]
 
 
 Promising Initial Results
+
 Seagate’s high-performance microprocessor outperforms other cores by up to 3 times.
 The high-performance core offers up to triple the performance for real-time, critical HDD workloads when compared to current solutions.
 
@@ -26,7 +28,9 @@ This processor paves the way for finer positioning by implementation of advanced
 The area-optimized core boasts a highly configurable microarchitecture and feature set.
 
 This processor is optimized for both footprint and power savings.
+
 It powers auxiliary, supporting, or background workloads.
+
 Additionally, it can execute security-sensitive edge-computational operations (including next-generation, post-quantum cryptography) while targeting a small-footprint implementation of security features over performance.
 
 
