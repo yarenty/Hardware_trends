@@ -7,7 +7,8 @@ Western Digital has contributed hardware and software solutions to help grow the
 Website: link:https://www.westerndigital.com/company/innovations/risc-v[]
 ====
 
-The RISC-V SweRV CoreTM Family
+*The RISC-V SweRV CoreTM Family*
+
 Western Digital has developed three RISC-V Cores, the SweRV Core EH1, EH2 and EL2.
 
 |===
@@ -48,11 +49,13 @@ The Western Digital SweRV Core EH1 is a 32-bit, 2-way superscalar, 9 stage pipel
 swerv-core-logo
 The SweRV Cores will be used in a variety of Western Digital products in the near future. All three cores have been open sourced in CHIPS Alliance github. CHIPS Alliance is an organization that develops open source hardware and open source software design tools. It is a barrier free, collaborative environment which lowers the cost of RTL development. The SweRV Core EH1 is available at https://github.com/chipsalliance/Cores-SweRV
 
-image:../img/wd_risc-v-swerv-core-eh2.png.wdthumb.1280.1280.png[]
+[.text-center]
+image:../img/wd_risc-v-swerv-core-eh2.png.wdthumb.1280.1280.png[pdfwidth=50%,width=50%,align="center"]
 
 The EH2 is here, https://github.com/chipsalliance/Cores-SweRV-EH2
 
-image:../img/wd_swerv-core-el2.png.wdthumb.1280.1280.png[]
+[.text-center]
+image:../img/wd_swerv-core-el2.png.wdthumb.1280.1280.png[pdfwidth=50%,width=50%,align="center"]
 
 The EL2 is here, https://github.com/chipsalliance/Cores-SweRV-EL2
 
@@ -60,7 +63,7 @@ The EL2 is here, https://github.com/chipsalliance/Cores-SweRV-EL2
 [IMPORTANT]
 .Note from Jaro
 ====
-Third seciton is ... note from me ;-) - short investigation about what was going on lately in the company, ie: last year activity /development / are they growing or stagnating.
+Western Digital just like Seagate  - quite interesting development from storage solutions company - and big influence/contributor to the RISC-V family / opensource.
 
 ====
 
