@@ -1,0 +1,90 @@
+[NOTE]
+====
+
+FPGA Design Tools from Achronix
+
+The ACE design tools are used to design with Achronix's FPGAs, eFPGAs and Chiplet products.  ACE comes with Synplify-Pro from Synopsys for synthesis of FPGA design. Achronix simulation libraries are supported by ModelSim from Mentor Graphics, VCS from Synopsys and Riviera-PRO from Aldec. Standard RTL (VHDL and Verilog) input together with industry-standard simulation ensures that the Achronix design flow is straightforward for existing FPGA designers. It also includes Snapshot Debugger, a real-time design debugging tool for Achronix devices. To learn more about the ACE design tools, check out the related content below.
+
+Website: link:https://www.achronix.com[]
+====
+
+
+[%autowidth]
+|===
+|Title	|Description	|Version	|Released Date 	Document File
+
+|Achronix Tool Suite
+
+(PB002)
+|The Achronix Tool Suite works in conjunction with industry-standard synthesis tools, allowing FPGA designers (for both standalone and embedded) to easily map their designs into Achronix FPGA technology. Achronix provides ACE together with an Achronix-optimized version of Synplify Pro from Synopsys, the industry standard for producing high-performance and cost-effective FPGA designs.
+|5.1	
+|03/04/2021	
+
+|ACE User Guide
+
+(UG070)
+|This guide is a reference manual for the ACE, used for placing, routing, configuring, and debugging Speedcore eFPGAs and Speedster FPGAs. ACE works in conjunction with third-party synthesis and simulation tools to provide a complete design environment for Achronix FPGAs
+|8.3
+|12/16/2020	
+
+|Simulation User Guide
+
+(UG072)
+|The Achronix tool suite includes synthesis and place-and-route software that maps RTL designs (VHDL or Verilog) into Achronix devices. In addition to synthesis and place-and-route functions, the Achronix software tools flow also supports simulation at several flow steps (RTL, Synthesized Netlist, and Post Place-And-Routed Netlist). This guide covers the simulation flow for Achronix devices.
+|1.5
+|03/24/2020	
+
+|Synthesis User Guide 
+
+(UG018)
+|This user guide describes how to use Synplify Pro from Synopsys to synthesize a design and generate a netlist for implementation in Achronix devices. Suggested optimization techniques are also included.
+|1.4	
+|06/10/2019	
+
+|Bitstream Programming
+
+and Debug Interface 
+
+User Guide (UG004)
+|The embedded programming and configuration logic in the Achronix core is designed to support a variety of programming and debugging options.This guide details those options and how to implement them at the board level, including using the Achronix STAPL player.
+|1.6	
+|03/04/2019	
+
+|Snapshot User Guide
+
+(UG016)
+|Snapshot is the real-time design debugging tool for Achronix FPGAs and cores. The Snapshot debugger, which is embedded in the ACE software, delivers a practical platform to observe the signals of a user's design in real-time. To use the Snapshot debugger, the Snapshot macro needs to be instantiated inside the user's RTL. After instantiating the macro and programming the device, the user will be able to debug the design through the Snapshot Debugger GUI within ACE, or via the run_snapshotTCL command API.
+|2.1	|10/23/2018	
+
+|Achieving ASIC Timing 
+
+Closure with Speedcore 
+
+eFPGAs (WP013)
+|Achronix's Speedcore eFPGA IP allows companies to embed a programmable logic fabric in their ASICs, delivering to end users the capability to modify or upgrade the functionality of an ASIC after being deployed in the field. This flexibility dramatically expands the solution space that can be served by the ASIC as it can be updated to support changing standards and algorithms. Timing closure is particularly challenging due to the fact that the eFPGA fabric may host any number of designs over the course of device operation. Each of those designs must work independently with the rest of the ASIC, and timing closure can only be said to have been met if all of the possible designs targeting the eFPGA fabric can meet timing.
+|1.0	
+|07/17/2018
+
+|EFPGA Acceleration in 
+
+SoCs — Understanding 
+
+the Speedcore IP 
+
+Design Process 
+
+(WP008)
+|The Speedcore design and integration methodology has been defined with intimate awareness of the difficulties ASIC engineering teams must contend with. All the necessary files and flows for capturing the functional, timing and power characteristics of a user-defined and programmed Speedcore instance, along with support for successfully reconfiguring an already field-deployed Speedcore IP embedded in an ASIC, are available to an ASIC development team either as products of the ACE design tools or as deliverables provided by Achronix. This methodology has already been proven in silicon and readily accommodates variations and preferences in company-specific ASIC development methodologies.
+|1.0	
+|08/01/2017	
+
+|===
+
+
+
+
+[IMPORTANT]
+.Note from Jaro
+====
+Archonix ACE design tools - delivers multiple products for multiple families of their FPGA. It's quite interesting as most of them are based on other industry standards like:Synplify, VCS, Riviera, ModelSim... This is both -  nice future as is using standards, and interesting example how you can apply those standards to create your own solutions.
+====
