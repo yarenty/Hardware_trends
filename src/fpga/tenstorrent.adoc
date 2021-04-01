@@ -27,7 +27,9 @@ model type, batching
 
 *Grayskull – High Performance AI Processor*
 
-image:../img/tenstorrent_grayskull007-2.png[]
+
+[.text-center]
+image:../img/tenstorrent_grayskull007-2.png[pdfwidth=50%,width=50%,align="center"]
 
 HIGH PERFORMANCE AI PROCESSOR FOR WORKLOADS OF TODAY AND TOMORROW
 ARRAY OF POWERFUL TENSIX(TM) PROCESSING CORES PROVIDING TOTAL OF 368 TOPS; EACH TENSIX CORE CONTAINS:
@@ -70,9 +72,13 @@ FULL SUPPORT FOR TENSTORRENT'S CONDITIONAL EXECUTION AND DYNAMIC GRAPH OPTIMIZAT
 |23,345 sentences/sec
 |===
 
+
+---
+
 Grayskull Software Platform
 
-image:../img/tenstorrent_software.jpg[]]
+[.text-center]
+image:../img/tenstorrent_software.jpg[pdfwidth=60%,width=60%,align="center"]
 
 
 [IMPORTANT]
@@ -85,5 +91,5 @@ TORONTO – January 6, 2021 - Jim Keller joins Tenstorrent as President and CTO.
 Tenstorrent, a hardware start-up developing next generation computers, announces the addition of industry veteran Jim Keller as President, CTO, and board member.
 During his long and impactful career he has helped create some of today’s most iconic technology including the AMD Zen, K7 (Athlon) and K8 micro-architectures, Apple A4-A7 processors, the x86-64 instruction set and HyperTransport interconnect.
 
-SPECIAL NOTE: If not mention this - last info was from April 2020. 
+SPECIAL NOTE: Before that last info was from April 2020. 
 ====
