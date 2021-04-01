@@ -4,12 +4,13 @@ Intel launches oneAPI, a unified and scalable programming model to harness the p
 
 Website: link:https://software.intel.com/content/www/us/en/develop/tools/oneapi.html[]
 ====
-
-image:../img/Intel_oneapi-logo1.png[]
+[.text-right]
+image:../img/Intel_oneapi-logo1.png[100,100]
 
 *oneAPI* is an open, unified programming model built on standards to simplify development and deployment of data-centric workloads across CPUs, GPUs, FPGAs and other accelerators.
 
-image:../img/Intel_one.png[]
+[.text-center]
+image:../img/Intel_one.png[pdfwidth=80%,width=80%,align="center"]
 
 Extract the most application performance on multiple types of Intel® architecture by using advanced, cross-architecture software development tools from Intel.
 
@@ -29,15 +30,16 @@ The Intel® oneAPI product family includes:
 
 *Features*
 
-image:../img/Intel_diagram-oneapi-dpc-c-compiler-16x9.png[]
+[.text-center]
+image:../img/Intel_diagram-oneapi-dpc-c-compiler-16x9.png[pdfwidth=80%,width=80%,align="center"]
 
 * Development Productivity: Targets CPUs and accelerators through single-source code while permitting custom tuning
 * Language Standards Support: Is built to the latest standards, including C++ 17 and SYCL†, and initial support for C++ 20, to ensure portability and support of features like generic lambda expressions and variable templates
 * Industry Standards Support: Supports a subset of OpenMP* 4.5 and 5.0 for GPU offload†
 * Trusted Technology: Leverages well-proven LLVM compiler technology as well as Intel’s history of compiler leadership
 
-
-image:../img/Inntel_diagram-fpgas-stage-of-dev-16x9.jpg[]
+[.text-center]
+image:../img/Inntel_diagram-fpgas-stage-of-dev-16x9.jpg[pdfwidth=80%,width=80%,align="center"]
 
 * Enables experienced FPGA developers to target accelerations workloads to field-programmable platforms 
 * Is an optional add-on to the Intel oneAPI Base Toolkit
@@ -67,8 +69,8 @@ The Intel DPC++ Compatibility Tool is included in the Intel® oneAPI Base Toolki
 It integrates into familiar IDEs, including Eclipse* and Microsoft Visual Studio*
 Explore the Intel® oneAPI Base Toolkit
 
-
-image:../img/Intel_DCP.png[]
+[.text-center]
+image:../img/Intel_DCP.png[pdfwidth=80%,width=80%,align="center"]
 
 
 [IMPORTANT]
