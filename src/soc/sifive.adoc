@@ -1,7 +1,8 @@
 
 [NOTE]
 ====
-Leading the RISC-V revolution.
+*Leading the RISC-V revolution.*
+
 Design domain-specific solutions using the industry’s most widely adopted RISC-V CPU portfolio.
 
 SiFive Core IP are complete processors with pre-integrated SiFive Shield, for whole SoC security, and SiFive Insight advanced trace and debug. Backed by comprehensive software support, and using industry standard tooling, SiFive Core IP is the broadest silicon-ready RISC-V portfolio.
@@ -19,12 +20,13 @@ SiFive Core IP can be tuned to your workload using SiFive Core Designer, leverag
 
 Get started with a free Standard Core evaluation, or build your own custom core design, and receive Verilog RTL and FPGA bitstream.
 
-image:../img/sifive_coreIP.png[]
+[.text-center]
+image:../img/sifive_coreIP.png[pdfwidth=80%,width=80%,align="center"]
 
 
 [IMPORTANT]
 .Note from Jaro
 ====
-
+SiFive brings the power of the open source RISC-V ISA that it invented combined with innovations in CPU IP to the semiconductor industry, making it possible to develop domain-specific silicon faster than ever before. With its OpenFive business unit, the industry leaders in domain-specific silicon, SiFive is accelerating the pace of innovation for businesses large and small.
 ====
 
