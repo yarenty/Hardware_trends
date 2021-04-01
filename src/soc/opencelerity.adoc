@@ -8,7 +8,9 @@ Website: link:http://opencelerity.org/[]
 OpenCelerity
 Open-Source RISC-V Tiered Accelerator Fabric SoC
 
-image:../img/Celerity.png[]
+
+[.text-center]
+image:../img/Celerity.png[pdfwidth=80%,width=80%,align="center"]
 
 
 * *General Purpose Tier*
