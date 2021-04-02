@@ -1,6 +1,14 @@
 [NOTE]
 ====
-*AMD Instinct™ Accelerators*
+
+AMD has 2 significant GPUs products:
+
+* *AMD Radeon™ RX Graphics Cards*  - gaming
+
+
+Website: link:https://www.amd.com/en/graphics/radeon-rx-graphics[]
+
+* *AMD Instinct™ Accelerators*  - AI/HPC
 
 The AMD Instinct™ MI100 accelerators designed with the AMD CDNA™ Architecture encompass AMD Infinity Architecture, offering an advanced platform for tightly connected GPU systems so workloads can share data fast and efficiently.
 
@@ -12,6 +20,62 @@ Website: link:https://www.amd.com/en/products/server-accelerators/instinct-mi100
 ====
 
 
+AMD Radeon™ RX Graphics Cards
+
+[.text-center]
+image:../img/AMDradeon-6000-series-die-1260x709_1.png[pdfwidth=60%,width=60%,align="center"]
+
+AMD RDNA2 
+
+
+
+AMD RDNA™ 2 architecture is the foundation for next-generation PC gaming graphics, the PlayStation 5 and Xbox Series S and X consoles. The groundbreaking RDNA architecture was first introduced at E3 2019, and since then has continuously evolved to spearhead the next generation of high performance gaming. It’s the DNA that powers your games, the DNA that brings your games to life, the DNA that keeps evolving.
+
+
+Example stats:
+
+[.text-center]
+image:../img/AMD_radeon_stats.png[pdfwidth=90%,width=90%,align="center"]
+
+
+
+*AI*
+
+Accelerated Solution to Power Your AI Workloads
+
+Accelerate your data-driven insights with Deep Learning optimized systems powered by AMD Instinct™ MI100 accelerators.
+
+AMD, in collaboration with top HPC industry solution providers, enables enterprise-class system designs for the data center. AMD EPYC™ and AMD Instinct™ processors, combined with our revolutionary Infinity architecture, virtually eliminate traditional server bottlenecks delivering optimized solutions for real-world application deployments.
+
+[.text-center]
+image:../img/AMDamd-instinct-mi100-1260x709.png[pdfwidth=60%,width=60%,align="center"]
+
+---
+
+*HPC*
+
+Heterogenous Solution Designs for HPC
+
+Accelerate your discovery with fast, accurate performance driven system designs. AMD, in collaboration with top HPC industry solution providers, enables enterprise-class system designs for the data center.
+
+AMD EPYC™ and AMD Instinct™ processors, combined with our revolutionary Infinity architecture, virtually eliminate traditional server bottlenecks delivering optimized solutions for real-world application deployments.
+
+
+[.text-center]
+image:../img/AMD620610-Gigabyte-G482-Z53-Server-1260x709.png[pdfwidth=60%,width=60%,align="center"]
+
+---
+
+*Accelerators*
+
+The era of exascale is here. Immense computational power coupled with the fusion of HPC and AI is enabling researchers to tackle grand challenges once thought beyond reach.
+
+
+AMD Instinct™ accelerators are engineered from the ground up for this new era of computing, supercharging HPC and AI workloads to propel new discoveries. Powered by the AMD CDNA architecture, AMD Instinct™ MI100 accelerators deliver a giant leap in compute and connectivity, offering a nearly 3.5x performance boost for HPC (FP32 matrix) and a nearly 7x boost for AI workloads (FP16) compared to AMD’s prior generation accelerators.1
+
+
+[.text-center]
+image:../img/AMD_instinct_spec.png[pdfwidth=90%,width=90%,align="center"]
 
 The 7nm AMD Instinct MI100 accelerator is the first implementation of the AMD CDNA architecture and brings the open ROCm ecosystem  to life, offering the next level of performance, productivity, and portability for the industry. The MI100 is the first x86 server GPU to break  the 10TFLOP/s (FP64) barrier for HPC and delivers up to a nearly 7X boost in computational (FP16) throughput for machine learning over the  prior generation. Moreover, it brings improved connectivity and scaling with AMD’s 2nd Gen Infinity architecture providing the building blocks for designing systems with dual, fully-connected, quad GPU hives, each with up to 552 GB/s of peak peer-to-peer I/O bandwidth in a computing node. 
 
@@ -19,42 +83,51 @@ The robust ROCm ecosystem builds on this foundation and enables a comprehensive 
 
 Exascale supercomputers are already deploying ROCm and the MI100 and demonstrating the benefits for leading scientific computing and  machine learning applications.
 
+
+
+World’s Fastest HPC GPU
+
+Delivering up to 11.5 TFLOPs of double precision (FP64) theoretical peak performance, the AMD Instinct™ MI100 accelerator delivers leadership performance for HPC applications and a substantial up-lift in performance over previous gen AMD accelerators. The MI100 delivers up to a 74% generational double precision performance boost for HPC applications.
+
+[.text-center]
+image:../img/AMD_perf1.png[pdfwidth=60%,width=60%,align="center"]
+
+
+
+
+Unleash Intelligence Everywhere
+
+Powered by the all-new Matrix Cores technology, the AMD Instinct™ MI100 accelerator delivers nearly a 7x up-lift in FP16 performance compared to prior generation AMD accelerators for AI applications.2 MI100 also greatly expands mixed precision capabilities and P2P GPU connectivity for AI and machine learning workloads.
+
+[.text-center]
+image:../img/AMD_perf2.png[pdfwidth=60%,width=60%,align="center"]
+
+
+
+
 [IMPORTANT]
 .Note from Jaro
 ====
+AMD has both Gaming and servers GPU solutions. 
 
+16 November 2021 they launched ML/HPC accelerator: AMD Instinct MI100, which obviously they claim is faster and better than nVidia A100.
+
+
+What is interesting that even AMD doesn't create language like CUDA, but provide HIP:
+
+HIP is a C++ Runtime API and Kernel Language that allows developers to create portable applications for AMD and NVIDIA GPUs from single source code.
+
+Key features include:
+
+- HIP is very thin and has little or no performance impact over coding directly in CUDA mode.
+- HIP allows coding in a single-source C++ programming language including features such as templates, C++11 lambdas, classes, namespaces, and more.
+- HIP allows developers to use the "best" development environment and tools on each target platform.
+- The HIPIFY tools automatically convert source from CUDA to HIP.
+- Developers can specialize for the platform (CUDA or AMD) to tune for performance or handle tricky cases.
+
+New projects can be developed directly in the portable HIP C++ language and can run on either NVIDIA or AMD platforms. Additionally, HIP provides porting tools which make it easy to port existing CUDA codes to the HIP layer, with no loss of performance as compared to the original CUDA application. HIP is not intended to be a drop-in replacement for CUDA, and developers should expect to do some manual coding and performance tuning work to complete the port.
+
+more:
+link:https://github.com/ROCm-Developer-Tools/HIP[]
 
 ====
-
-
-
-Mobile
-AMD: Energy efficiency improvement dominates micro-architecture + processor architecture innovation to promote the overall performance of Renior
-
-
-2014: Increase the energy efficiency of mobile processors by 25 in 2020
-2020: "Renior" completes 31x energy efficiency improvement, the processor is mainly used for ultra-thin notebooks; 5x performance improvement, 84% lower energy consumption
-
-
-Zen2 CPU micro-architecture optimization
-15% IPC improvement compared to Zen; hierarchical cache optimization for Renior; each Renior Die has two Zen2 cores
-VEGA GPU maximizes the efficiency of each processing unit
-25% increase in peak graphics clock + 77% increase in peak memory bandwidth; 2x data interface
-Two memory controllers
-Infinity fabric
-75% better energy efficiency; 77% higher memory bandwidth
-
-
-
-Intelligent low-power state selection
-Increase in power consumption status exposed to ACPI: 1 -> 3
-Optimize the duration and depth of each state
-
-Optimize battery life
-SoC power consumption reduced by 20%
-Low power state management and efficiency improvement
-
-Closed loop "thermal" management system
-Hot spot temperature sensing
-The temperature information is transmitted to the infinity fabric through the embedded controller
-The system dynamically adjusts the power consumption limit according to the external temperature information of the machine
