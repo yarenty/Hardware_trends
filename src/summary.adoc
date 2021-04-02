@@ -40,75 +40,31 @@ The surge in custom-made chips could further reduce the cost of advanced computi
 
 
 
-Market trends and product strategies around the IoT continue to change. Technology and service providers can leverage the growth in IoT devices and capitalize on RISC-V momentum to innovate as the semiconductor manufacturing market adopts agile strategies that make custom ICs more practical.
-Overview
-Key Findings
-Building custom chips is becoming practical due to the evolution of the electronic design tools and the semiconductor manufacturing industry, which has lowered market entry.
-RISC-V is a sustainable choice for building custom chips, thanks to adoption and promotion from major technology companies, industrial organizations and governments.
-IoT products can adopt custom chips that complement existing designs or processors while adding product differentiation.
-Recommendations
-Technology and service providers focusing on the IoT hardware product business should:
-Assess the priority of adopting custom ICs by conducting a cost analysis on your current product vis-à-vis future products and the impacts of technology migration.
-Develop a flexible strategy about sourcing RISC-V custom ICs by carefully navigating through the semiconductor design and manufacturing market, your in-house skills and R&D expertise.
-Develop product strategies to be competitive by identifying specific technical requirements that can be addressed with custom ICs not covered by existing suppliers.
-Strategic Planning Assumption
-By 2025, 40% of application-specific integrated circuits (ASICs) will be designed by OEMs, up from around 30% today.
-Introduction
-Today’s chip design process can be more flexible, thanks to the evolution of electronic design automation (EDA) tools and the leverage of cloud computing technologies that have simplified the licensing process and lowered the investment in on-premises computing power. Alongside the strong semiconductor investment from the Chinese government and vibrant activity around RISC-V (pronounced “risk five”) among the open software community and top vendors, the semiconductor manufacturing industry has formed a healthy ecosystem for market development for RISC-V-based custom ICs.
-It is important to know that essentially RISC-V is an instruction set that defines processor core architecture. It can’t be implemented without support of industrial players, including EDA tool companies, chip design and manufacturing companies, and electronics OEMs. However, because RISC-V is recognized as a novel instruction set architecture (ISA), it has created strong market attractions and pulled advocates from many technology heavyweights.
-Based on early industry activity, Gartner views RISC-V as an opportunity for the custom chips (see Figure 1). Essentially, this trend will not impact the current mass market practices, like application processors in the smartphone market, because this market has been well-served by a group of experiences with rich skill sets, deepened value chains and cross-proven technologies. In contrast, RISC will emerge by complementing the limitations of current play. It provides an alternative opportunity for IoT products looking for innovations or customization that can’t be (or is too expensive to be) achieved by current suppliers.
-Table 1: Custom ICs Based on RISC-V Will Enable Cost-Effective IoT Product Differentiation
-Continued Activities Led by Top Vendors and Leading Industrial Bodies Around RISC-V Will Reinforce Its Market Adoption
-inline image
-The Semiconductor Manufacturing Industry Is Shaping an Environment That Lowers Entry Barriers for Custom ICs
-IoT Products Can Create Differentiation by Adopting Custom ICs
-Gartner (June 2020)
-In this report, we identify two major trends forming business environments that benefit RISC-V adoption, and one opportunity in which IoT products can benefit from RISC-V adoption.
-Market Trend
-The Semiconductor Manufacturing Industry Is Shaping an Environment That Lowers Entry Barriers for Custom ICs
-Over the last few years, several system/OEM companies have successfully developed internal chip design capability. Examples include Facebook, Google, Apple, Amazon, Cisco, Huawei, Baidu, Alibaba and Microsoft. These firms bypassed the traditional model of working with chip design firms and engaged directly with foundries. This has increased openness and changed the culture of the semiconductor industry, and has provided foundries the preliminary experience in working directly with OEM customers.
-This trend continues as China’s semiconductor industry is forming an ecosystem where chip design companies can leverage and streamline their chip development and accelerate time from lab to fab. China now has more than 20 chip incubation parks that provide the resources needed by chip designers, including silicon intellectual property (IP), EDA tools, multiproject wafer (MPW) services, test and validation, and training. These incubation parks help almost 2,000 chip design companies (according to  CSIA) realize their designs through to production.
-China has strong semiconductor manufacturing capacity backup for both local and global chip design companies. Gartner estimates that China’s chip foundry businesses accounted for 15.6% market share in 2019. Its growth rate will be tripled to global average to reach 20.6% in 2024.1
-Additional accelerators for the custom IC market include chips that can be designed over the cloud, further reducing the barriers to entry and reducing the reliance on on-premises servers. While there have been limitations on EDA tools and concerns of confidentiality, these are vanishing as cloud operations become the norm and more vendors provide cloud-first tools.
-Cloud products introduced by EDA vendors like Synopsys and Cadence offer products more like “private cloud” tools. Alternatively, SiFive and VeriSilicon Microelectronics are building a “web-based,” “more open cloud” portal service.
-Cadence and Synopsys have expanded their cloud portfolio by providing secure access to TSMC’s Open Innovation Platform Virtual Design Environment (OIP VDE) for faster system-on-chip (SoC) designs. Using Cadence tools, hosted on Microsoft Azure, and with SiFive’s web-based design integration and aggregation, a 64-bit RISC-V processor core, FU540, was taped out at 28 nm to prove the methodology in 2018.
-Leading Vendors and RISC-V Industrial Bodies Highlight and Reinforce Market Adoption
-Alongside the change in technology needs driven by the IoT and other uses, and the shifting competitive landscape, a related subtrend is the move to promote RISC-V and growth in proven efforts demonstrating real-world success. Examples include the following:
-Building custom ICs by adopting commercial ISAs like Cortex from ARM, Tensilica from Cadence or ARC from Synopsys is a proven technique. These companies offer mature toolsets and have rich experience with validating design and functionalities, manufacturing with chip foundries and packing companies. However, to avoid lock-in with a microarchitecture-constrained design, and gain from the flexibility and growth potential of a custom chip, an open ISA can be a good choice. But concerns remain about whether the ecosystem can provide needed viable design support in the long term.
-RISC-V reflects modern architecture practices, providing an open, free ISA for embedded chip designs, which may be manufactured openly without patent or licensing fees. The foundation recently announced it would move to Switzerland, over concerns about U.S. trade regulations, to ensure open practices.
-The RISC-V project started in 2010 in Berkeley and rolled out to market in 2014. It is recognized as a modern architecture meeting the needs of an ISA and has attracted numerous vendors to join. More important is its relatively complete ecosystem of IP, toolchains and software. The RISC-V foundation worked with industrial players to define specifications to foster RISC-V evolution while ensuring compliance across various implementations.
-The RISC-V foundation now has 450 members, covering major players from the hardware, software, semiconductor and IT industries, like Alibaba, Google, Huawei, Qualcomm, NVIDIA, STMicroelectronics, Micron, Western Digital and Microchip. Several technology heavyweights, organizations and governments have announced their plan of adopting RISC-V. These initiatives are important driving forces (see Note 1).
-Designing RISC-V chips can be more agile. Traditionally, chip designers used Verilog,2 a hardware description language, to translate the abstract digital logic circuit functions into low-level language for silicon manufacturing. The RISC-V Foundation and CHIPS Alliance (see Note 2) are promoting a hardware design language (HDL) called Chisel (which stands for “constructing hardware in a Scala embedded language). Chisel provides designers with a modern programming language to write complex, parameterizable circuit generators that still can produce synthesizable Verilog to support current chip manufacturing processes.
-Designing RISC-V chips can be more efficient. The RISC-V IP core and chip design company, SiFive, enables customers to configure their cores through a web-based tool. It is now extending the approach to custom ICs by building a “silicon as a service” platform. Users can start a design from a predefined template and then create variations by uploading their own IP or accessing third-party IP from an online library. Users can validate application software by running code on a virtualized chip and then move to sample chips for physical validation, outsourcing to fabs for production. All steps and processes are performed and licensed within the cloud without having a complex licensing process.
-For those operating in the IoT device market, both SiFive and Andes Technology have introduced Arduino-compatible or Amazon Web Services (AWS)-certified FreeRTOS-compliant development boards to accelerate the design cycle.
-Much silicon IP is processor-agnostic already; it can be integrated with RISC-V cores. CEVA has introduced some RISC-V IP proposing cost-effective and short-time-to-market alternative solutions beyond their traditional offerings.
-NXP introduced a test water product, a homogeneous RV32M1 processor comprising two ARM and two RISC-V cores. This chip is only available for the VEGA development board shipped through Open ISA organization.3 Microchip introduced a field-programmable gate array (FPGA) line that enabled users to load its soft RISC-V cores for SoC design. Its development boards ranged from $99 to $1,499, alongside the design toolchains and soft IP blocks from its Mi-V RISC-V ecosystem to meet different levels of design requirements.
-With these varying options in mind, it is important to develop requirements and strategies aligned to end-product roadmaps and in-house capabilities.
-IoT Products Can Create Differentiation by Adopting Custom ICs
-There are many routes to market for semiconductor-based products and the underlying capacity to design and build them. For example, Apple used its own substantial buying power to design and build its own chips at great cost to reduce reliance on third parties. It gained a performance advantage, plus control of confidential information and roadmap security. For more information, see “Best Practices for ASIC Chip Design by System/OEM Companies.” However, designing and building chips is very expensive, and few companies have the resources and leverage of an Apple or other industry giant.
-Specialized standard and general-purpose processors offer market-validated features and broad reference designs combined with partner solutions to accelerate product adoption. Many of these chips are built by licensing IP cores from ARM, which has strong ecosystem support based on billions of chip shipments. Conformity of these processor cores and instruction sets is an asset for maintaining compatibility across generations of hardware and software products. However, they are not well-suited to your product requirement. Some might be overloaded because vendors integrate unwanted features, while the others are too general for specific tasks, such as handling machine learning algorithms.
-Many IoT products adopted custom ICs upon existing designs; they try to minimize the cost impact by repeating designs while adding new values.
-Microsoft introduced custom IC MT3620, optimized for Azure Sphere OS, by partnering with MediaTek. Equipment manufacturer Yiding integrated the module into its existing designs and introduced an Azure Sphere precertified solid-state drive (SSD).
-Google introduced Edge TPU, which enhanced the general-purpose embedded processor’s ability for AI inferencing locally. Google introduced a series of Coral development boards that integrantes the TPU with ARM based MCUs/MPUs to help developers to accelerate their IoT projects.
-Huawei adopted a custom IC (Kirin A1) for its Lite OS-based sports watch, focused especially on enhancing Bluetooth performance to complement a general-purpose MCU from ST. The same chip was scaled out to be used by its latest True Wireless Sound (TWS) headset product.
-Huami adopted a custom IC (Huanshan No. 1) for its sports watch and wristband, complementing ST’s MCU by focusing on biometric signal processing, which helped formulate healthcare for its future sensor fusion platform.
-OPPO adopted a custom IC (Apollo), aimed at optimal power and performance, by collaborating with a main processor from Qualcomm. This resulted in 40 hours of battery life in smart mode and up to 21 days in long battery life mode.
-Planning IoT products with a balanced focus on custom and commercialized components, as well as open and closed ISAs for their processors, will achieve viable differentiations more cost-effectively.
-Evidence
-1 “Forecast: Semiconductor Foundry Revenue, Supply and Demand, Worldwide, 1Q20 Update”
-2  IEEE Standard Verilog Hardware Description Language
-3  VEGA
-Note 1: RISC-V Initiatives
-Google’s OpenTitan, announced in 2019, seeks to provide an open-source silicon root of trust (RoT) project. It aims to deliver a RISC-V-based RoT design with integration guidelines for use in data center servers, storage devices and peripherals. Google states that “open-sourcing the silicon design makes it more transparent, trustworthy, and ultimately, secure.” as the first open-source silicon RoT project.
-Samsung  has disclosed the use of SiFive’s RISC-V core for upcoming chips used in a variety of applications, starting from mmWave radio frequency (RF) processing in mobile devices.
-Western Digital led initiatives in the RISC-V Foundation and will transition its own consumption of IP cores, over 1 billion cores per year, to RISC-V.
-The Chinese government plans building homegrown semiconductors, and the semiconductor industry considers RISC-V as a game-changing technology. The Chinese government formed the  RISC-V Alliance, comprising experts from academia and IT companies including Baidu, Huawei and Tencent, to contribute to the RISC-V community. China’s semiconductor industry formed the China RISC-V Industrial Consortium, comprising more than 60 semiconductor companies focusing on materializing RISC-V implementations.
-The Indian Electronics and Semiconductor Association (IESA) launched industry-relevant courses in colleges and enabled many fabless startups around RISC-V in India. IESA has also started a first-of-its-kind initiative called  Semiconductor Fabless Accelerator Lab (SFAL) with initial funding from the government of Karnataka to support fabless companies and startups to make Indian chips, SoCs and IP.7
-Note 2: CHIPS Alliance
-Linux, supported by more than 1,000 members, leads the collaboration of open-source software and open standards to foster development of open hardware. The Linux Foundation has formed  CHIPS (Common Hardware for Interfaces, Processors and Systems) Alliance, which will foster collaboration and contributions from the open community to make open-source CPU chip and system-on-a-chip (SoC) design more accessible.
+---
 
+Academic work - The UC Berkeley released the in-order
+Rocket core, the out-of-order core BOOM and the opensource design generator tool [9], [10]. Both Rocket and
+BOOM are capable of booting Linux. ETH Zurich and
+Universita di Bologna offered three flavors of RISC-V `
+cores in the PULP platform [4] - RI5CY (32-bit, 4-stage
+pipeline), Zero-riscy (32-bit, 2-stage pipeline) and Ariane
+(64-bit, 6-stage pipeline) [32]. Also, IIT-Madras has been
+working on a series of Shakti RISC-V processors, from a
+3-stage pipeline in-order core to an out-of-order multiple
+threading core at a target operating frequency of 1.5-2.5
+GHz [5], [13].
 
-
+Industrial work - For many years nVIDIA has been
+using RISC-V as the Falcon controllers in the GPUs
+[8]. Besides, chip vendors such as SiFive, Microsemi,
+Alibaba T-Head, Andes, Codasip offer a range of siliconproven 32-bit and 64-bit embedded RISC-V IPs. Recently, Western Digital open-sourced the SweRVTM Core
+[25], which is an industry-quality 32-bit, 2-way superscalar, 9-stage pipeline core. This power-efficient design
+reaches over 1.0 GHz operating frequency in a TSMC
+28nm CMOS process technology. With a performance of
+up to 5.0 CoreMarks/MHz (based on internal simulations)
+and small footprint, it offers compelling capabilities for
+embedded devices for data-intensive edge applications,
+such as storage controllers, industrial IoT, real-time analytics in surveillance systems and other smart systems.
 
 
 
@@ -119,9 +75,32 @@ Linux, supported by more than 1,000 members, leads the collaboration of open-sou
 *** Intel - it is considered as CPU leader but question is for how long. CES 2021 (Jan. 11, 2021): Intel Announces Four New Processor Families: 11th Gen Intel® Core™ vPro® platform and Intel® Evo™ vPro® platform, new N-series 10-nanometer Intel® Pentium® Silver and Intel® Celeron® processors, 11th Gen Intel® Core™ H-series mobile processors for gaming platforms, 11th Gen Intel® Core™ S-series desktop processors (code-named “Rocket Lake-S”) and its next-generation processors (code-named “Alder Lake”).
 Last year Apple resigned from using Intel CPUs, complaining about innovation - and Apple created it's own processor based on ARM architecture with GPU and NPU on-board. IBM below - in new CPUs added on-chip AI part.
 However do not forget about Intel's TPUs (Habana), biggest family of FPGAs, GPU - Xe architecture, or oneAPI programming model.
+_11-nm or 10-nm compared to 7-nm by IMB or 4-nm by Apple? See: link:https://www.macrumors.com/2021/03/30/4nm-chips-for-apple-silicon-macs/[macrumours]_
 
-*** IBM CPU - POWER 10 - not only smaller (7nm) but also with AI part - embedded matrix math accelerator (FP32, BFloat16, INT8).And go not forget technology that came with previous version - POWER 9: on-chip GZIP, CPU-GPU ultra-high bandwidth, OpenCAPI - bandwidth for communication with NICs, storage and FPGA accelerators.
 
+
+*** AMD
+AMD proposition is actually something that you should see from Intel. On top of they own technologies CDNA/Zen/EPYC/RoC lastly they acquired Xilinx - so AMD will have "full ecosystem: CPUs,GPUs,FPGAs,SoCs". From competitiveness and business perspectives AMD moves makes a lot of sense.
+
+Do not forget on one of the biggest event in CPU/FPGA area - AMD acquisition of Xilinx
+https://www.amd.com/en/corporate/xilinx-acquisition
+
+
+
+*** ARM (nVidia)
+
+ARM is world’s leading semiconductor IP company. 70% of the global population use it. More than 180 billion Arm-based chips shipped (~2020), with extremely big ecosystem of more than 1,000 partners.
+
+NVidia made amazing move by acquiring ARM. Everyone is anxious about future of ARM and is openness. On second hand that moves nVidia as full scope player to be compared at level with Intel and AMD.
+
+The latest GTC speaks (23 March 2021) shows interesting plans - output of merging ARM and nVidia like :
+
+- HPC servers with Arm-based CPUs (such as the Ampere Altra), paired with NVIDIA GPUs (such as the NVIDIA A100), comprise a balanced, performant, and scalable supercomputing platform for any HPC application, whether CPU-bound, GPU-accelerated, or GPU-bound
+- Scalable, Efficient, Software-Defined 5G-Enabled Edge Based on NVIDIA GPUs and Arm Servers
+
+
+
+*** IBM CPU - POWER 10 - not only smaller (7nm) but also with AI part - embedded matrix math accelerator (FP32, BFloat16, INT8).And go not forget technology that came with previous version - POWER 9: on-chip GZIP, CPU-GPU ultra-high bandwidth, OpenCAPI - bandwidth for communication with NICs, storage and FPGA accelerators!.
 
 
 
@@ -130,6 +109,54 @@ However do not forget about Intel's TPUs (Habana), biggest family of FPGAs, GPU 
 ** GPU
 
 *** Intel introduces a general-purpose GPU optimized for HPC/AI acceleration based on the Xe architecture, code-named “Ponte Vecchio.”  Intel unveils additional architectural details of the Aurora Supercomputer, delivering convergence at exascale at Argonne National Laboratory. This initiative is something to check - it is nothing to do with GPGPU but cerberas wafer also ;-)
+
+
+*** 
+NVidia till recently was considered as GPU producer, however last years set them as leader in ML/AI acceleration. Products exist in space of gamins, servers, HPC,na
+
+
+A100 design:
+Support HPC
+Consider strong scalability
+Consider scale-up and scale-out
+
+Breaking performance records, the fastest AI chip
+
+
+
+Biggest news for 2020:NVIDIA to Acquire Arm for $40 Billion, Creating World’s Premier Computing Company for the Age of AI
+
+NVIDIA will expand Arm’s R&D presence in Cambridge, UK, by establishing a world-class AI research and education center, and building an Arm/NVIDIA-powered AI supercomputer for groundbreaking research
+NVIDIA will continue Arm’s open-licensing model and customer neutrality and expand Arm’s IP licensing portfolio with NVIDIA technology
+
+
+Nvidia: A100 strong scalability, scale-out and scale-up design considerations, performance breaks
+
+
+
+
+*** AMD has both Gaming and servers GPU solutions.
+
+16 November 2021 they launched ML/HPC accelerator: AMD Instinct MI100, which obviously they claim is faster and better than nVidia A100.
+
+
+What is interesting that even AMD doesn't create language like CUDA, but provide HIP:
+
+HIP is a C++ Runtime API and Kernel Language that allows developers to create portable applications for AMD and NVIDIA GPUs from single source code.
+
+Key features include:
+
+- HIP is very thin and has little or no performance impact over coding directly in CUDA mode.
+- HIP allows coding in a single-source C++ programming language including features such as templates, C++11 lambdas, classes, namespaces, and more.
+- HIP allows developers to use the "best" development environment and tools on each target platform.
+- The HIPIFY tools automatically convert source from CUDA to HIP.
+- Developers can specialize for the platform (CUDA or AMD) to tune for performance or handle tricky cases.
+
+New projects can be developed directly in the portable HIP C++ language and can run on either NVIDIA or AMD platforms. Additionally, HIP provides porting tools which make it easy to port existing CUDA codes to the HIP layer, with no loss of performance as compared to the original CUDA application. HIP is not intended to be a drop-in replacement for CUDA, and developers should expect to do some manual coding and performance tuning work to complete the port.
+
+more:
+link:https://github.com/ROCm-Developer-Tools/HIP[]
+
 
 
 
@@ -145,14 +172,34 @@ The Marvell O-RAN platform solution consists of silicon, software and hardware r
 This is company that need to be closely look for.
 
 
+*** nVidia 
+In nVidia DPU chapter, I presented BlueField DPU, but there is bigger story behind as this line of HPC solution is called Mellanox.
 
+Mellanox - is older (2019) acquisition of nVidia, and if you look at the speed of integration, you can have high hopes about output on nVidia/ARM merge.
+
+link:https://nvidianews.nvidia.com/news/nvidia-to-acquire-mellanox-for-6-9-billion[]
 
 
 
 ** FPGA
 
+
+Xilinx is the inventor of the FPGA, programmable SoCs, and now, the ACAP. Xilinx is de facto leader in FPGA technology both hardware wise and software - where you can create lots of advanced algorithms using C/C++.
+Xilinx is _"a must watch"_ in the FPGA connected world, last 2 big innovations are:
+
+- Adaptive compute acceleration platform (ACAP) is a fully software-programmable, heterogeneous compute platform that combines Scalar Engines, Adaptable Engines, and intelligent AI and DSP Engines
+- AppStore - that is from monetization perspective - The Xilinx App Store makes it easy to evaluate, purchase, and deploy accelerated applications.
+
+Xilinx is organizing and taking part in multiple events during each year - and most of them are worth attending. At time of polishing this report 24-25 March 2021 there is Xilinx Adapt: Data Center conference: "composable data centers", SmartNIC, real world HPC workloads, AI/Video application acceleration, DB performance, algorithmic trading, and all about acceleration for software & AI developers.
+
+
+Do not forget that Xilinx ... soon will be AMD:
+link:https://www.amd.com/en/press-releases/2020-10-27-amd-to-acquire-xilinx-creating-the-industry-s-high-performance-computing[]
+
+
 *** Intel® FPGAs offer a wide variety of configurable embedded SRAM, high-speed transceivers, high-speed I/Os, logic blocks, and routing. Built-in intellectual property (IP) combined with outstanding software tools lower FPGA development time, power, and cost: Agilex, Stratix, Arria, Cyclone or full family of eASICs with ready IP cores from Intel and third-party alliance partners.
 Intel FPGAs are impressive - that's why if you look for volume FPGA world is divided by Intel ans Xilinx - they both get 90% FPGA solutions, and they both are most advanced.
+eASIC family could be interesting alternative for companies that do not have access to developers who can code FPGAs.
 
 
 *** ColognaGate - proud of "made in Germany", quite good FPGA chip - GateMate - with interesting trend asked by customers -OTP - one time programmable - many customers only want to program the chip once.
@@ -163,16 +210,85 @@ Intel FPGAs are impressive - that's why if you look for volume FPGA world is div
 *** Apple is pushing innovation to it’s limit, other laptop brands should also start pushing our imagination to the limits. With current trend soon we will have laptops that outperform even our current high-end desktop machines.
 
 
+*** Microsoft or .. AMD again.
+The die-shot of the SoC shows us that the AMD APU powering the Xbox Series X will feature Zen 2 and RDNA 2 cores based on TSMC’s 7nm “enhanced” process node, featuring a core clock of 3.8GHz without SMT, reducing to 3.6GHz with SMT on.
+
+
 ** Quantum
 *** IBM Quantum computing roadmap look amazing: 2021 - 127-qubit Eagle processor, 2022 - 433-qubit Osprey, 2023 - 1121-qubit Condor
+
+
+** Manticore
+*** Manticore explain that they did not intend to create commercial products that implement the full capacity with 4,096 cores. The purpose has instead been to demonstrate that it is possible to create large sets of RISC-V cores with good and energy-efficient capacity for floating point calculations
+
+
+** WD
+Western Digital just like Seagate  - quite interesting development from storage solutions company - and big influence/contributor to the RISC-V family / opensource.
+
+
+
+
 
 
 
 
 ** Software
+
+*** AMD
+Quick summary : ROCm is AMD response to CUDA. It' is so "close" that there is even tool - HIP where you can write program in C++ and decide to which platform should it be compiled - Radeon or CUDA/nVidia.
+
+Need to mention that AMD ROCm is backing up Tensorflow, Caffe2, PyTorch, MlOpen.
+
+Looking for the fact how successful nVidia is in promoting CUDA and having amazing list of available programs/libraries I consider this as another very smart move from AMD side.
+
+
+*** RISK-V
+RISK-V is open source/ open hardware project as-so most of the software esosystem also is opensource - GNU toolchain. Most of the tools are created in colaboration with SiFive.
+
+link:https://info.bluespec.com/explorer-kit[]
+
+
 *** oneAPI focuses currently on GPUs, compatibility tool which automatically migrates CUDA to DPC (data parallel C++). Feb9, 2021 - oneAPI Data Parallel C++ (DPC++) features are included in the SYCL 2020 final specification, released today by The Khronos Group, an open consortium of industry-leading companies creating advanced interoperability standards. link:https://newsroom.intel.com/articles/oneapi-dpc-features-2020-final-spec/[]
 
 
+Synopsys
+Synplify Pro® FPGA synthesis software is the industry standard for producing high-performance and cost-effective FPGA designs. Synplify software supports the latest VHDL and Verilog language constructs including SystemVerilog and VHDL-2008. The software also supports FPGA architectures from a variety of FPGA vendors, including Altera, Achronix, Lattice, Microsemi and Xilinx, all from a single RTL and constraint source.
+
+
+
+Xilinx Vitis is one of the best software on market to write code runnable on FPGAs, and by code I'm talking about C/C++ not HDL/Verilog. I tested that on TIG 100 project (2020) - XGBoost  algorithm, which proved also acceleration of FPGA cards.
+
+
+SiFive - FreedomStudio
+RISC‑V inventors and industry veterans.
+The inventors of RISC‑V joined forces with silicon experts bringing a new approach to semiconductors together with decades of industry experience, hundreds of tapeouts and millions of chips shipped.
+Freedom Studio is an integrated development environment which can be used to write and
+debug software targeting SiFive based processors. Freedom Studio is based on the industry
+standard Eclipse platform and is bundled with a pre-built RISC-V GCC Toolchain, OpenOCD,
+and the freedom-e-sdk. The freedom-e-sdk is a complete software development kit
+targeting SiFive bare metal processors.
+
+
+AndeSight™ IDE
+
+AndeSight™ has STD, RDS and Lite versions and is an Eclipse-based IDE that provides an efficient way to develop embedded applications for AndesCore™ based SoC. AndeSight™ STD is a full-featured IDE with highly optimized compilers and Linux support. AndeSight™ RDS is based on AndeSight™ STD with additional customization capabilities for customers’ redistribution. AndeSight™ Lite is based on AndeSight™ RDS for with use IoT promotion. If you are FreeStart program licensee, you can check Quick Start Guide and watch demo video on YouTube.
+
+
+Archonix ACE design tools - delivers multiple products for multiple families of their FPGA. It's quite interesting as most of them are based on other industry standards like:Synplify, VCS, Riviera, ModelSim... This is both -  nice future as is using standards, and interesting example how you can apply those standards to create your own solutions.
+
+Libero® SoC Design Suite offers high productivity with its comprehensive, easy-to-learn, easy-to-adopt development tools for designing with Microsemi's  PolarFire SoC,PolarFire, IGLOO2, SmartFusion2, RTG4, SmartFusion, IGLOO, ProASIC3 and Fusion families.The suite integrates industry standard Synopsys Synplify Pro® synthesis and Mentor Graphics ModelSim® simulation with best-in-class constraints management, Programming & Debug Tools capabilities, and secure production programming support. Same as Archonix.
+
+
+Lattice software packs are quite big, however investigating for licensing types, there is conclusion that different applications are designed to different chip architectures. This could means that software could be small and _"properly cut"_ however trend is to avoid confusion, and build one SDK pack - like Xilinx. There is strange inconsistency on SDK operating system availability which suggest that some products are not maintained anymore.
+
+
+
+Graphcore
+Poplar enables direct IPU programming in Python and C++. This is example of trend that I'm really found of - integration of hardware through specific libraries exposed as high level languages to allow wide spread of developer to utilize hardware's power.
+
+
+Siemens continues existence of ModelSim.
+ModelSim can be used independently, or in conjunction with Intel Quartus Prime, Xilinx ISE or Xilinx Vivado.
 
 
 

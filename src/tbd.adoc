@@ -1,0 +1,58 @@
+#!_TBD in next release_!#
+
+CPU part:
+
+* ARM based
+** Fujitsu
+** Samsung
+** Texas Instruments,
+** Broadsom- RaspberryPi
+** Hitachi
+** MediaTek
+** Qualcomm
+** Rockchip
+
+* Other X86 based
+** Hygon
+** Zhaoxin
+** Via
+
+* SPARC
+** MCST
+** Fujitsu
+
+* MIPS
+** Wave computing
+** Ingenic Semiconductor
+
+* NXP - ARM and power
+
+
+---
+
+NPU:
+
+* 2CRSi
+* Atos  - HPC & Quantum at Atos
+* Boston Limited
+* BSI - Business Systems International Ltd., (BSI)
+* Dell Technologies
+* Lambda  - AI compute infrastructure
+* Meadowgate Technologies - US Federal Customers
+* Megazone - Hybrid Cloud & AI Platform Service, Megazone
+* OCF – HPC, Cloud, Storage and Artificial Intelligence. 
+* Tech Data Europe
+* Tech Data USA - Converged and Integrated Solutions, Tech Data USA
+* Wildflower International - mission-critical applications across the public and Federal Government sectors.
+
+
+
+---
+
+AI:
+
+- Baidu: Kunlun considers multiple loads + multiple scenarios (from DC to Edge), and the design is more flexible and programmable
+- Alibaba: Hanguang mainly considers CNN calculations in DC scenarios, and can extend workload mapping
+- Lightmatter: Mars Photonics Compute Core + Electronic I/O, Buffer, solve dark silicon, general AI
+
+

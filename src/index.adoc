@@ -1,6 +1,8 @@
 
 = TIG100 - Technology trends
-by Jaroslaw Nowosad (2021)
+Jaroslaw Nowosad <yarenty@gmail.com>
+{version}, (30/03/2021): ready for review 
+:sectnums:
 
 :toc2:
 :toclevels: 4
@@ -32,10 +34,11 @@ include::cpu/amd.adoc[]
 === ARM based (NVIDIA)
 include::cpu/arm.adoc[]
 
-
 === STMicroelectronics
 include::cpu/stmicroelectronic.adoc[]
 
+=== Andes 
+include::cpu/andes.adoc[]
 
 === Alibaba
 include::cpu/alibaba.adoc[]
@@ -55,17 +58,12 @@ include::gpu/nvidia.adoc[]
 === Intel
 include::gpu/intel.adoc[]
 
+=== AMD
+include::gpu/amd.adoc[]
 
 === Cerberas
 include::gpu/cerberas.adoc[]
 
-
-=== Others
-
-AI reasoning
-Baidu: Kunlun considers multiple loads + multiple scenarios (from DC to Edge), and the design is more flexible and programmable
-Alibaba: Hanguang mainly considers CNN calculations in DC scenarios, and can extend workload mapping
-Lightmatter: Mars Photonics Compute Core + Electronic I/O, Buffer, solve dark silicon, general AI
 
 
 
@@ -87,8 +85,8 @@ include::npu/graphcore.adoc[]
 === Marvell
 include::npu/marvell.adoc[]
 
-=== Others
-include::npu/others.adoc[]
+=== nVidia
+include::npu/nvidia.adoc[]
 
 
 
@@ -116,8 +114,10 @@ include::fpga/tenstorrent.adoc[]
 === CologneChip
 include::fpga/colognechip.adoc[]
 
-=== others
+=== Others
 include::fpga/others.adoc[]
+
+
 
 
 == SoC
@@ -143,12 +143,12 @@ include::soc/westerndigital.adoc[]
 === Seagate
 include::soc/seagate.adoc[]
 
-
 === Siemens
 include::soc/siemens.adoc[]
 
 
-=== Others
+
+
 
 
 
@@ -194,6 +194,10 @@ include::software/marvell.adoc[]
 === SiFive Freedom Studio
 include::software/sifive.adoc[]
 
+
+=== Graphcore - Poplar
+include::software/graphcore.adoc[]
+
 === Andes - AndeSight
 include::software/andes.adoc[]
 
@@ -209,6 +213,11 @@ include::software/risc.adoc[]
 
 == Summary
 include::{docdir}/summary.adoc[]
+
+
+== TBD
+include::{docdir}/tbd.adoc[]
+
 
 == Changelog
 include::{docdir}/changelog.adoc[]
