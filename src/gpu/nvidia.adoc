@@ -1,5 +1,291 @@
-GPU and games
-Nvidia: A100 strong scalability, scale-out and scale-up design considerations, performance breaks
+
+[NOTE]
+====
+
+NVIDIA'S INVENTION OF THE GPU
+
+In 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing. More recently, GPU deep learning ignited modern AI — the next era of computing — with the GPU acting as the brain of computers, robots, and self-driving cars that can perceive and understand the world.
+
+
+- GPU and games  - Geforce, RTX
+- HPC - Ampere architecture, DGX, EGX,HGX
+- AI /researchers - Titan
+- Embedded: Autonomous - Jetson, Cars -  DRIVE AGX, Medical - Clara AGX
+
+- DPU - BlueField (in DPU chapter)
+
+
+Website: link:https://www.nvidia.com/[]
+
+Biggest news : nVidia acquires ARM
+
+link:https://nvidianews.nvidia.com/news/nvidia-to-acquire-arm-for-40-billion-creating-worlds-premier-computing-company-for-the-age-of-ai/[]
+====
+
+*GAMING*
+
+> Example: GEFORCE RTX  30 SERIES LAPTOPS 
+
+
+GeForce RTX™ 30 Series GPUs power the world’s fastest laptops for gamers and creators. They’re built with the award-winning Ampere—NVIDIA’s 2nd gen RTX architecture—with new RT Cores, Tensor Cores, and streaming multiprocessors to give you the most realistic ray-traced graphics and cutting-edge AI features. GeForce laptops with new 3rd gen Max-Q technologies use AI and new system optimisations to make high-performance gaming laptops faster and better than ever.
+
+
+*SPECS*
+
+|===
+| | GEFORCE RTX 3080	| GEFORCE RTX 3070  | GEFORCE RTX 3060
+
+|NVIDIA® CUDA® Cores	| 6144	| 5120	| 3840
+|Boost Clock (MHz)	| 1245 - 1710 MHz	| 1290 - 1620 MHz	| 1283 - 1703 MHz
+| Memory Size	| 16GB or 8GB |	8 GB |	6 GB
+| Memory Type	| GDDR6	| GDDR6	 | GDDR6
+|===
+
+---
+
+*HPC*
+
+
+[.text-center]
+image:../img/nvidia-a100-hero-bb460_420-t.png[pdfwidth=80%,width=80%,align="center"]
+
+NVIDIA AMPERE ARCHITECTURE
+
+The Heart of the World’s Highest-Performing, Elastic Data Centers
+
+
+
+THE CORE OF AI AND HPC IN THE
+MODERN DATA CENTER
+
+Scientists, researchers, and engineers—the da Vincis and Einsteins of our time—are working to solve the world’s most important scientific, industrial, and big data challenges with AI and high-performance computing (HPC). Meanwhile businesses and even entire industries seek to harness the power of AI to extract new insights from massive data sets, both on-premises and in the cloud. The NVIDIA Ampere architecture, designed for the age of elastic computing, delivers the next giant leap by providing unmatched acceleration at every scale, enabling these innovators to do their life’s work.
+
+
+GROUNDBREAKING INNOVATIONS
+Crafted with 54 billion transistors, the NVIDIA Ampere architecture is the largest 7 nanometer (nm) chip ever built and features six key groundbreaking innovations.
+
+
+Third-Generation Tensor Cores
+
+First introduced in the NVIDIA Volta™ architecture, NVIDIA Tensor Core technology has brought dramatic speedups to AI, bringing down training times from weeks to hours and providing massive acceleration to inference. The NVIDIA Ampere architecture builds upon these innovations by bringing new precisions—Tensor Float (TF32) and Floating Point 64 (FP64)—to accelerate and simplify AI adoption and extend the power of Tensor Cores to HPC.
+
+TF32 works just like FP32 while delivering speedups of up to 20X for AI without requiring any code change. Using NVIDIA Automatic Mixed Precision, researchers can gain an additional 2X performance with automatic mixed precision and FP16 adding just a couple of lines of code. And with support for bfloat16, INT8, and INT4, Tensor Cores in NVIDIA A100 Tensor Core GPUs create an incredibly versatile accelerator for both AI training and inference. Bringing the power of Tensor Cores to HPC, A100 also enables matrix operations in full, IEEE-certified, FP64 precision.
+
+[.text-center]
+image:../img/nvidia-tensor-cores-chart-2c50-d.jpg[pdfwidth=60%,width=60%,align="center"]
+
+
+
+
+Multi-Instance GPU (MIG)
+
+Every AI and HPC application can benefit from acceleration, but not every application needs the performance of a full A100 GPU. With MIG, each A100 can be partitioned into as many as seven GPU instances, fully isolated and secured at the hardware level with their own high-bandwidth memory, cache, and compute cores. Now, developers can access breakthrough acceleration for all their applications, big and small, and get guaranteed quality of service. And IT administrators can offer right-sized GPU acceleration for optimal utilization and expand access to every user and application across both bare-metal and virtualized environments.
+
+[.text-center]
+image:../img/nvidia-multi-instance-gpu-diagram-2c50-d.jpg[pdfwidth=60%,width=60%,align="center"]
+
+
+Third-Generation NVLink
+
+Scaling applications across multiple GPUs requires extremely fast movement of data. The third generation of NVIDIA® NVLink® in A100 doubles the GPU-to-GPU direct bandwidth to 600 gigabytes per second (GB/s), almost 10X higher than PCIe Gen4. When paired with the latest generation of NVIDIA NVSwitch™, all GPUs in the server can talk to each other at full NVLink speed for incredibly fast data transfers.
+
+NVIDIA DGX™ A100 and servers from other leading computer makers take advantage of NVLink and NVSwitch technology via NVIDIA HGX™ A100 baseboards to deliver greater scalability for HPC and AI workloads.
+
+[.text-center]
+image:../img/nvidia-nvlink-nvswitch-2c50-d.jpg[pdfwidth=60%,width=60%,align="center"]
+
+
+Structural Sparsity
+
+Modern AI networks are big and getting bigger, with millions and in some cases billions of parameters. Not all of these parameters are needed for accurate predictions and inference, and some can be converted to zeros to make the models “sparse” without compromising accuracy. Tensor Cores in A100 can provide up to 2X higher performance for sparse models. While the sparsity feature more readily benefits AI inference, it can also be used to improve the performance of model training.
+
+[.text-center]
+image:../img/nvidia-sparsity-diagram-2c50-d.jpg[pdfwidth=60%,width=60%,align="center"]
+
+
+Second-Generation RT Cores
+
+The NVIDIA Ampere architecture’s second-generation RT Cores in the NVIDIA A40 GPU deliver massive speedups for workloads like photorealistic rendering of movie content, architectural design evaluations, and virtual prototyping of product designs. RT Cores also speed up the rendering of ray-traced motion blur for faster results with greater visual accuracy and can simultaneously run ray tracing with either shading or denoising capabilities.
+
+[.text-center]
+image:../img/nvidia-ampere-architecture-second-generation-rt-cores-2c50-d.jpg[pdfwidth=50%,width=50%,align="center"]
+
+
+Smarter and Faster Memory
+
+A100 is bringing massive amounts of compute to data centers. To keep those compute engines fully utilized, it has a leading class 1.6 terabytes per second (TB/sec) of memory bandwidth, a 67 percent increase over the previous generation. In addition, A100 has significantly more on-chip memory, including a 40 megabyte (MB) level 2 cache—7X larger than the previous generation—to maximize compute performance.
+
+[.text-center]
+image:../img/nvidia-a100-sxm-memory-2c50-d.jpg[pdfwidth=60%,width=60%,align="center"]
+
+
+Converged Acceleration at the Edge
+
+The combination of the NVIDIA Ampere architecture and the NVIDIA Mellanox® ConnectX-6® Dx SmartNIC in NVIDIA EGX™ converged accelerators brings unprecedented compute and network acceleration capabilities to process the massive amounts of data being generated at the edge. The Mellanox SmartNIC includes security offloads that decrypts at line rates up to 200 gigabits per second (Gb/s) and GPUDirect™ that transfers video frames directly into GPU memory for AI processing. With the EGX converged accelerator, businesses can accelerate AI deployment at the edge more securely and efficiently.
+
+[.text-center]
+image:../img/nvidia-egx-a100-2c50-d.jpg[pdfwidth=60%,width=60%,align="center"]
+
+
+---
+
+
+*AI*
+
+*NVIDIA TITAN RTX*
+
+NVIDIA® TITAN RTX™ is designed for researchers, developers and creators. It’s powered by Turing™ architecture, bringing 130 Tensor TFLOPs of performance, 576 tensor cores, and 24 GB of ultra-fast GDDR6 memory to your PC.
+
+
+
+[.text-center]
+image:../img/nvidia-titan-rtx-nvlink-630-u.jpg[pdfwidth=60%,width=60%,align="center"]
+
+
+* TITAN RTX powers AI, machine learning, and creative workflows.
+
+The most demanding users need the best tools. TITAN RTX is built on NVIDIA’s Turing GPU architecture and includes the latest Tensor Core and RT Core technology for accelerating AI and ray tracing. It’s also supported by NVIDIA drivers and SDKs so that developers, researchers, and creators can work faster and deliver better results.
+
+
+* Start AI Development Now
+
+Train AI models faster with 576 NVIDIA Turing mixed-precision Tensor Cores delivering 130 TFLOPS of AI performance. Supported by NVIDIA’s CUDA-X AI SDK, including cuDNN, TensorRT, and more than 15 other libraries. Works with all popular deep learning frameworks and is compatible with NVIDIA GPU Cloud (NGC).
+
+* Accelerate Data Science
+
+Work faster with 4608 NVIDIA Turing CUDA cores accelerating end-to-end data science workflows. Process huge data sets with 24 GB GDDR6 memory (or 48 GB with NVLink). Get started today with the RAPIDS suite of libraries for data science, built on NVIDIA’s CUDA-X AI SDK. Develop on your PC and deploy to the data center with ease.
+
+* Power Your Creativity
+
+Inspiration doesn’t wait. Build huge immersive worlds and stunning characters, accelerate multi-app workflows, and edit 8K video in real time. 24 GB of memory and 72 Turing RT cores delivering 11 Gigarays per second enable you to take on the most demanding projects.
+
+
+* MULTI-GPU SCALABILITY : NVLink Bridge
+
+The TITAN RTX NVLink™ bridge connects two TITAN RTX cards together over a 100 GB/s interface. The result is an effective doubling of memory capacity to 48 GB, so that you can train neural networks faster, process even larger datasets, and work with some of the biggest rendering models.
+
+
+
+
+
+
+* REVOLUTIONARY PERFORMANCE, POWERED BY TURING
+
+[.text-center]
+image:../img/nvidia_titan_perf.png[pdfwidth=60%,width=60%,align="center"]
+
+TITAN RTX trains advanced models like ResNet-50 and GNMT up to 4X faster than Titan Xp. And RAPIDS trains models up to 3X faster than CPUs. Built with multi-precision Turing Tensor Cores, TITAN RTX delivers breakthrough performance from FP32, FP16, INT8, and INT4, allowing faster training and inferencing of neural networks. Equipped with twice the memory capacity of previous-generation TITAN GPUs and NVIDIA NVLink™, TITAN RTX enables researchers and data scientists to experiment with larger neural networks and datasets than ever before, all on GPU memory.
+
+
+
+
+* Tackle The Most Demanding Creative Workloads
+
+[.text-center]
+image:../img/nvidia_tita_visual.png[pdfwidth=60%,width=60%,align="center"]
+
+With 72 Turing RT Cores and 24 GB of memory, TITAN RTX renders extra-large models, supports real-time 8K video editing, and runs complex, multi-application workflows to enable a smooth and seamless experience.
+
+
+SPEC:
+
+[.text-center]
+image:../img/nvidia_titan_spec.png[pdfwidth=40%,width=40%,align="center"]
+
+
+---
+
+Embedded example: Clara
+
+
+
+*NVIDIA Clara AGX*
+
+The NVIDIA Clara AGX™ developer kit delivers real-time AI and imaging for medical devices. By combining low-powered, NVIDIA Jetson AGX Xavier and RTX GPU with the NVIDIA Clara AGX SDK and the NVIDIA EGX stack, it’s easy to securely provision and remotely manage fleets of distributed medical instruments.
+
+
+
+* High-Performance Development Workstation : 
+At its core are Jetson AGX Xavier, RTX 6000, and NVIDIA Mellanox ConnectX-6
+
+* From Development to Productization : 
+Bring future products to market quickly by building directly for the Jetson platform
+
+* Advanced I/O Connectivity : 
+Two PCIe Gen4x8 slots and high-speed network ports enable GPU RDMA for high-bandwidth streaming
+
+
+NVIDIA CLARA AGX DEVELOPER KIT
+
+
+Clara AGX
+
+
+The NVIDIA Clara AGX™ developer kit is an embedded AI computer and software development framework for medical devices that need the ability to perform real-time AI and advanced image, video, and signal processing.
+
+[.text-center]
+image:../img/nvidia_clara_agx.jpg[pdfwidth=60%,width=60%,align="center"]
+
+Built on the Jetson platform, you have all of the benefits and features that come along with an Embedded Linux System. Clara AGX Development kit reduces the overall development time to bring future products to market by building directly for the Jetson platform
+
+Powered by ARM-based NVIDIA Jetson AGX Xavier™ along with an NVIDIA RTX GPU and running the NVIDIA EGX software stack, Clara AGX securely manages and orchestrates AI application deployments to fleets of medical devices or edge nodes. Also included is the NVIDIA Mellanox ConnectX-6 network interface card, which is capable of streaming data at full line rate via GPU Direct RDMA to the NVIDIA RTX 6000.
+
+
+
+
+
+
+
+*Clara AGX SDK*
+
+Clara AGX SDK runs on the Jetson platform and provides developers with capabilities to build end-to-end streaming workflows for medical imaging. It includes advanced samples for ultrasound video and endoscopy.
+
+[.text-center]
+image:../img/nvidia-clara-agx-sdk-stack-web.svg[pdfwidth=60%,width=60%,align="center"]
+
+
+SDK Features
+
+* NVIDIA RTX support - Docker and CUDA, TensorRT, dGPU enablement
+* Rivermax 100GbE streaming -Rivermax transport protocol streams data over ethernet directly into GPU GDDR DRAM using GPU Direct Technology
+* Windows Device mode support - I/O Driver provides Jetson AGX work in device mode on Windows 10 machine
+* Endoscopy using NVIDIA DeepStream - Video-in and inference for endoscopy and other video-based modalities
+* CUDA accelerated SUPRA library - Software-defined ultrasound processing for real-time Applications
+* Sensor Processing - Support for camera serial interface
+* Sample Applications
+* AI endoscopy reference application
+* AI ultrasound reference application
+
+
+
+
+
+
+---
+
+2020 biggest news:
+
+*NVIDIA to Acquire Arm for $40 Billion, Creating World’s Premier Computing Company for the Age of AI*
+
+Sunday, September 13, 2020
+
+[.text-center]
+image:../img/nvidia_arm.jpg[pdfwidth=40%,width=40%,align="center"]
+
+* Unites NVIDIA’s leadership in artificial intelligence with Arm’s vast computing ecosystem to drive innovation for all customers
+* NVIDIA will expand Arm’s R&D presence in Cambridge, UK, by establishing a world-class AI research and education center, and building an Arm/NVIDIA-powered AI supercomputer for groundbreaking research
+* NVIDIA will continue Arm’s open-licensing model and customer neutrality and expand Arm’s IP licensing portfolio with NVIDIA technology
+* Immediately accretive to NVIDIA’s non-GAAP gross margin and EPS
+* Consideration of $40 billion to be met through a combination of NVIDIA shares and cash
+
+
+
+[IMPORTANT]
+.Note from Jaro
+====
+
+NVidia till recently was considered as GPU producer, however last years set them as leader in ML/AI acceleration. Products exist in space of gamins, servers, HPC,na
+
 
 A100 design:
 Support HPC
@@ -10,5 +296,14 @@ Breaking performance records, the fastest AI chip
 
 
 
+Biggest news for 2020:NVIDIA to Acquire Arm for $40 Billion, Creating World’s Premier Computing Company for the Age of AI
 
-https://nvidianews.nvidia.com/news/nvidia-to-acquire-arm-for-40-billion-creating-worlds-premier-computing-company-for-the-age-of-ai/
+NVIDIA will expand Arm’s R&D presence in Cambridge, UK, by establishing a world-class AI research and education center, and building an Arm/NVIDIA-powered AI supercomputer for groundbreaking research
+NVIDIA will continue Arm’s open-licensing model and customer neutrality and expand Arm’s IP licensing portfolio with NVIDIA technology
+
+
+Nvidia: A100 strong scalability, scale-out and scale-up design considerations, performance breaks
+
+
+
+====
