@@ -1,5 +1,9 @@
 [NOTE]
 ====
+
+Arm defines the pervasive computing that's shaping today’s connected world. Realized in 180 billion silicon chips, our device architectures orchestrate the performance of the technology that's transforming our lives — from smartphones to supercomputers, from medical instruments to agricultural sensors, and from base stations to servers.
+
+
 GTC 21: Top 5 Arm Computing and Ecosystem Sessions
 March 23, 2021
 
@@ -13,14 +17,130 @@ Website: link:http://yarenty.com[]
 ====
 
 
-ARM???
+ARM:
+
+- World’s leading semiconductor IP company
+- Arm technologies reach 70% of the global population
+- More than 6,000 employees from 85+ nationalities
+- More than 180 billion Arm-based chips shipped to date
+- An ecosystem of more than 1,000 partners
+
+[.text-center]
+image:../img/arm-company-overview-schematic-v3.svg[pdfwidth=60%,width=60%,align="center"]
+
+The foundation of a global ecosystem of technology innovators, we empower the world’s most successful business and consumer brands. Every day thousands of partners embed 180 billion Arm-based chips in products that connect people, enhance the human experience, and make anything possible. Extensible, scalable, and ever evolving, it's a foundation that confirms how we lead by design — to serve today, anticipate tomorrow.
 
 
+
+*Latest Versions of the Arm Architecture*
+
+Arm is constantly working with lead partners to evolve its architecture to meet future needs. Armv9-A is a set of extensions to the Armv8-A architecture, and part of a rolling program of substantial enhancements to the architecture to be deployed over the next few years. The goal of these enhancements is to help increase the computing capability in areas such as digital signal processing (DSP) and machine learning (ML), and to continually improve the security and robustness of our systems.
+
+
+
+The latest architectures for the R-profile and M-profile are Armv8-R and Armv8-M. Follow the Learn More links below to our developer site for more technical details and the latest architecture specifications.
+
+
+
+* *Armv9-A Key Features*
+
+
+
+* Advanced SIMD and Scalable Vector Extension 2 (SVE2)
+
+Armv9-A supports the 128-bit wide fixed-length vector extensions first seen in Armv7 and Armv8. SVE2 builds on this to provide variable length vectors, enabling vector length agnostic programming.
+
+* AArch32 and AArch64
+
+32-bit and 64-bit execution environments. AArch64 provides access to larger address spaces and a modern programmers model. AArch32 provides backwards compatibility for legacy 32-bit applications.
+
+* Realm Management Extension (RME)
+
+Part of the Arm Confidential Computing Architecture (Arm CCA), RME extends confidential computing on Arm platforms to all developers.
+
+* Branch Target Indicators (BTI) and Pointer Authentication
+
+Together these provide an efficient way to combat return-orientated (ROP) and jump-orientated (JOP) attacks.
+
+* Virtualization
+
+Hardware support for virtualization, including secure virtualization and nested virtualization.
+
+* TrustZone
+
+A security feature that provides hardware isolation for the creation of Trusted Execution Environments (TEE).
+
+* Memory Tagging Extension (MTE)
+
+Enables developers to locate temporal spatial memory safety violations, which are a common source of software vulnerability.
+
+
+
+* *Armv8-R Key Features*
+
+* AArch32 and AArch64: 
+
+AArch32 provides backwards compatibility with existing 32-bit software while AArch64 brings 64-bit execution capability and up to 48-bit physical addressing to the Arm real-time processor architecture.
+
+* Protected Memory System Architecture (PMSA): 
+
+Enables deterministic behaviour for timing-sensitive applications.
+
+* Virtualization: 
+
+Hardware support for virtualization, optimized for timing-sensitive workloads.
+
+
+* *Armv8.1-M Key Features*
+
+* M-profile Vector Extension (MVE):
+
+An efficient vector processing capability that accelerates signal processing and machine learning algorithms.
+
+* Additional data types supported in vector extension: 
+
+Half-precision floating point (FP16) and 8-bit integer (INT8).
+
+* Low overhead loops.
+* Gather load, scatter store memory access.
+* Additional debug features: 
+
+including a performance monitoring unit, tailoring for DSP software development, and a debug extension to support multiple security domains in debug.
+
+
+
+
+
+
+|===
+| | *A-profile (Application)*  Cortex-A and Neoverse | *R-profile (Real-Time)*  Cortex-R | *M-profile (Microcontroller)* Cortex-M
+
+| Features
+| 
+* Offers highest performance of all architecture profiles
+* Highly energy efficient
+* Optimized to run rich operating systems
+|
+* Optimized for systems with real-time requirements
+|
+* Designed for small, low power, highly energy-efficient devices
+
+|Latest Versions	| Armv8 and Armv9	|Armv8	|Armv8
+
+|Use Cases	
+|PCs, laptops, smart TVs, servers, smartphones and automotive head units, cloud storage and supercomputers	
+|Medical equipment, vehicle steering, braking and signalling, networking and storage equipment and embedded control systems	
+|Security processors, IoT and embedded devices such as wearables, small sensors, communication modules and smart home products
+|===
+
+_Each profile means the architecture can be optimized for different environments and use cases. System on chips (SoCs) are often designed to power a specific class of product and include multiple processors that implement different architecture profiles to meet a product’s energy, performance and security needs._
 
 
 ---
 
 *GTC 21: March 23, 2021*
+
+Description of speaks.
 
 * A Vision for the Next Decade of Computing
 
@@ -47,5 +167,15 @@ We’ll demonstrate a scalable, performance-optimized 5G-enabled edge cloud that
 [IMPORTANT]
 .Note from Jaro
 ====
+ARM is world’s leading semiconductor IP company. 70% of the global population use it. More than 180 billion Arm-based chips shipped (~2020), with extremely big ecosystem of more than 1,000 partners.
+
+NVidia made amazing move by acquiring ARM. Everyone is anxious about future of ARM and is openness. On second hand that moves nVidia as full scope player to be compared at level with Intel and AMD.
+
+The latest GTC speaks (23 March 2021) shows interesting plans - output of merging ARM and nVidia like :
+
+- HPC servers with Arm-based CPUs (such as the Ampere Altra), paired with NVIDIA GPUs (such as the NVIDIA A100), comprise a balanced, performant, and scalable supercomputing platform for any HPC application, whether CPU-bound, GPU-accelerated, or GPU-bound
+- Scalable, Efficient, Software-Defined 5G-Enabled Edge Based on NVIDIA GPUs and Arm Servers
+
+
 
 ====
