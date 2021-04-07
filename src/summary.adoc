@@ -330,7 +330,8 @@ AndeSight™ has STD, RDS and Lite versions and is an Eclipse-based IDE that pro
 
 ACE design tools - delivers multiple products for multiple families of their FPGA. It's quite interesting as most of them are based on other industry standards like:Synplify, VCS, Riviera, ModelSim... This is both -  nice future as is using standards, and interesting example how you can apply those standards to create your own solutions.
 
-* Synopsys
+* Microchip
+
 Libero® SoC Design Suite offers high productivity with its comprehensive, easy-to-learn, easy-to-adopt development tools for designing with Microsemi's  PolarFire SoC,PolarFire, IGLOO2, SmartFusion2, RTG4, SmartFusion, IGLOO, ProASIC3 and Fusion families.The suite integrates industry standard Synopsys Synplify Pro® synthesis and Mentor Graphics ModelSim® simulation with best-in-class constraints management, Programming & Debug Tools capabilities, and secure production programming support. Same as Archonix.
 
 
