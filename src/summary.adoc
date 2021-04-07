@@ -1,85 +1,52 @@
 
 
-* Summary
-
-
-
 Amazon, Google, Microsoft, and Apple Are Designing Their Own Chips
 
 All the biggest tech companies are prioritizing custom designs, which adds to the growing problems facing the incumbents.
-By Ian King and Dina Bass
-March 17, 2021, 10:00 AM GMT
-relates to Why Amazon, Google, and Microsoft Are Designing Their Own Chips
 
-In the process of transforming itself from an online bookstore into a cloud computing giant, Amazon.com Inc.became one of the world’s largest purchasers of the computer chips that power data centers. As its cloud business has expanded, the company has become increasingly fixated on designing its own chips instead of buying them. The shift could have potentially drastic implications for a critical aspect of the technology industry—and could prove threatening for traditional chipmakers such as Intel Corp. and Advanced Micro Devices Inc.
-
-Amazon began signaling its intentions in 2015 when it acquired Annapurna Labs, a small Israeli chip designer. It’s since become aggressive about developing chips specifically designed for Amazon Web Services’ own data centers. “This work is foundational—when we improve the hardware, everything that runs on it improves,” says Nafea Bshara, an Annapurna co-founder who’s now an AWS vice president. Annapurna’s staff has grown tenfold since the acquisition.
-
-Smugmug Inc., an online photo service that uses AWS to show billions of photos to its users daily, says it’s reduced its AWS costs by as much as 40% just by shifting to an AWS service that runs on Amazon’s in-house chip, branded Graviton. AWS mostly still relies on Intel chips, but Amazon charges Smugmug 20% less for services utilizing its own hardware, and Smugmug can buy less computing power because Amazon’s chips take 20% less time to run its tasks. “It results in a much lower bill for us without really having to do anything,” says Smugmug Chief Executive Officer Don MacAskill.
+Amazon began signaling its intentions in 2015 when it acquired Annapurna Labs, a small Israeli chip designer. It’s since become aggressive about developing chips specifically designed for Amazon Web Services’ own data centers.
 
 Microsoft Corp. and Alphabet Inc.’s Google are also working on specialized chips. In part, the trend reflects how different the current crop of tech giants are from the data center operators of the past, which didn’t have the resources to pour hundreds of millions of dollars into designing their own chips.
 
-“It’s a renaissance in semiconductors”
+#“It’s a renaissance in semiconductors”#
 
 There’s also a technical shift under way, ushered in by the rise of smartphones. While Intel and AMD were making chips for data centers that prioritized speed, mobile devices required processors that used as little power as possible, so the things wouldn’t die before the end of the day. As the demand for these devices skyrocketed, there was immense incentive to improve the low-power chips, which began closing the gap in performance with the muscle-car models for data center business.
 
 Energy efficiency has become increasingly important. By 2025 data centers are expected to consume 15% of the world’s electricity, up from about 2% last year, according to Applied Materials, the biggest maker of chip manufacturing equipment. Keeping power consumption down is becoming more important than the cost of the chips themselves for the data center owners.
 
-The technology underlying low-power smartphone chips is made by Arm Ltd., a British semiconductor company that licenses it but doesn’t make chips itself. Amazon and Microsoft use Arm as the basis for their internal chip designs. The Graviton chips were initially used only in specialized cases but have developed into arguably the first Arm-based chips to be a credible competitor to Intel’s general-use data center offerings. “It’s a renaissance in semiconductors,” says Jon Bathgate, an investor at Colorado-based investment firm NZS Capital.
-
-As Amazon, Google, and Microsoft compete for cloud computing customers, the specific virtues of their chips may become a selling point, says Smugmug’s MacAskill. “It’s going to get pretty interesting when these cloud providers begin to differentiate themselves even further.”
-
-None of these companies manufacture the new chips they design; they rely on the same international supply chain that’s been showing strainduring the coronavirus pandemic. If such a crunch continues, it will slow their progress and eat into profits.
-
-Then there’s the pending acquisition of Arm by Nvidia Corp., itself a designer of chips used in some data centers. Nvidia has promised to maintain open access to Arm’s technology and says it has no incentive to do otherwise. Some of Arm’s customers have already expressed concerns to regulators considering whether to approve the deal. These complaints are private, but Bloomberg News has reported that Google, Microsoft, and Qualcomm are among the companies that have made them.
-
-The surge in custom-made chips could further reduce the cost of advanced computing products and spark innovations, which would be good for everyone. Or almost everyone. To stay ahead of the newcomers, Intel has been buying startups that make AI-specific chips while it dedicates massive resources to improving the efficiency of its cloud computing products and offers to design custom builds for its biggest customers. But NZS’s Bathgate thinks it will struggle to stay ahead. “This is an existential problem for Intel,” he says.
+The technology underlying low-power smartphone chips is made by ARM. Amazon and Microsoft use ARM as the basis for their internal chip designs.
 
 
-
-
-
+The surge in custom-made chips could further reduce the cost of advanced computing products and spark innovations, which would be good for everyone. Or almost everyone. To stay ahead of the newcomers, Intel has been buying startups that make AI-specific chips while it dedicates massive resources to improving the efficiency of its cloud computing products and offers to design custom builds for its biggest customers. Intel will struggle to stay ahead - this is an existential problem for Intel.
 
 ---
 
-Academic work - The UC Berkeley released the in-order
-Rocket core, the out-of-order core BOOM and the opensource design generator tool [9], [10]. Both Rocket and
-BOOM are capable of booting Linux. ETH Zurich and
-Universita di Bologna offered three flavors of RISC-V `
-cores in the PULP platform [4] - RI5CY (32-bit, 4-stage
-pipeline), Zero-riscy (32-bit, 2-stage pipeline) and Ariane
-(64-bit, 6-stage pipeline) [32]. Also, IIT-Madras has been
-working on a series of Shakti RISC-V processors, from a
-3-stage pipeline in-order core to an out-of-order multiple
-threading core at a target operating frequency of 1.5-2.5
-GHz [5], [13].
+*SHORT RE-CAP:*
 
-Industrial work - For many years nVIDIA has been
-using RISC-V as the Falcon controllers in the GPUs
-[8]. Besides, chip vendors such as SiFive, Microsemi,
-Alibaba T-Head, Andes, Codasip offer a range of siliconproven 32-bit and 64-bit embedded RISC-V IPs. Recently, Western Digital open-sourced the SweRVTM Core
-[25], which is an industry-quality 32-bit, 2-way superscalar, 9-stage pipeline core. This power-efficient design
-reaches over 1.0 GHz operating frequency in a TSMC
-28nm CMOS process technology. With a performance of
-up to 5.0 CoreMarks/MHz (based on internal simulations)
-and small footprint, it offers compelling capabilities for
-embedded devices for data-intensive edge applications,
-such as storage controllers, industrial IoT, real-time analytics in surveillance systems and other smart systems.
+---
 
 
+*CPU*
 
+* Intel 
 
+Intel it is considered as CPU leader ,but question is for how long. 
 
-** CPU
+CES 2021 (Jan. 11, 2021): Intel Announces Four New Processor Families: 11th Gen Intel® Core™ vPro® platform and Intel® Evo™ vPro® platform, new N-series 10-nanometer Intel® Pentium® Silver and Intel® Celeron® processors, 11th Gen Intel® Core™ H-series mobile processors for gaming platforms, 11th Gen Intel® Core™ S-series desktop processors (code-named “Rocket Lake-S”) and its next-generation processors (code-named “Alder Lake”).
 
-*** Intel - it is considered as CPU leader but question is for how long. CES 2021 (Jan. 11, 2021): Intel Announces Four New Processor Families: 11th Gen Intel® Core™ vPro® platform and Intel® Evo™ vPro® platform, new N-series 10-nanometer Intel® Pentium® Silver and Intel® Celeron® processors, 11th Gen Intel® Core™ H-series mobile processors for gaming platforms, 11th Gen Intel® Core™ S-series desktop processors (code-named “Rocket Lake-S”) and its next-generation processors (code-named “Alder Lake”).
-Last year Apple resigned from using Intel CPUs, complaining about innovation - and Apple created it's own processor based on ARM architecture with GPU and NPU on-board. IBM below - in new CPUs added on-chip AI part.
+Last year Apple resigned from using Intel CPUs, complaining about innovation - and Apple created it's own processor based on ARM architecture with GPU and NPU on-board. 
+
+IBM below - in new CPUs added on-chip AI part.
+
 However do not forget about Intel's TPUs (Habana), biggest family of FPGAs, GPU - Xe architecture, or oneAPI programming model.
-_11-nm or 10-nm compared to 7-nm by IMB or 4-nm by Apple? See: link:https://www.macrumors.com/2021/03/30/4nm-chips-for-apple-silicon-macs/[macrumours]_
+
+_Intel 11-nm or 10-nm compared to 7-nm by IMB or 4-nm by Apple? See: link:https://www.macrumors.com/2021/03/30/4nm-chips-for-apple-silicon-macs/[macrumours]_
 
 
 
-*** AMD
+
+* AMD
+
 AMD proposition is actually something that you should see from Intel. On top of they own technologies CDNA/Zen/EPYC/RoC lastly they acquired Xilinx - so AMD will have "full ecosystem: CPUs,GPUs,FPGAs,SoCs". From competitiveness and business perspectives AMD moves makes a lot of sense.
 
 Do not forget on one of the biggest event in CPU/FPGA area - AMD acquisition of Xilinx
@@ -91,100 +58,103 @@ https://www.amd.com/en/corporate/xilinx-acquisition
 
 ARM is world’s leading semiconductor IP company. 70% of the global population use it. More than 180 billion Arm-based chips shipped (~2020), with extremely big ecosystem of more than 1,000 partners.
 
-NVidia made amazing move by acquiring ARM. Everyone is anxious about future of ARM and is openness. On second hand that moves nVidia as full scope player to be compared at level with Intel and AMD.
 
 The latest GTC speaks (23 March 2021) shows interesting plans - output of merging ARM and nVidia like :
 
 - HPC servers with Arm-based CPUs (such as the Ampere Altra), paired with NVIDIA GPUs (such as the NVIDIA A100), comprise a balanced, performant, and scalable supercomputing platform for any HPC application, whether CPU-bound, GPU-accelerated, or GPU-bound
 - Scalable, Efficient, Software-Defined 5G-Enabled Edge Based on NVIDIA GPUs and Arm Servers
 
-
-
-*** IBM CPU - POWER 10 - not only smaller (7nm) but also with AI part - embedded matrix math accelerator (FP32, BFloat16, INT8).And go not forget technology that came with previous version - POWER 9: on-chip GZIP, CPU-GPU ultra-high bandwidth, OpenCAPI - bandwidth for communication with NICs, storage and FPGA accelerators!.
-
+NVidia made amazing move by acquiring ARM. Everyone is anxious about future of ARM and is openness. On second hand that moves nVidia as full scope player to be compared at level with Intel and AMD.
 
 
 
+* IBM 
 
-** GPU
-
-*** Intel introduces a general-purpose GPU optimized for HPC/AI acceleration based on the Xe architecture, code-named “Ponte Vecchio.”  Intel unveils additional architectural details of the Aurora Supercomputer, delivering convergence at exascale at Argonne National Laboratory. This initiative is something to check - it is nothing to do with GPGPU but cerberas wafer also ;-)
-
-
-*** 
-NVidia till recently was considered as GPU producer, however last years set them as leader in ML/AI acceleration. Products exist in space of gamins, servers, HPC,na
+POWER 10 - not only smaller (7nm) but also with AI part - embedded matrix math accelerator (FP32, BFloat16, INT8).And go not forget technology that came with previous version - POWER 9: on-chip GZIP, CPU-GPU ultra-high bandwidth, OpenCAPI - bandwidth for communication with NICs, storage and FPGA accelerators!.
 
 
-A100 design:
-Support HPC
-Consider strong scalability
-Consider scale-up and scale-out
+---
 
-Breaking performance records, the fastest AI chip
+*GPU*
+
+* Intel
+
+Intel introduces a general-purpose GPU optimized for HPC/AI acceleration based on the Xe architecture, code-named “Ponte Vecchio.”  Intel unveils additional architectural details of the Aurora Supercomputer, delivering convergence at exascale at Argonne National Laboratory. This initiative is something to check - it is nothing to do with GPGPU but cerberas wafer also ;-)
 
 
+* nVidia
+
+nVidia till recently was considered as GPU producer, however last years set them as leader in ML/AI acceleration. Products exist in space of gamins, servers, HPC :
 
 Biggest news for 2020:NVIDIA to Acquire Arm for $40 Billion, Creating World’s Premier Computing Company for the Age of AI
 
-NVIDIA will expand Arm’s R&D presence in Cambridge, UK, by establishing a world-class AI research and education center, and building an Arm/NVIDIA-powered AI supercomputer for groundbreaking research
-NVIDIA will continue Arm’s open-licensing model and customer neutrality and expand Arm’s IP licensing portfolio with NVIDIA technology
+- NVIDIA will expand Arm’s R&D presence in Cambridge, UK, by establishing a world-class AI research and education center, and building an Arm/NVIDIA-powered AI supercomputer for groundbreaking research
+
+- NVIDIA will continue Arm’s open-licensing model and customer neutrality and expand Arm’s IP licensing portfolio with NVIDIA technology
 
 
-Nvidia: A100 strong scalability, scale-out and scale-up design considerations, performance breaks
+A100 design: Support HPC; Consider strong scalability; Consider scale-up and scale-out;
+Breaking performance records, the fastest AI chip
 
 
+* AMD
 
-
-*** AMD has both Gaming and servers GPU solutions.
+AMD has both Gaming and servers GPU solutions.
 
 16 November 2021 they launched ML/HPC accelerator: AMD Instinct MI100, which obviously they claim is faster and better than nVidia A100.
 
 
-What is interesting that even AMD doesn't create language like CUDA, but provide HIP:
+---
 
-HIP is a C++ Runtime API and Kernel Language that allows developers to create portable applications for AMD and NVIDIA GPUs from single source code.
+*NPU/DPU/TPU/xPU*
 
-Key features include:
+* Google
 
-- HIP is very thin and has little or no performance impact over coding directly in CUDA mode.
-- HIP allows coding in a single-source C++ programming language including features such as templates, C++11 lambdas, classes, namespaces, and more.
-- HIP allows developers to use the "best" development environment and tools on each target platform.
-- The HIPIFY tools automatically convert source from CUDA to HIP.
-- Developers can specialize for the platform (CUDA or AMD) to tune for performance or handle tricky cases.
-
-New projects can be developed directly in the portable HIP C++ language and can run on either NVIDIA or AMD platforms. Additionally, HIP provides porting tools which make it easy to port existing CUDA codes to the HIP layer, with no loss of performance as compared to the original CUDA application. HIP is not intended to be a drop-in replacement for CUDA, and developers should expect to do some manual coding and performance tuning work to complete the port.
-
-more:
-link:https://github.com/ROCm-Developer-Tools/HIP[]
+Google’s fourth-generation TPU ASIC offers more than double the matrix multiplication TFLOPs of TPU v3, a significant boost in memory bandwidth, and advances in interconnect technology. Still no details about architecture of v4.
 
 
+* Intel
+
+Habana is Intel answer for AI world - dedicated TPU processors group into servers as: Gaudi - training, Goya - inference. On December 1, AWS announced Gaudi-based EC2 Instances with customer availability targeted to first half of 2021.
 
 
+* Marvell
 
+Marvell is rapidly expanding, and from the list of processors, applications they highly focused on telco/RAN/5G, optimizing OPEX and CAPAEX.
 
-** NPU
-
-*** Habana is Intel answer for AI world - dedicated TPU processors group into servers as: Gaudi - training, Goya - inference. On December 1, AWS announced Gaudi-based EC2 Instances with customer availability targeted to first half of 2021.
-
-
-*** Marvell is rapidly expanding, and from the list of processors, applications they highly focused on telco/RAN/5G, optimizing OPEX and CAPAEX.
 The Marvell O-RAN platform solution consists of silicon, software and hardware reference designs spanning the radio unit (RU), distributed unit (DU) and centralized unit (CU) with Ethernet connectivity between these network elements.
+
 This is company that need to be closely look for.
 
 
-*** nVidia 
+* nVidia 
+
 In nVidia DPU chapter, I presented BlueField DPU, but there is bigger story behind as this line of HPC solution is called Mellanox.
 
 Mellanox - is older (2019) acquisition of nVidia, and if you look at the speed of integration, you can have high hopes about output on nVidia/ARM merge.
 
 link:https://nvidianews.nvidia.com/news/nvidia-to-acquire-mellanox-for-6-9-billion[]
 
+* Graphcore
+
+Second-generation Colossus™ MK2 IPU processor – the GC200. The IPU is a completely new kind of massively parallel processor, co-designed from the ground up with the Poplar® SDK, to accelerate machine intelligence.
 
 
-** FPGA
+* Fungible
 
+They are currently booming - got a couple of awards between October and December 2020 (Layer123, FLash Memory Summit 2020, CRN, SDC Awards 2020),
+
+March 30, 2021 - Fungible Product Launch: Fungible Data Centers, Hyperscale Infrastructure for All
+
+---
+
+*FPGA*
+
+
+* Xilinx
 
 Xilinx is the inventor of the FPGA, programmable SoCs, and now, the ACAP. Xilinx is de facto leader in FPGA technology both hardware wise and software - where you can create lots of advanced algorithms using C/C++.
+
 Xilinx is _"a must watch"_ in the FPGA connected world, last 2 big innovations are:
 
 - Adaptive compute acceleration platform (ACAP) is a fully software-programmable, heterogeneous compute platform that combines Scalar Engines, Adaptable Engines, and intelligent AI and DSP Engines
@@ -193,37 +163,85 @@ Xilinx is _"a must watch"_ in the FPGA connected world, last 2 big innovations a
 Xilinx is organizing and taking part in multiple events during each year - and most of them are worth attending. At time of polishing this report 24-25 March 2021 there is Xilinx Adapt: Data Center conference: "composable data centers", SmartNIC, real world HPC workloads, AI/Video application acceleration, DB performance, algorithmic trading, and all about acceleration for software & AI developers.
 
 
-Do not forget that Xilinx ... soon will be AMD:
+Do not forget that Xilinx ... soon will be *AMD*:
 link:https://www.amd.com/en/press-releases/2020-10-27-amd-to-acquire-xilinx-creating-the-industry-s-high-performance-computing[]
 
 
-*** Intel® FPGAs offer a wide variety of configurable embedded SRAM, high-speed transceivers, high-speed I/Os, logic blocks, and routing. Built-in intellectual property (IP) combined with outstanding software tools lower FPGA development time, power, and cost: Agilex, Stratix, Arria, Cyclone or full family of eASICs with ready IP cores from Intel and third-party alliance partners.
+* Intel
+
+Intel® FPGAs offer a wide variety of configurable embedded SRAM, high-speed transceivers, high-speed I/Os, logic blocks, and routing. Built-in intellectual property (IP) combined with outstanding software tools lower FPGA development time, power, and cost: Agilex, Stratix, Arria, Cyclone or full family of eASICs with ready IP cores from Intel and third-party alliance partners.
+
 Intel FPGAs are impressive - that's why if you look for volume FPGA world is divided by Intel ans Xilinx - they both get 90% FPGA solutions, and they both are most advanced.
+
 eASIC family could be interesting alternative for companies that do not have access to developers who can code FPGAs.
 
 
-*** ColognaGate - proud of "made in Germany", quite good FPGA chip - GateMate - with interesting trend asked by customers -OTP - one time programmable - many customers only want to program the chip once.
+* Lattice
+
+After Xilinx and Intel - Lattice is number 3 player in FPGA world. It has big catalogue of FPGA products and living ecosystem with full solutions and accompanied software stack. They are very active in delivering low power solution for a multiple domains.
 
 
-** SoC
+* Microchip
 
-*** Apple is pushing innovation to it’s limit, other laptop brands should also start pushing our imagination to the limits. With current trend soon we will have laptops that outperform even our current high-end desktop machines.
-
-
-*** Microsoft or .. AMD again.
-The die-shot of the SoC shows us that the AMD APU powering the Xbox Series X will feature Zen 2 and RDNA 2 cores based on TSMC’s 7nm “enhanced” process node, featuring a core clock of 3.8GHz without SMT, reducing to 3.6GHz with SMT on.
+Microchip offers a comprehensive portfolio of semiconductor and system solutions for communications, defense & security, aerospace and industrial markets. They claim they created world's first RISC-V SoC FPGA Architecture.
 
 
-** Quantum
-*** IBM Quantum computing roadmap look amazing: 2021 - 127-qubit Eagle processor, 2022 - 433-qubit Osprey, 2023 - 1121-qubit Condor
+* ColognaGate
+
+ColognaGate - proud of "made in Germany", quite good FPGA chip - GateMate - with interesting trend asked by customers -OTP - one time programmable - many customers only want to program the chip once.
 
 
-** Manticore
-*** Manticore explain that they did not intend to create commercial products that implement the full capacity with 4,096 cores. The purpose has instead been to demonstrate that it is possible to create large sets of RISC-V cores with good and energy-efficient capacity for floating point calculations
+* Achronix
+
+January 7, 2021:
+Achronix to List on NASDAQ Through Merger with ACE Convergence, highlight:
+_Achronix is the only independent supplier of high-performance FPGAs and eFPGA IP based data acceleration solutions used in high-growth applications including AI, cloud computing, 5G, networking and automotive driver assistance_
 
 
-** WD
-Western Digital just like Seagate  - quite interesting development from storage solutions company - and big influence/contributor to the RISC-V family / opensource.
+---
+
+*SoC*
+
+
+* Apple
+
+Apple is pushing innovation to it’s limit, other laptop brands should also start pushing our imagination to the limits. With current trend soon we will have laptops that outperform even our current high-end desktop machines.
+
+
+* Microsoft or .. AMD again.
+
+The die-shot of the SoC shows us that the AMD APU powering the Xbox Series X feature Zen 2 and RDNA 2 cores based on TSMC’s 7nm “enhanced” process node, featuring a core clock of 3.8GHz without SMT, reducing to 3.6GHz with SMT on.
+
+
+* Manticore
+
+Manticore explain that they did not intend to create commercial products that implement the full capacity with 4,096 cores. The purpose has instead been to demonstrate that it is possible to create large sets of RISC-V cores with good and energy-efficient capacity for floating point calculations
+
+
+* WD / Seagate
+
+Western Digital just like Seagate - quite interesting development from storage solutions company - and big influence/contributor to the RISC-V family / opensource.
+Recently, Western Digital open-sourced the SweRVTM Core, which is an industry-quality 32-bit, 2-way superscalar, 9-stage pipeline core. This power-efficient design
+reaches over 1.0 GHz operating frequency in a TSMC 28nm CMOS process technology. With a performance of up to 5.0 CoreMarks/MHz (based on internal simulations) and small footprint, it offers compelling capabilities for embedded devices for data-intensive edge applications, such as storage controllers, industrial IoT, real-time analytics in surveillance systems and other smart systems.
+
+
+* nVidia
+
+For many years nVIDIA has been using RISC-V as the Falcon controllers in the GPUs. 
+
+
+Besides, chip vendors such as SiFive, Microsemi, Alibaba T-Head, Andes, Codasip offer a range of siliconproven 32-bit and 64-bit embedded RISC-V IPs. 
+
+
+*  Academic work
+
+The UC Berkeley released the in-order  Rocket core, the out-of-order core BOOM and the opensource design generator tool. Both Rocket and
+BOOM are capable of booting Linux.
+
+ETH Zurich and  Universita di Bologna offered three flavors of RISC-V `
+cores in the PULP platform - RI5CY (32-bit, 4-stage pipeline), Zero-riscy (32-bit, 2-stage pipeline) and Ariane (64-bit, 6-stage pipeline). 
+
+IIT-Madras has been  working on a series of Shakti RISC-V processors, from a  3-stage pipeline in-order core to an out-of-order multiple threading core at a target operating frequency of 1.5-2.5 GHz
 
 
 
@@ -231,37 +249,71 @@ Western Digital just like Seagate  - quite interesting development from storage 
 
 
 
+---
 
-** Software
+*Quantum*
 
-*** AMD
-Quick summary : ROCm is AMD response to CUDA. It' is so "close" that there is even tool - HIP where you can write program in C++ and decide to which platform should it be compiled - Radeon or CUDA/nVidia.
+IBM Quantum computing roadmap look amazing: 2021 - 127-qubit Eagle processor, 2022 - 433-qubit Osprey, 2023 - 1121-qubit Condor
+
+
+---
+
+*Software*
+
+
+
+There 3 areas of software:
+
+- software used to build / design hardware - used to create structure od SoCs/FPGAs/ASICs
+- software used to utilize hardware - historically HDL, Verilog - with bigger and bigger emphasis on high level languages starting from C/C++ but now gaining popularity is  python and other /using  provided APIs/ interfaces.
+- software used to program accelerators "natively" - CUDA from nVidia on ROCm(HIP) from AMD
+
+
+
+The FPGAs / advanced SoCs - are "double-deal" with accompanied software. They could not exists without specialized software allowing developers to properly utilize all of the possibilities that hardware has to offer. And while there are still lots of solutions tailored to fit particular chips, real trend is about open IDEs with support of high level languages that could be used on multi-vendor chipsets.
+
+
+
+* AMD
+
+Quick summary : ROCm is AMD response to CUDA. It is so "close" that there is tool - HIP where you can write program in C++ and decide to which platform should it be compiled - Radeon or CUDA/nVidia.
 
 Need to mention that AMD ROCm is backing up Tensorflow, Caffe2, PyTorch, MlOpen.
 
 Looking for the fact how successful nVidia is in promoting CUDA and having amazing list of available programs/libraries I consider this as another very smart move from AMD side.
 
+* Intel
 
-*** RISK-V
+oneAPI focuses currently on GPUs, compatibility tool which automatically migrates CUDA to DPC (data parallel C++). Feb9, 2021 - oneAPI Data Parallel C++ (DPC++) features are included in the SYCL 2020 final specification, released today by The Khronos Group, an open consortium of industry-leading companies creating advanced interoperability standards. link:https://newsroom.intel.com/articles/oneapi-dpc-features-2020-final-spec/[]
+
+
+
+
+
+* Synopsys
+
+Synplify Pro® FPGA synthesis software is the industry standard for producing high-performance and cost-effective FPGA designs. Synplify software supports the latest VHDL and Verilog language constructs including SystemVerilog and VHDL-2008. The software also supports FPGA architectures from a variety of FPGA vendors, including Altera, Achronix, Lattice, Microsemi and Xilinx, all from a single RTL and constraint source.
+
+
+* Xilinx
+
+Vitis is one of the best software on market to write code runnable on FPGAs, and by code I'm talking about C/C++ not HDL/Verilog. I tested that on TIG 100 project (2020) - XGBoost  algorithm, which proved also acceleration of FPGA cards.
+
+
+
+
+* RISK-V
+
 RISK-V is open source/ open hardware project as-so most of the software esosystem also is opensource - GNU toolchain. Most of the tools are created in colaboration with SiFive.
 
 link:https://info.bluespec.com/explorer-kit[]
 
+* SiFive - FreedomStudio
 
-*** oneAPI focuses currently on GPUs, compatibility tool which automatically migrates CUDA to DPC (data parallel C++). Feb9, 2021 - oneAPI Data Parallel C++ (DPC++) features are included in the SYCL 2020 final specification, released today by The Khronos Group, an open consortium of industry-leading companies creating advanced interoperability standards. link:https://newsroom.intel.com/articles/oneapi-dpc-features-2020-final-spec/[]
-
-
-Synopsys
-Synplify Pro® FPGA synthesis software is the industry standard for producing high-performance and cost-effective FPGA designs. Synplify software supports the latest VHDL and Verilog language constructs including SystemVerilog and VHDL-2008. The software also supports FPGA architectures from a variety of FPGA vendors, including Altera, Achronix, Lattice, Microsemi and Xilinx, all from a single RTL and constraint source.
-
-
-
-Xilinx Vitis is one of the best software on market to write code runnable on FPGAs, and by code I'm talking about C/C++ not HDL/Verilog. I tested that on TIG 100 project (2020) - XGBoost  algorithm, which proved also acceleration of FPGA cards.
-
-
-SiFive - FreedomStudio
 RISC‑V inventors and industry veterans.
+
 The inventors of RISC‑V joined forces with silicon experts bringing a new approach to semiconductors together with decades of industry experience, hundreds of tapeouts and millions of chips shipped.
+
 Freedom Studio is an integrated development environment which can be used to write and
 debug software targeting SiFive based processors. Freedom Studio is based on the industry
 standard Eclipse platform and is bundled with a pre-built RISC-V GCC Toolchain, OpenOCD,
@@ -269,36 +321,77 @@ and the freedom-e-sdk. The freedom-e-sdk is a complete software development kit
 targeting SiFive bare metal processors.
 
 
-AndeSight™ IDE
+* AndeSight™ IDE
 
 AndeSight™ has STD, RDS and Lite versions and is an Eclipse-based IDE that provides an efficient way to develop embedded applications for AndesCore™ based SoC. AndeSight™ STD is a full-featured IDE with highly optimized compilers and Linux support. AndeSight™ RDS is based on AndeSight™ STD with additional customization capabilities for customers’ redistribution. AndeSight™ Lite is based on AndeSight™ RDS for with use IoT promotion. If you are FreeStart program licensee, you can check Quick Start Guide and watch demo video on YouTube.
 
 
-Archonix ACE design tools - delivers multiple products for multiple families of their FPGA. It's quite interesting as most of them are based on other industry standards like:Synplify, VCS, Riviera, ModelSim... This is both -  nice future as is using standards, and interesting example how you can apply those standards to create your own solutions.
+* Archonix 
 
+ACE design tools - delivers multiple products for multiple families of their FPGA. It's quite interesting as most of them are based on other industry standards like:Synplify, VCS, Riviera, ModelSim... This is both -  nice future as is using standards, and interesting example how you can apply those standards to create your own solutions.
+
+* Synopsys
 Libero® SoC Design Suite offers high productivity with its comprehensive, easy-to-learn, easy-to-adopt development tools for designing with Microsemi's  PolarFire SoC,PolarFire, IGLOO2, SmartFusion2, RTG4, SmartFusion, IGLOO, ProASIC3 and Fusion families.The suite integrates industry standard Synopsys Synplify Pro® synthesis and Mentor Graphics ModelSim® simulation with best-in-class constraints management, Programming & Debug Tools capabilities, and secure production programming support. Same as Archonix.
 
+
+* Lattice
 
 Lattice software packs are quite big, however investigating for licensing types, there is conclusion that different applications are designed to different chip architectures. This could means that software could be small and _"properly cut"_ however trend is to avoid confusion, and build one SDK pack - like Xilinx. There is strange inconsistency on SDK operating system availability which suggest that some products are not maintained anymore.
 
 
 
-Graphcore
+* Graphcore
+
 Poplar enables direct IPU programming in Python and C++. This is example of trend that I'm really found of - integration of hardware through specific libraries exposed as high level languages to allow wide spread of developer to utilize hardware's power.
 
 
-Siemens continues existence of ModelSim.
-ModelSim can be used independently, or in conjunction with Intel Quartus Prime, Xilinx ISE or Xilinx Vivado.
+* Siemens continues existence of ModelSim.
 
+ModelSim can be used independently, or in conjunction with Intel Quartus Prime, Xilinx ISE or Xilinx Vivado.
 
 
 ---
 
-Plans (stuff to watch closely):
+1st April 2021 started another HiPEAC project: DEEP-SEA - software stack to heterogeneous compute and memory systems, to provide solutions for Modular Supercomputers and Exascale performance.
 
-* Fungible - Mar 30 - product lunch
-* Google - TPU v4 - waiting for more info
-* tenstorrent - what will be next moves of new CTO?
-* Intel On December 1, AWS announced Gaudi-based EC2 Instances with customer availability targeted to first half of 2021
-* Intel oneAPI - worth watching news page - link:https://techdecoded.intel.io/resources/intel-oneapi-news-and-updates/[]
+HPC systems become highly heterogeneous:
+
+- heterogeneity in processors, memory and network
+- different codes run better on different components
+- programming models might be vendor-specific
+
+Application developers, must:
+
+- understand very well their codes and the HW
+- decide where to run each part of their codes
+- port codes to different technologies
+- optimize codes for different platforms
+
+GOAL of Deep-Sea: ease and/or automatize some of these tasks
+
+- provide solutions with high TRL (near production)
+
+[.text-center]
+image:{docdir}/img/deepsea/m1.PNG[pdfwidth=80%,width=80%,align="center"]
+
+Personally I'm in big favour of that trend as example of Xilinx Vitis shows how unified programming model for accelerating Edge, Cloud, and Hybrid computing applications, accelerates not just particular solutions but also extremely squeezes development time.
+
+---
+
+However:
+
+From quick look over Deep-Sea project ... this looks like overkill, and chances to provide high TRL level are not so clear (my criticism: "too many moving pieces").
+
+An Idea that I'm trying to popularize in HiPEAC and FPGA world - initial code name: "Plug&Play". Very briefly: each accelerator on top of hardware will have designated initial software / initial IP. On moment it is installed / initialized, those IP will be available through interface. This interface will be easily listed, and available to use from level of different languages - python, C, Java, ...  (SWIG will help here).
+
+This will solve multiple issues:
+
+- FPGAs/SoCs will come with initial IP - initial fully functional accelerators ie: implementation of CNN, RNN ...;
+- initial IP could be incorporated on chip/card or could be automatically downloaded from central repository;
+- chips/accelerators could be reprogrammed if necessary - they will expose it's new API in the same standardized way;
+- software developers can focus on software part while hardware developers focus on hardware - clear responsibility, no need to know everything;
+- one of the biggest misconceptions that current FPGAs designers have - most of the FPGA chips are programmed only once;
+- and more to come - note: at this stage is an IDEA.
+
+
 

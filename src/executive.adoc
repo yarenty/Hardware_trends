@@ -7,17 +7,17 @@ Presented report shows 2021 trends in area of:
 
 - *CPU* - including server, mobile, and edge, where currently one can see big change starting from moving from Intel processors /  architectures to "self-made" ARMs and RISC-V. Starting with: Apple and its new M1 chip - specialized SoC with CPU, GPU and NPU on-board; nVidia acquiring ARM; Amazon, Microsoft, Google - designing their own chip. Not to mention existing chips producers or academic initiatives like part of H2020 - Manticore, a general-purpose, ultra-efficient, RISC-V, chiplet-based architecture for data-parallel floating-point workloads. Intel new line of CPUs could be "politically corectly" called "not impressive".
 
-- *GPU* - GPUs arena is dominated by nVidia, however there are quite few interesting solutions especially in GPUs designed specially for ML purposes - like Intel "Ponte Vecchio" high-performance, highly flexible discrete general-purpose GPU architected for HPC modeling and simulation workloads and AI training; or extreme one - like cerberas wafer =  -56x the size of the largest GPU. The Cerebras Wafer Scale Engine is 46,225 mm2 with 1.2 Trillion transistors and 400,000 AI-optimized cores.
+- *GPU* - GPUs arena is dominated by nVidia, however last November AMD launched HIP - where you can compile HIP C++ code to CUDA or to AMD platform. There are quite few interesting solutions especially in GPUs designed specially for ML purposes - like Intel "Ponte Vecchio" high-performance, highly flexible discrete general-purpose GPU architected for HPC modeling and simulation workloads and AI training; or extreme one - like Cerberas wafer =  - 56x the size of the largest GPU. The Cerebras Wafer Scale Engine is 46,225 mm2 with 1.2 Trillion transistors and 400,000 AI-optimized cores.
 
-- *NPU / TPU / DPU / IPU / xPU* - all ASIC specialized hardware, starting with: Google TPU (benchmarks for currently unknown TPU .v4 was just released); Intels Gaudi - training, Goya - inference processors; through very specialized Marvell, Fungible DPU solutions. Competition here is hard, and quite selective - at the end those are still ASICs - you cannot use them for other tasks than their definition.
+- *NPU / TPU / DPU / IPU / xPU* - all ASIC specialized hardware, starting with: Google TPU (benchmarks for currently unknown TPU .v4 was just released); Intels Gaudi - training, Goya - inference processors; through very specialized Marvell, Fungible DPU solutions. Competition here is hard, and quite selective - at the end those are still ASICs - you cannot use them for other tasks than their definition, but they are trying to win in their fields.
 
-- *FPGA* - re-programmable hardware. This space generally is occupied by Xilinx and Intel (80%) with Lattice on third place. However this area (together with SoC - which sometimes is hard to distinguish) is definitely booming, and this is not only looking for technical trends and advantages that FPGA is giving but also growing development software, interfaces with high-level languages, or looking at the big business movements like acquisition of Xilinx by AMD.   
+- *FPGA* - re-programmable hardware. This space generally is occupied by Xilinx and Intel (80%) with Lattice on third place. This area (together with SoC - which sometimes is hard to distinguish) is definitely booming, and this is not only looking for technical trends and advantages that FPGA is giving but also growing development software, interfaces with high-level languages, or looking at the big business movements like acquisition of Xilinx by AMD.   
 
-- *SoC* - CPUs, that contains not only GPUs, but also parts of FPGAs/xPUs - not focusing again on Apple M1 chips, or big ARM ecosystem, there is expotentialy growing of specialized RISC-V solution: Celerity, Manticore, SiFive, including so specialized solutions like Seagate or Wester Digital (storage solution providers)  used for real time processing.
+- *SoC* - CPUs, that contains not only GPUs, but also parts of FPGAs/xPUs - and I am not focusing again on Apple M1 chips, or big ARM ecosystem, there is exponentially growing specialized RISC-V solution: Celerity, Manticore, SiFive, including so specialized designs like Seagate or Wester Digital (storage solution providers) used in real time processing.
 
 - *Quantum* - this is quite futuristic as of today - but it grows, and have some hype, so worth to have some initial insight, and could be something to follow up.
 
-On top of that there is software part - just keep in mind that FPGAs or advanced SoCs - are "double-deal" - they could not exists without specialized software allowing developers to properly utilize all of the possibilities that hardware has to offer. And while there are still lots of solutions tailored to fit particular chips, but real trend is about open IDEs with support of high level languages that could be used on multivendor chipsets. Personnaly I'm in big favour of that trend as example of Xilinx Vitis shows how unified programming model for accelerating Edge, Cloud, and Hybrid computing applications, accelerates not only solutions but also extremely squeezes development time.
+
 
 
 
@@ -29,8 +29,54 @@ Custom chips can complement existing designs or processors while adding product 
 • Develop a flexible strategy about sourcing custom ICs by carefully navigating through the semiconductor design and manufacturing market, your in-house skills and R&D expertise.
 • Develop product strategies to be competitive by identifying specific technical requirements that can be addressed with custom ICs not covered by existing suppliers.
 
-Recent success of Apple M1 just proved that investing in own designs/solutions you can get best possible performance, power, cost ... Generally - this is *rennesaince of semiconductors*, and everyone currently is trying to get some piece of that cake. 
+Recent success of Apple M1 just proved that investing in own designs/solutions you can get best possible performance, power, cost ... Generally - this is *rennesaince of semiconductors*, and everyone currently is trying to get some piece of that cake.
 
+2020/2021 bullet points: 
+
+- AMD - big acquisitions over last years Mellonx, ARM,
+- ARM in the same time introduced new architecture ARM v9.
+- nVidia - acquired Xilinx.
+- RISC-V is flourishing - big ecosystem, thriving new projects...
+- Xilinx ACAP - sci-fi comes to life - "Terminator" style chips - SoC system that can rebuild themselves - a fully software-programmable, heterogeneous compute platform that combines Scalar Engines, Adaptable Engines, and intelligent AI and DSP Engines
+- Everyone start doing its own SoCs - Apple, Amazon, Microsoft, Google, ...
+
+
+
+
+---
+
+On top of that there is software part - just keep in mind that FPGAs / advanced SoCs - are "double-deal" with accompanied software. They could not exists without specialized software allowing developers to properly utilize all of the possibilities that hardware has to offer. And while there are still lots of solutions tailored to fit particular chips, real trend is about open IDEs with support of high level languages that could be used on multi-vendor chipsets.
+
+There 3 areas of software:
+
+- software used to build / design hardware - used to create structure od SoCs/FPGAs/ASICs
+- software used to utilize hardware - historically HDL, Verilog - with bigger and bigger emphasis on high level languages starting from C/C++, now gaining popularity is python and others using provided APIs/ interfaces.
+- software used to program accelerators "natively" - CUDA from nVidia on ROCm(HIP) from AMD
+
+
+1st April 2021 started another HiPEAC project: DEEP-SEA - software stack to heterogeneous compute and memory systems, to provide solutions for Modular Supercomputers and Exascale performance.
+
+HPC systems become highly heterogeneous:
+
+- heterogeneity in processors, memory and network
+- different codes run better on different components
+- programming models might be vendor-specific
+
+Application developers, must:
+
+- understand very well their codes and the HW
+- decide where to run each part of their codes
+- port codes to different technologies
+- optimize codes for different platforms
+
+GOAL of Deep-Sea: ease and/or automatize some of these tasks
+
+- provide solutions with high TRL (near production)
+
+[.text-center]
+image:{docdir}/img/deepsea/m1.PNG[pdfwidth=80%,width=80%,align="center"]
+
+Personally I'm in big favour of that trend as example of Xilinx Vitis shows how unified programming model for accelerating Edge, Cloud, and Hybrid computing applications, accelerates not just particular solutions but also extremely squeezes development time.
 
 
 

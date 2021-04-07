@@ -163,6 +163,40 @@ include::quantum/ibm.adoc[]
 == Software
 
 
+The FPGAs / advanced SoCs - are "double-deal" with accompanied software. They could not exist without specialized software allowing developers to properly utilize all of the possibilities that hardware has to offer. And while there are still lots of solutions tailored to fit particular chips, real trend is about open IDEs with support of high level languages that could be used on multi-vendor chipsets.
+
+1st April 2021 started another HiPEAC project: DEEP-SEA - software stack to heterogeneous compute and memory systems, to provide solutions for Modular Supercomputers and Exascale performance.
+
+[.text-center]
+image:{docdir}/img/deepsea/m1.PNG[pdfwidth=80%,width=80%,align="center"]
+
+HPC systems become highly heterogeneous:
+
+- heterogeneity in processors, memory and network
+- different codes run better on different components
+- programming models might be vendor-specific
+
+[.text-center]
+image:{docdir}/img/deepsea/soft1.PNG[pdfwidth=80%,width=80%,align="center"]
+
+Application developers, must:
+
+- understand very well their codes and the HW
+- decide where to run each part of their codes
+- port codes to different technologies
+- optimize codes for different platforms
+
+GOAL of Deep-Sea: ease and/or automatize some of these tasks
+
+- provide solutions with high TRL (near production)
+
+[.text-center]
+image:{docdir}/img/deepsea/soft2.PNG[pdfwidth=80%,width=80%,align="center"]
+
+
+
+
+
 === Xilinx - Vivado & Vitis
 
 include::software/xilinx.adoc[]

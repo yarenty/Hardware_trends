@@ -110,7 +110,7 @@ image:../img/AMD_perf2.png[pdfwidth=60%,width=60%,align="center"]
 ====
 AMD has both Gaming and servers GPU solutions. 
 
-16 November 2021 they launched ML/HPC accelerator: AMD Instinct MI100, which obviously they claim is faster and better than nVidia A100.
+16 November 2020 they launched ML/HPC accelerator: AMD Instinct MI100, which obviously they claim is faster and better than nVidia A100.
 
 
 What is interesting that even AMD doesn't create language like CUDA, but provide HIP:
