@@ -1,0 +1,68 @@
+
+[NOTE]
+====
+Aldec, Inc. is an industry-leading Electronic Design Automation (EDA) company delivering innovative design creation, simulation and verification solutions to assist in the development of complex FPGA, ASIC, SoC and embedded system designs.
+
+Aldec market share is estimated at 38% of all mixed-language RTL Simulators sold to FPGA designers worldwide. (Excludes OEM simulators supplied directly from FPGA vendors).
+
+Aldec delivers high quality EDA solutions for government, military, aerospace, telecommunications, automotive and safety critical applications. Large companies including IBM, GE, Qualcomm, Rohde and Schwarz, Bosch, Texas Instruments, Applied Micro, Hewlett Packard, Toshiba, Intel, NEC, Mitsubishi, LG, Hitachi, NASA, Invensys, Westinghouse, Raytheon, Panasonic, Lockheed Martin, Samsung, as well as mid-size and small firms utilize Aldec EDA verification suites to boost product performance, cut design development cycles and reduce cost.
+
+
+Website: link:https://www.aldec.com/en[]
+====
+
+*Riviera-PRO™*
+
+* Functional Verification
+
+Riviera-PRO™ addresses verification needs of engineers crafting tomorrow’s cutting-edge FPGA and SoC devices. Riviera-PRO enables the ultimate testbench productivity, reusability, and automation by combining the high-performance simulation engine, advanced debugging capabilities at different levels of abstraction, and support for the latest Language and Verification Library Standards.
+
+
+[.text-center]
+image:{docdir}/../img/Riviera_PRO_Verification-Platform-that-grows-with-your-requirements-lg.png[pdfwidth=80%,width=80%,align="center"]
+
+
+
+* Top Features and Benefits
+
+High Performance Simulation
+
+** Extensive simulation optimization algorithms to achieve the highest performance in VHDL, Verilog/SystemVerilog, SystemC, and mixed-language simulations
+** The industry-leading capacity and simulation performance enable high regression throughput for developing the most complex systems
+** Support for the latest Verification Libraries, including Universal Verification Methodology (UVM)
+**Support for VHDL verification libraries, including OSVVM and UVVM.
+
+Advanced Debugging
+
+** Integrated multi-language debug environment enables automating time-consuming design analysis tasks and fixing bugs quickly
+** UVM Toolbox, UVM graph, Class Viewer, Transaction streams and data to allow visual mapping and debugging of designs based on OVM/UVM class libraries
+** Built-in debugging tools provide code tracing, waveform, dataflow, FSM window, coverage, assertion, and memory visualization capabilities
+** Comprehensive Assertion-Based Verification (SVA and PSL) for increased design observability and decreased debug time
+** Advanced Code and Functional Coverage capabilities and Coverage analysis tools for fast metric-based verification closure
+** Efficient verification flow with user-defined test plan linking with coverage database
+** Plot viewer and Image viewer tools for visual representation of large arrays of data.
+
+
+Industry’s Best ROI
+
+** Riviera-PRO enables Aldec customers to deliver innovative products at a lower cost in shorter time
+** Features partnerships and integrations necessary to build complete design and verification flows
+** Deployment of any Aldec solution is accompanied by comprehensive training and support
+
+
+Extract from website(or internet news) - latest product details, ie:
+
+- hardware description,
+- software capabilities,
+- benchmarking - MLPerf output.
+
+Mostly about latest development - latest chip, or latest version of software - at the end this is all about technology trends not full history of each company.
+
+
+[IMPORTANT]
+.Note from Jaro
+====
+Third seciton is ... note from me ;-) - short investigation about what was going on lately in the company, ie: last year activity /development / are they growing or stagnating.
+
+====
+
