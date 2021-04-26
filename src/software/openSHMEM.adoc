@@ -1,0 +1,8 @@
+
+[.text-center]
+image:../img/oshlogo_whiteBG.png[]
+
+OpenSHMEM is an effort to create a specification for a standardized API for parallel programming in the Partitioned Global Address Space. Along with the specification the project is also creating a reference implementation of the API. This implementation attempts to be portable, to allow it to be deployed in multiple environments, and to be a starting point for implementations targeted to particular hardware platforms. It will also serve as a springboard for future development of the API.
+
+
+

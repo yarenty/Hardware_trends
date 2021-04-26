@@ -1,0 +1,51 @@
+
+#*Halide*#
+
+a language for fast, portable computation on images and tensors
+
+
+*Overview*
+
+Halide is a programming language designed to make it easier to write high-performance image and array processing code on modern machines. Halide currently targets:
+
+CPU architectures: X86, ARM, MIPS, Hexagon, PowerPC, RISC-V
+Operating systems: Linux, Windows, macOS, Android, iOS, Qualcomm QuRT
+GPU Compute APIs: CUDA, OpenCL, OpenGL Compute Shaders, Apple Metal, Microsoft Direct X 12
+Rather than being a standalone programming language, Halide is embedded in C++. This means you write C++ code that builds an in-memory representation of a Halide pipeline using Halide's C++ API. You can then compile this representation to an object file, or JIT-compile it and run it in the same process.
+
+The following function defines and sets the schedule for a 3x3 box filter defined as a series of two 3x1 passes:
+
+----
+
+Func blur_3x3(Func input) {
+Func blur_x, blur_y;
+Var x, y, xi, yi;
+
+  // The algorithm - no storage or order
+  blur_x(x, y) = (input(x-1, y) + input(x, y) + input(x+1, y))/3;
+  blur_y(x, y) = (blur_x(x, y-1) + blur_x(x, y) + blur_x(x, y+1))/3;
+
+  // The schedule - defines order, locality; implies storage
+  blur_y.tile(x, y, xi, yi, 256, 32)
+        .vectorize(xi, 8).parallel(y);
+  blur_x.compute_at(blur_y, x).vectorize(x, 8);
+
+  return blur_y;
+}
+
+----
+
+
+*Getting Started*
+
+First, download a binary release of Halide.
+
+For the freshest builds, see the continuous build server. The status of the build on each platform is here. If it's green, then it has passed all of our internal tests.
+
+If you would prefer to build Halide from source, see README for instructions.
+
+To get started writing code, look through the tutorials, and the example apps. The tests are small self-contained programs that cover all corners of the language, so they can also be instructive. However they're not designed to teach, so you may find them cryptic.
+
+If you have a question, stop by our gitter channel, or post on the discussion board on github.
+
+

@@ -1,0 +1,10 @@
+
+
+https://cea-hpc.github.io/NabLab/
+
+
+
+NabLab is a open-source research project led by HPC initiative of the CEA. It aims is to provide a productive development way for exascale HPC technologies, flexible enough to be competitive in terms of performances. It is composed of:
+
+- a numerical analysis Domain Specific Language (DSL) to improve applied mathematicians productivity throughput and enables new algorithmic developments for the construction of hierarchical and composable high-performance scientific applications.
+- an full-fledged environment to edit, interpret, debug specific numerical-analysis sources and to generate optimized code for various C++ targets.

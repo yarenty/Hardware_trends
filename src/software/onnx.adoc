@@ -1,0 +1,80 @@
+
+
+https://onnx.ai/
+
+
+
+ONNX is an open format built to represent machine learning models. ONNX defines a common set of operators - the building blocks of machine learning and deep learning models - and a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers.
+
+
+KEY BENEFITS
+
+Interoperability
+Develop in your preferred framework without worrying about downstream inferencing implications. ONNX enables you to use your preferred framework with your chosen inference engine.
+
+SUPPORTED FRAMEWORKS
+
+
+Frameworks & Converters
+Use the frameworks you already know and love.
+
+Caffe2
+Yandex CatBoost
+Chainer
+Cognitive Toolkit
+CoreML
+Keras
+LibSVM
+Matlab
+MXNet
+MyCaffe
+NCNN
+NeoML
+Neural Network Libraries
+PaddlePaddle
+PyTorch
+SAS
+Siemens
+Singa
+SciKit Learn
+Tengine
+TensorFlow
+XGBoost
+MindSpore
+
+
+
+
+
+
+
+Hardware Access
+ONNX makes it easier to access hardware optimizations. Use ONNX-compatible runtimes and libraries designed to maximize performance across hardware.
+
+SUPPORTED ACCELERATORS
+
+
+Inference
+Deploy your ONNX model using runtimes designed to accelerate inferencing.
+
+Bitmain
+Cadence Tensilica
+Ceva
+Habana
+Hailo
+IntelAI
+nvidia
+ONNX Runtime
+mace
+Qualcomm
+Rockchip
+Skymizer
+Synopsys
+Tencent
+TVM
+TwinCAT3
+Vespa
+WindowsML
+
+
+

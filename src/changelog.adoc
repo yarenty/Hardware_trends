@@ -1,5 +1,11 @@
 
 
+* v.2021/04
+- Software: Aldec RivieraPro
+- mexeler
+- software: DaCe, Halide, NabLab, ONNX, OpenSHMEM
+
+
 * v.2021/03
 
 ** Content:

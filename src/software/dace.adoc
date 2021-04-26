@@ -1,0 +1,23 @@
+
+https://github.com/spcl/dace
+
+
+
+
+DaCe - Data-Centric Parallel Programming
+
+Decoupling domain science from performance optimization.
+
+DaCe is a parallel programming framework that takes code in Python/NumPy and other programming languages, and maps it to high-performance CPU, GPU, and FPGA programs, which can be optimized to achieve state-of-the-art. Internally, DaCe uses the Stateful DataFlow multiGraph (SDFG) data-centric intermediate representation: A transformable, interactive representation of code based on data movement. Since the input code and the SDFG are separate, it is posible to optimize a program without changing its source, so that it stays readable. On the other hand, transformations are customizable and user-extensible, so they can be written once and reused in many applications. With data-centric parallel programming, we enable direct knowledge transfer of performance optimization, regardless of the application or the target processor.
+
+DaCe generates high-performance programs for:
+
+- Multi-core CPUs (tested on Intel and IBM POWER9)
+- NVIDIA GPUs
+- AMD GPUs (with HIP)
+- Xilinx FPGAs
+- Intel FPGAs
+
+
+DaCe can be written inline in Python and transformed in the command-line/Jupyter Notebooks, or SDFGs can be interactively modified using the Data-centric Interactive Optimization Development Environment (DIODE, currently experimental).
+
