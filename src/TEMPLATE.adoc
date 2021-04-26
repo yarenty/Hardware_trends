@@ -17,6 +17,6 @@ Mostly about latest development - latest chip, or latest version of software - a
 [IMPORTANT]
 .Note from Jaro
 ====
-Third seciton is ... note from me ;-) - short investigation about what was going on lately in the company, ie: last year activity /development / are they growing or stagnating.
+Third section is ... note from me ;-) - short investigation about what was going on lately in the company, ie: last year activity /development / are they growing or stagnating.
 
 ====
