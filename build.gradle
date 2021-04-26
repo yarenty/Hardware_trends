@@ -7,7 +7,7 @@ plugins {
 
 apply plugin: 'java'
 
-group 'com.yarenty.tig100.trends'
+group 'com.yarenty.accelerators.trends'
 version '2021.03 beta'
 
 

@@ -1,5 +1,5 @@
 
-= TIG100 - Technology trends
+= Accelerators - Technology trends
 Jaroslaw Nowosad <yarenty@gmail.com>
 {version}, (30/03/2021): ready for review 
 :sectnums:
@@ -222,6 +222,11 @@ include::software/siemens.adoc[]
 === Microchip - Libero SoC
 include::software/microchip.adoc[]
 
+
+=== Aldec - Riviera Pro
+include::software/aldec.adoc[]
+
+
 === Marvell - OCTEON SDK
 include::software/marvell.adoc[]
 
@@ -242,7 +247,9 @@ include::software/yosys.adoc[]
 include::software/risc.adoc[]
 
 
-
+=== Maxeler
+Software company
+include::software/maxeler.adoc[]
 
 
 == Summary
