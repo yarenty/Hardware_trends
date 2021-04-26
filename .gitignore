@@ -1,3 +1,21 @@
 /build/
 /.idea/
 /gradlew
+
+.gradle
+.idea
+
+build
+gradle
+
+
+#asciidoc outputs
+html
+pdf
+
+
+gradlew
+gradlew.bat
+
+
+*.zip
