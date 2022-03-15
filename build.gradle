@@ -56,9 +56,9 @@ asciidoctorPdf {
     baseDirFollowsSourceFile()
 
     sourceDir = file('src')
-//    sources {
-//        include 'toplevel.adoc', 'another.adoc', 'third.adoc'
-//    }
+    sources {
+        include 'index.adoc'
+    }
 //    resources {
 //        from(sourceDir) {
 //            include 'src/img/**'

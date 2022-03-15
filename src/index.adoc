@@ -160,7 +160,7 @@ include::quantum/ibm.adoc[]
 
 
 
-== Software
+== Software - tools
 
 
 The FPGAs / advanced SoCs - are "double-deal" with accompanied software. They could not exist without specialized software allowing developers to properly utilize all of the possibilities that hardware has to offer. And while there are still lots of solutions tailored to fit particular chips, real trend is about open IDEs with support of high level languages that could be used on multi-vendor chipsets.
@@ -199,57 +199,94 @@ image:{docdir}/img/deepsea/soft2.PNG[pdfwidth=80%,width=80%,align="center"]
 
 === Xilinx - Vivado & Vitis
 
-include::software/xilinx.adoc[]
+include::software_tools/xilinx.adoc[]
 
-=== Intel - oneAPI
-include::software/intel.adoc[]
-
-=== AMD
-include::software/amd.adoc[]
 
 === Lattice
-include::software/lattice.adoc[]
+include::software_tools/lattice.adoc[]
 
 === Achronix
-include::software/archonix.adoc[]
+include::software_tools/archonix.adoc[]
 
 === Synopsys
-include::software/synopsys.adoc[]
+include::software_tools/synopsys.adoc[]
 
 === Siemens - ModelSim
-include::software/siemens.adoc[]
+include::software_tools/siemens.adoc[]
 
 === Microchip - Libero SoC
-include::software/microchip.adoc[]
+include::software_tools/microchip.adoc[]
 
 
 === Aldec - Riviera Pro
-include::software/aldec.adoc[]
+include::software_tools/aldec.adoc[]
 
 
 === Marvell - OCTEON SDK
-include::software/marvell.adoc[]
+include::software_tools/marvell.adoc[]
 
 === SiFive Freedom Studio
-include::software/sifive.adoc[]
+include::software_tools/sifive.adoc[]
 
 
 === Graphcore - Poplar
-include::software/graphcore.adoc[]
+include::software_tools/graphcore.adoc[]
 
 === Andes - AndeSight
-include::software/andes.adoc[]
+include::software_tools/andes.adoc[]
 
 === Yosys
-include::software/yosys.adoc[]
+include::software_tools/yosys.adoc[]
 
 === RISC
-include::software/risc.adoc[]
+include::software_tools/risc.adoc[]
+
+
+
+
+
+== Software - libraries
+
+=== CUDA
+tbd..
+
+=== AMD
+include::software_lib/amd.adoc[]
+
+
+=== Intel - oneAPI
+include::software_lib/intel.adoc[]
+
 
 
 === Maxeler
 Software company
-include::software/maxeler.adoc[]
+include::software_lib/maxeler.adoc[]
+
+
+=== Dace
+include::software_lib/dace.adoc[]
+
+=== Halide
+include::software_lib/halide.adoc[]
+
+=== NabLab
+include::software_lib/nablab.adoc[]
+
+=== OpenSHMEM
+include::software_lib/openSHMEM.adoc[]
+
+=== ONNX
+include::software_lib/onnx.adoc[]
+
+
+
+
+
+
+
+
+
 
 
 == Summary
