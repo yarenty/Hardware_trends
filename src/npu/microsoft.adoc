@@ -1,0 +1,14 @@
+
+Microsoft releases DirectStorage: ‘a new era of fast load times and detailed worlds in PC games’
+
+https://www.theverge.com/2022/3/14/22978223/microsoft-directstorage-api-xbox-velocity-windows-pc-nvme-load-times?scrolla=5eb6d68b7fedc32c19ef33b4
+
+
+18 months ago, Microsoft revealed that one of the most important advancements in its new Xbox Series X console would be coming to PC — the ability to stream tremendous amounts of data from a blazing fast NVMe solid state drive to your GPU, instead of relying on your pesky CPU to decompress it first. The so-called “DirectStorage API” would let games load more detailed worlds, and load them more quickly than before.
+
+Now, Microsoft says the DirectStorage API has arrived. “Starting today, Windows games can ship with DirectStorage. This public SDK release begins a new era of fast load times and detailed worlds in PC games by allowing developers to more fully utilize the speed of the latest storage devices,” reads the company’s blog post.
+
+
+
+https://devblogs.microsoft.com/directx/directstorage-api-available-on-pc/
+
