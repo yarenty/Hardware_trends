@@ -22,17 +22,20 @@ NOTE: CPUs is here to have general/complete view, at the end they are not accele
 
 *Structure*
 
+
+```asciidoc
+
 Each chapter contains 3 sections:
 
 1.
-Introduction to company/products in form on NOTE. 
+Introduction to company/products in form of NOTE. 
 
 Example:
 [NOTE]
 ====
 Short summary about company and latest product/development - few bullet points.
 
-Website to follow up, ie: link:http://yarenty.com[]
+Website to follow up, ie:  link:http://yarenty.com
 ====
 
 2. 
@@ -49,9 +52,10 @@ Content presented is mostly about latest development - latest chip, or latest ve
 Third seciton is ... note from reporter ;-) - short investigation about what was going on lately in the company, ie: last year activity / development / rumours / are they growing or stagnating. 
 
 Example:
-[IMPORTANT]
-.Note from Jaro
+[IMPORTANT].Note from Jaro
 ====
 Hardware Acceleration is Booming ;-)
 ====
+
+```
 
