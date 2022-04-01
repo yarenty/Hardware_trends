@@ -14,7 +14,7 @@ There are companies that has products in more than one area (IBM,Intel,AMD,nVidi
 
 There are products that could be categorized in more than one area since there is thin line between ie: CPU or SoC - so there could be some confusions - I tried to put them into the category where I feel it belongs (at least at current stage).
 
-In future I may reorganize report to be on company-by-bompany basis.
+In future, I may reorganize report to be on company-by-company basis.
 
 NOTE: CPUs is here to have general/complete view, at the end they are not accelerators.
 
