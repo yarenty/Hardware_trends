@@ -30,6 +30,9 @@ https://blogs.nvidia.com/blog/2022/03/22/h100-transformer-engine/?ncid=em-anno-8
 
 
 
+
+
+
 NVIDIA Announces Hopper Architecture, the Next Generation of Accelerated Computing
 The New Engine for World's AI Infrastructure, NVIDIA H100 GPU Makes Order of Magnitude Performance Leap
 Tuesday, March 22, 2022
@@ -88,6 +91,43 @@ Availability
 NVIDIA H100 will be available starting in the third quarter.
 
 To learn more about NVIDIA Hopper and H100, watch the GTC 2022 keynote from Jensen Huang, and register for GTC 2022 for free to attend sessions with NVIDIA and industry leaders.
+
+
+---
+
+ML/AI APPLICATION
+
+Transformer Accelerator
+Is your colossal text generator bogged down in training? Nvidia announced a chip designed to accelerate the transformer architecture, the basis of large language models such as GPT-3.
+
+What’s new: The H100 graphics processing unit (GPU) can train transformer models many times faster than Nvidia’s previous flagship A100 (or, presumably, any other chip on the market).
+
+How it works: Transformer networks have ballooned in size from GPT-3’s 175 billion parameters to Wu Dao’s 1.75 trillion, requiring more computation for training and inference. The H100’s underlying chip design, known as Hopper, includes a so-called Transformer Engine designed to make such models run more efficiently.
+
+The Transformer Engine switches automatically between 16-bit and 8-bit precision, enabling some calculations to execute more quickly and consume less energy.
+Training in lower precision requires tracking of gradient statistics and adjusting loss scaling factors. The Transformer Engine hides this complexity inside a library.
+The chip also cuts memory usage in half, reducing time spent shuttling data to and from processing cores.
+Time savings: In tests, a 395 billion-parameter mixture-of-experts model took 20 hours to train running on 8,000 H100s, while it took seven days running on the same number of A100s. A chatbot based on Nvidia’s Megatron generated output up to 30 times faster running on H100s than A100s. Nvidia plans to link 4,608 H100 chips into a training supercomputer that the company touts as the world’s fastest system for training AI.
+
+Behind the news: While Nvidia is the undisputed leader in specialized AI chips, several competitors are vying for the same market.
+
+Google’s Tensor Processing Unit accelerates models developed using the company’s TensorFlow framework.
+Amazon’s Inferentia focuses on inference on its Amazon Web Services cloud-computing platform, while Trn1 is geared for training.
+AMD’s Instinct GPUs are edging toward Nvidia-grade performance, and the supporting software is easier to integrate than that of some contenders.
+Meanwhile, startups are nipping at Nvidia’s heels, including front-runners Cerebras and Graphcore.
+Why it matters: The transformer has driven a tidal wave of progress in AI for language as well as an expanding array of domains including vision, image generation, and biomedicine. The ability to train such models faster greases the wheels for this versatile architecture.
+
+We’re thinking: Conventional chips lately have struggled to keep pace with Moore’s Law, which predicts a doubling of processing power every 18 months. AI chips are outpacing it by a wide margin. Yet another reason to dig into AI!
+
+
+
+
+---
+
+
+
+
+
 
 
 
